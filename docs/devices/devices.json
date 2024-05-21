@@ -1,0 +1,3245 @@
+[
+  {
+    "name": "iPhone 14",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "16",
+      "16.0.3",
+      "16.2",
+      "16.3",
+      "16.4",
+      "16.4.1",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 390,
+    "logical_height": 844,
+    "original_width": 1170,
+    "original_height": 2532,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A15 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "16",
+      "16.0.3",
+      "16.2",
+      "16.3",
+      "16.4",
+      "16.4.1",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 393,
+    "logical_height": 852,
+    "original_width": 1179,
+    "original_height": 2556,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A16 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14 Pro Max",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "16",
+      "16.0.3",
+      "16.2",
+      "16.3",
+      "16.4",
+      "16.4.1",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 430,
+    "logical_height": 932,
+    "original_width": 1290,
+    "original_height": 279,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A16 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14 Plus",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "16",
+      "16.0.3",
+      "16.2",
+      "16.3",
+      "16.4",
+      "16.4.1",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 428,
+    "logical_height": 926,
+    "original_width": 1284,
+    "original_height": 2778,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A16 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "15",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 390,
+    "logical_height": 844,
+    "original_width": 1170,
+    "original_height": 2532,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A15 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13 mini",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "15",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 375,
+    "logical_height": 812,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A15 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13 Pro Max",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "15",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 428,
+    "logical_height": 926,
+    "original_width": 1284,
+    "original_height": 2778,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A15 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "15",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 390,
+    "logical_height": 844,
+    "original_width": 1170,
+    "original_height": 2532,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A15 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "14.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 390,
+    "logical_height": 844,
+    "original_width": 1170,
+    "original_height": 2532,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A14 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12 mini",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "14.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 375,
+    "logical_height": 812,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A14 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "14.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 428,
+    "logical_height": 926,
+    "original_width": 1284,
+    "original_height": 2778,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A14 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "14.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 390,
+    "logical_height": 844,
+    "original_width": 1170,
+    "original_height": 2532,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A14 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone SE 2nd gen",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "15.4",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 375,
+    "logical_height": 667,
+    "original_width": 750,
+    "original_height": 1334,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A15 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 11 Pro Max",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "13",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "iPhone",
+    "logical_width": 414,
+    "logical_height": 896,
+    "original_width": 1242,
+    "original_height": 2688,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A13 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "13",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 375,
+    "logical_height": 812,
+    "original_width": 1125,
+    "original_height": 2436,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A13 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 11",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "13",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 414,
+    "logical_height": 896,
+    "original_width": 828,
+    "original_height": 1792,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A13 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone XR",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "12",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 414,
+    "logical_height": 896,
+    "original_width": 828,
+    "original_height": 1792,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A12 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone XS Max",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "12",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 414,
+    "logical_height": 896,
+    "original_width": 1242,
+    "original_height": 2688,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A12 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone XS",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "12",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 375,
+    "logical_height": 812,
+    "original_width": 1125,
+    "original_height": 2436,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A12 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone X",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "11.1.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 375,
+    "logical_height": 812,
+    "original_width": 1125,
+    "original_height": 2436,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A11 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 8 Plus",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "11",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 414,
+    "logical_height": 736,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A11 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 8",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "11",
+      "15.6",
+      "15.4",
+      "15.5",
+      "15.6",
+      "16",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 375,
+    "logical_height": 667,
+    "original_width": 750,
+    "original_height": 1334,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A11 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 7 Plus",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "10.0.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 476,
+    "logical_height": 847,
+    "original_width": 1242,
+    "original_height": 2208,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR Series7XT Plus"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 7",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "10.0.1",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 375,
+    "logical_height": 667,
+    "original_width": 750,
+    "original_height": 1334,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR Series7XT Plus"
+      }
+    ]
+  },
+  {
+    "name": "iPhone SE 1st gen",
+    "models": [
+      ""
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "9.3.2",
+      "15.4",
+      "15.5",
+      "15.6",
+      "15.6",
+      "16.3",
+      "16.4",
+      "16.5",
+      "17"
+    ],
+    "platform": "IPhone",
+    "logical_width": 320,
+    "logical_height": 568,
+    "original_width": 640,
+    "original_height": 1136,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      2
+    ],
+    "memory": [
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GT7600"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "models": [
+      "SM-S911B",
+      "SM-S911B/DS",
+      "SM-S911U",
+      "SM-S911U1",
+      "SM-S911W",
+      "SM-S911N",
+      "SM-S9110",
+      "SM-S911E",
+      "SM-S911E/DS"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "13"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 780,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 740"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S23+",
+    "models": [
+      "SM-S916B",
+      "SM-S916B/DS",
+      "SM-S916U",
+      "SM-S916U1",
+      "SM-S916W",
+      "SM-S916N",
+      "SM-S9160",
+      "SM-S916E",
+      "SM-S916E/DS"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "13"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 780,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 740"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "models": [
+      "SM-S918B",
+      "SM-S918B/DS",
+      "SM-S918U",
+      "SM-S918U1",
+      "SM-S918W",
+      "SM-S918N",
+      "SM-S9180",
+      "SM-S918E",
+      "SM-S918E/DS"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "13"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 384,
+    "logical_height": 823,
+    "original_width": 1440,
+    "original_height": 3088,
+    "screen_pixel_ratio": 3.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8,
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 740"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Note 10+",
+    "models": [
+      "SM-N975F",
+      "SM-N975F/DS",
+      "SM-N975U",
+      "SM-N975U1",
+      "SM-N975W",
+      "SM-N9750/DS",
+      "SM-N975N"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 869,
+    "original_width": 1440,
+    "original_height": 3040,
+    "screen_pixel_ratio": 3.5,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MP12"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Note 10",
+    "models": [
+      "SM-N970F",
+      "SM-N970F/DS",
+      "SM-N970U",
+      "SM-N970U1",
+      "SM-N970W",
+      "SM-N9700/DS",
+      "SM-N970N"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 869,
+    "original_width": 1080,
+    "original_height": 2280,
+    "screen_pixel_ratio": 2.625,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MP12"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 640"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S22",
+    "models": [
+      "SM-S901B",
+      "SM-S901B/DS",
+      "SM-S901U",
+      "SM-S901U1",
+      "SM-S901W",
+      "SM-S901N",
+      "SM-S9010",
+      "SM-S901E"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv9l",
+    "logical_width": 360,
+    "logical_height": 780,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "AMD",
+        "webgl_renderer": "Xclipse 920"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 730"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S22 Ultra",
+    "models": [
+      "SM-S908B",
+      "SM-S908B/DS",
+      "SM-S908U",
+      "SM-S908U1",
+      "SM-S908W",
+      "SM-S908N",
+      "SM-S9080",
+      "SM-S908E"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv9l",
+    "logical_width": 384,
+    "logical_height": 823,
+    "original_width": 1440,
+    "original_height": 3088,
+    "screen_pixel_ratio": 3.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8,
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "AMD",
+        "webgl_renderer": "Xclipse 920"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 730"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S21 FE 5G",
+    "models": [
+      "SM-G990B",
+      "SM-G990B/DS",
+      "SM-G990U",
+      "SM-G990U1",
+      "SM-G990W",
+      "SM-G990E",
+      "SM-G9900"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 660"
+      },
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G78 MP14"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S10e",
+    "models": [
+      "SM-G970F/DS",
+      "SM-G970U",
+      "SM-G970W"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 760,
+    "original_width": 1080,
+    "original_height": 2280,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MP12"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 640"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S10+",
+    "models": [
+      "SM-G975F",
+      "SM-G975U",
+      "SM-G975W",
+      "SM-G975U1",
+      "SM-G9750",
+      "SM-G975N",
+      "SM-G975X"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 869,
+    "original_width": 1440,
+    "original_height": 3040,
+    "screen_pixel_ratio": 3.5,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8,
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MP12"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 640"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy Tab A7 Lite",
+    "models": [
+      "SM-T220",
+      "SM-T225"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 800,
+    "logical_height": 1340,
+    "original_width": 800,
+    "original_height": 1340,
+    "screen_pixel_ratio": 1,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2,
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8320"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S9+",
+    "models": [
+      "G965F",
+      "G965F/DS",
+      "G965U",
+      "G965W",
+      "G9650"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "8",
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 740,
+    "original_width": 1440,
+    "original_height": 2960,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G72 MP18"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 630"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A12",
+    "models": [
+      "SM-A127F",
+      "SM-A125U",
+      "SM-A125F",
+      "SM-A127M"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10",
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8320"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A22",
+    "models": [
+      "SM-A226B"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G52 MC2"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A13",
+    "models": [
+      "SM-A135F",
+      "SM-A135M"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 803,
+    "original_width": 1080,
+    "original_height": 2408,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G52"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S10",
+    "models": [
+      "SM-G973F/DS",
+      "SM-G973U",
+      "SM-G973W"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 760,
+    "original_width": 1440,
+    "original_height": 3040,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MP12"
+      },
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 640"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A53",
+    "models": [
+      "SM-A536E",
+      "SM-A536B"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G68"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A52",
+    "models": [
+      "SM-A525F",
+      "SM-A526B"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 618"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A03s",
+    "models": [
+      "SM-A037U",
+      "SM-A037F",
+      "SM-A037M",
+      "SM-A037W"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2,
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8320"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A03 Core",
+    "models": [
+      "SM-A032M",
+      "SM-A032F"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "IMG8322"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A10e",
+    "models": [
+      "SM-S102DL",
+      "SM-A102U1",
+      "SM-A102U",
+      "SM-S102DL",
+      "SM-A102N"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 780,
+    "original_width": 720,
+    "original_height": 1560,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2,
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G71 MP2"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A7",
+    "models": [
+      "SM-A750GN",
+      "SM-A750G",
+      "SM-A750F",
+      "SM-A750FN/DS"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "8",
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 740,
+    "original_width": 1080,
+    "original_height": 2220,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G71"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A5",
+    "models": [
+      "A500F",
+      "A500FU",
+      "A500M",
+      "A500Y",
+      "A500YZ",
+      "A500F1",
+      "A500K",
+      "A500S",
+      "A500FQ"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "4.4.4",
+      "7"
+    ],
+    "platform": "Android",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 720,
+    "original_height": 1280,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 306"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy J7",
+    "models": [
+      "J700F",
+      "J700F/DS",
+      "J700H/DS",
+      "J700M",
+      "J700M/DS",
+      "J700T",
+      "J700P"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "5.1",
+      "7.1.1"
+    ],
+    "platform": [
+      "aarch64",
+      "Linux armv8l"
+    ],
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 720,
+    "original_height": 1280,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      1.5
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 405"
+      },
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-T720MP2"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy J7 Pro",
+    "models": [
+      "J730F",
+      "J730GM/DS",
+      "J730G/DS",
+      "J730G/DS 64GB"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-T830 MP1"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy J5",
+    "models": [
+      "J500F",
+      "J700FN",
+      "J500F/DS",
+      "J500G/DS",
+      "J500Y",
+      "J500M",
+      "J500M/DS",
+      "J500H/DS"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "5.1",
+      "6.0.1"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 720,
+    "original_height": 1280,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      1.5
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 306"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy J7 Prime",
+    "models": [
+      "G610F",
+      "G610F/DS",
+      "G610F/DD",
+      "G610M",
+      "G610M/DS",
+      "G610Y/DS"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "6.0.1",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-T830 MP1"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy A51",
+    "models": [
+      "SM-A515F",
+      "SM-A515F/DSN",
+      "SM-A515F/DS",
+      "SM-A515F/DST",
+      "SM-A515F/DSM",
+      "SM-A515F/N",
+      "SM-A515U",
+      "SM-A515U1",
+      "SM-A515W",
+      "SM-A515X",
+      "SM-S515DL"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10",
+      "12",
+      "13"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 914,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.625,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G72 MP3"
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi Poco F3",
+    "models": [
+      "M2012K11AG"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 851,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MC4"
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi Poco X3 Pro",
+    "models": [
+      "M2102J20SG"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 873,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 640"
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi Mi 11 Ultra",
+    "models": [
+      "M2102K1G",
+      "M2102K1C"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 1440,
+    "original_height": 3200,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8,
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 660"
+      }
+    ]
+  },
+  {
+    "name": "Xiaomi Redmi Note 11",
+    "models": [
+      "2201117TL",
+      "2201117TG",
+      "2201117TI",
+      "2201117TY"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 873,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 610"
+      }
+    ]
+  },
+  {
+    "name": "Redmi Note 7",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 851,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 512"
+      }
+    ]
+  },
+  {
+    "name": "Redmi Note 7 Pro",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 851,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 612"
+      }
+    ]
+  },
+  {
+    "name": "Redmi Note 8 Pro",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 851,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G76 MC4"
+      }
+    ]
+  },
+  {
+    "name": "Redmi Note 9 Pro Max",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 873,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 618"
+      }
+    ]
+  },
+  {
+    "name": "Redmi Note 10 Pro",
+    "models": [
+      "M2101K6G",
+      "M2101K6R",
+      "M2101K6I"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 873,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6,
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 618"
+      }
+    ]
+  },
+  {
+    "name": "Alcatel 1",
+    "models": [
+      "5033G",
+      "5033E"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "8.1.0"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 320,
+    "logical_height": 640,
+    "original_width": 480,
+    "original_height": 960,
+    "screen_pixel_ratio": 1.5,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      1
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8100"
+      }
+    ]
+  },
+  {
+    "name": "Alcatel Tcl A3",
+    "models": [
+      "A509DL"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 720,
+    "original_width": 720,
+    "original_height": 1440,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8320"
+      }
+    ]
+  },
+  {
+    "name": "Pixel 5a",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 873,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 620"
+      }
+    ]
+  },
+  {
+    "name": "Pixel 4a",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 293,
+    "logical_height": 851,
+    "original_width": 1080,
+    "original_height": 2340,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 618"
+      }
+    ]
+  },
+  {
+    "name": "Pixel 5",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 393,
+    "logical_height": 830,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.75,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 620"
+      }
+    ]
+  },
+  {
+    "name": "Pixel 6",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 914,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.625,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G78 MP20"
+      }
+    ]
+  },
+  {
+    "name": "Pixel 6 Pro",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 780,
+    "original_width": 1440,
+    "original_height": 3120,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-G78 MP20"
+      }
+    ]
+  },
+  {
+    "name": "Pixel XL",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1",
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 732,
+    "original_width": 1440,
+    "original_height": 2560,
+    "screen_pixel_ratio": 3.5,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 530"
+      }
+    ]
+  },
+  {
+    "name": "Pixel 4 XL",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 869,
+    "original_width": 1440,
+    "original_height": 3040,
+    "screen_pixel_ratio": 3.9,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 640"
+      }
+    ]
+  },
+  {
+    "name": "Sony Xperia 5 III",
+    "models": [
+      "A103SO",
+      "SOG05",
+      "SO-53B"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 840,
+    "original_width": 1080,
+    "original_height": 2520,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 660"
+      }
+    ]
+  },
+  {
+    "name": "OnePlus 9 Pro",
+    "models": [
+      "LE2120",
+      "LE2121",
+      "LE2123",
+      "LE2125",
+      "LE2127"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11",
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 919,
+    "original_width": 1440,
+    "original_height": 3216,
+    "screen_pixel_ratio": 3.5,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8,
+      12
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 660"
+      }
+    ]
+  },
+  {
+    "name": "OnePlus 10T",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "12"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 919,
+    "original_width": 1080,
+    "original_height": 2412,
+    "screen_pixel_ratio": 2.625,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8,
+      12,
+      16
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 730"
+      }
+    ]
+  },
+  {
+    "name": "One Plus Nord N20 5G",
+    "models": [
+      "GN2200"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 914,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.625,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 619"
+      }
+    ]
+  },
+  {
+    "name": "One Plus Nord N200 5G",
+    "models": [
+      "DE2118"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 412,
+    "logical_height": 914,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 2.625,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 619"
+      }
+    ]
+  },
+  {
+    "name": "Blu Advance L5",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "8.1.0"
+    ],
+    "platform": "Linux armv7l",
+    "logical_width": 240,
+    "logical_height": 400,
+    "original_width": 480,
+    "original_height": 800,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      0.5
+    ],
+    "gpu": [
+      {
+        "vendor": "",
+        "webgl_renderer": ""
+      }
+    ]
+  },
+  {
+    "name": "Moto G Play",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 610"
+      }
+    ]
+  },
+  {
+    "name": "moto g power",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8320"
+      }
+    ]
+  },
+  {
+    "name": "Nokia C01 Plus",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 720,
+    "original_width": 720,
+    "original_height": 1440,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      1,
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "IMG8322"
+      }
+    ]
+  },
+  {
+    "name": "Nokia 5",
+    "models": [
+      "TA-1053",
+      "TA-1024"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1.1",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 720,
+    "original_width": 720,
+    "original_height": 1440,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2,
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 505"
+      }
+    ]
+  },
+  {
+    "name": "Nokia 6",
+    "models": [
+      "TA-1021"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1.1",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 505"
+      }
+    ]
+  },
+  {
+    "name": "Nokia 8",
+    "models": [
+      "TA-1004",
+      "TA-1012"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1.1",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1440,
+    "original_height": 2560,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 540"
+      }
+    ]
+  },
+  {
+    "name": "ZTE Blade A5 2020",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9",
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 780,
+    "original_width": 720,
+    "original_height": 1560,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "IMG8322"
+      }
+    ]
+  },
+  {
+    "name": "motorola edge",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 820,
+    "original_width": 1080,
+    "original_height": 2460,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 642L"
+      }
+    ]
+  },
+  {
+    "name": "motorola one 5G ace",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "10"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 1080,
+    "original_height": 2400,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 619"
+      }
+    ]
+  },
+  {
+    "name": "moto g(7)",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 757,
+    "original_width": 1080,
+    "original_height": 2270,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 506"
+      }
+    ]
+  },
+  {
+    "name": "moto g pure",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "11"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 800,
+    "original_width": 720,
+    "original_height": 1600,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "IMG",
+        "webgl_renderer": "PowerVR GE8320"
+      }
+    ]
+  },
+  {
+    "name": "Moto G (5S) Plus",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1",
+      "8.1"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 506"
+      }
+    ]
+  },
+  {
+    "name": "Moto G (5S)",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1",
+      "8.1"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 505"
+      }
+    ]
+  },
+  {
+    "name": "Moto x4",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4,
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 508"
+      }
+    ]
+  },
+  {
+    "name": "Moto Z (2) Play",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1080,
+    "original_height": 1920,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 506"
+      }
+    ]
+  },
+  {
+    "name": "Moto E (4) Plus",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1.1"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 720,
+    "original_height": 1280,
+    "screen_pixel_ratio": 2,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      2,
+      3
+    ],
+    "gpu": [
+      {
+        "vendor": "ARM",
+        "webgl_renderer": "Mali-T720"
+      }
+    ]
+  },
+  {
+    "name": "HTC U Ultra",
+    "models": [
+      ""
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7",
+      "8"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1440,
+    "original_height": 2560,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 530"
+      }
+    ]
+  },
+  {
+    "name": "LG G6",
+    "models": [
+      "LG-H870",
+      "LG-H871",
+      "LG-H8713",
+      "LGM-G600L",
+      "LG-LS993"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7",
+      "9"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 720,
+    "original_width": 1440,
+    "original_height": 2880,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 530"
+      }
+    ]
+  },
+  {
+    "name": "LG G5",
+    "models": [
+      "VS987",
+      "LG-H820",
+      "LG-H830",
+      "LG-H831",
+      "LG-H850",
+      "LG-H860"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "6.0.1",
+      "8"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1440,
+    "original_height": 2560,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 530"
+      }
+    ]
+  },
+  {
+    "name": "LG Q6",
+    "models": [
+      "LG-M703",
+      "LG-M700"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.1.1",
+      "8"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 720,
+    "original_width": 1080,
+    "original_height": 2160,
+    "screen_pixel_ratio": 3,
+    "hardware_concurrency": [
+      8
+    ],
+    "memory": [
+      2,
+      3,
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 530"
+      }
+    ]
+  },
+  {
+    "name": "LG Q8",
+    "models": [
+      "LGM-X800K",
+      "LG-H970"
+    ],
+    "os": "Android",
+    "os_versions": [
+      "7.0"
+    ],
+    "platform": "Linux armv8l",
+    "logical_width": 360,
+    "logical_height": 640,
+    "original_width": 1440,
+    "original_height": 2560,
+    "screen_pixel_ratio": 4,
+    "hardware_concurrency": [
+      4
+    ],
+    "memory": [
+      4
+    ],
+    "gpu": [
+      {
+        "vendor": "Qualcomm",
+        "webgl_renderer": "Adreno 530"
+      }
+    ]
+  }
+]

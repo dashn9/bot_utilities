@@ -801,9 +801,7 @@ def generate_persona(
                 vpn_client = "void"
         else:
             country = get_country()
-            proxy_geo = (
-                f"country-{country}-city-{random.choice(proxy_cities[country])[0]}"
-            )
+            proxy_geo = f"country-{country.lower()}-city-{random.choice(proxy_cities[country])[0]}"
         # Hardware Concurrency And Memory
         hardware_concurrency = to_use_devices[hardware_index][10]
         if isinstance(to_use_devices[hardware_index][11], list):
@@ -909,30 +907,31 @@ def add_new_identitiy(persona):
     identity_collection.insert_one(
         {
             "ID": curr_identity_id,
-            "DEVICE_TYPE": persona[0],
-            "HARDWARE": persona[1],
-            "UA_OS": persona[2],
-            "PLATFORM": persona[3],
-            "CANVAS_FP_OFFSET": persona[4],
-            "AUDIO_CONTEXT_FP_OFFSET": persona[5],
-            "FONT_FP_OFFSET": persona[6],
-            "WEBGL_FP_OFFSET": persona[7],
-            "HARDWARE_CONCURRENCY": persona[8],
-            "MEMORY": persona[9],
-            "HAS_MOUSE": persona[10],
-            "HAS_BATTERY": persona[11],
-            "HAS_TOUCH": persona[12],
-            "BROWSER": persona[13],
-            "BROWSER_VERSION": persona[14],
-            "SREEN_RESOLUTION": persona[15],
-            "GPU_VENDOR": persona[16],
-            "GPU_RENDERER": persona[17],
-            "PROXY_CLIENT": persona[18],
-            "PROXY_GEO": persona[19],
-            "REFERRALS": persona[20],
-            "READING_SPEED": persona[21],
-            "LANGUAGE": persona[22],
-            "MOUSE_DELTA_Y": persona[23],
+            "DEVICE_TYPE": persona[1],
+            "HARDWARE": persona[2],
+            "UA_OS": persona[3],
+            "PLATFORM": persona[4],
+            "CANVAS_FP_OFFSET": persona[5],
+            "AUDIO_CONTEXT_FP_OFFSET": persona[6],
+            "FONT_FP_OFFSET": persona[7],
+            "WEBGL_FP_OFFSET": persona[8],
+            "HARDWARE_CONCURRENCY": persona[9],
+            "MEMORY": persona[10],
+            "HAS_MOUSE": persona[11],
+            "HAS_BATTERY": persona[12],
+            "HAS_TOUCH": persona[13],
+            "BROWSER": persona[14],
+            "BROWSER_VERSION": persona[15],
+            "SREEN_RESOLUTION": persona[16],
+            "GPU_VENDOR": persona[17],
+            "GPU_RENDERER": persona[18],
+            "PROXY_CLIENT": persona[19],
+            "PROXY_GEO": persona[20],
+            "REFERRALS": persona[21],
+            "READING_SPEED": persona[22],
+            "LANGUAGE": persona[23],
+            "MOUSE_DELTA_Y": persona[24],
+            "COOKIES": [],
         }
     )
 
