@@ -2,9 +2,6 @@ import json
 import random
 
 
-# device name, ua model, device os, os version, device platform, logical width, logical height, original width, original height, device pixel ratio, hardware concurrency, memory, gpu vendor name, webgl renderer, [language, color depth]
-
-
 def load_json_file(filename) -> dict:
     """
     Load the contents of a JSON file into a dictionary.
@@ -17,10 +14,32 @@ def load_json_file(filename) -> dict:
         return data
 
 
-english_speaking_countries = {"US", "CA", "GB", "AU", "IE", "NZ"}
+proxy_client = "gate.smartproxy.com"
 proxy_cities = load_json_file("./docs/proxy_cities/smartproxy.json")
+webgl_renderers = load_json_file("./docs/devices/devices.json")
+
+memories = load_json_file("./docs/devices/memories.json")
+
+
+english_speaking_countries = {"US", "CA", "GB", "AU", "IE", "NZ"}
 country_distribution = load_json_file("./config/identities_country_distribution.json")
 other_countries = list(proxy_cities.keys() - country_distribution.keys())
+
+to_use_devices = json.load(open("./docs/to_use_devices.txt", "r"))
+os_versions = load_json_file("./docs/devices/os.json")
+chrome_versions = json.load(open("./docs/chrome_versions.txt", "r"))
+firefox_versions = json.load(open("./docs/firefox_versions.txt", "r"))
+edge_versions = json.load(open("./docs/edge_versions.txt", "r"))
+pc_screen_resolutions = json.load(open("./docs/pc_screen_resolutions.txt"))
+mobile_referrers = ["https://lm.facebook.com/", "https://lm.instagram.com/"]
+desktop_referrers = ["https://l.facebook.com", "https://l.instagram.com/"]
+general_referrers = [
+    "https://www.google.com/",
+    "https://t.co/",
+    "https://www.pinterest.com/",
+    "https://www.linkedin.com/",
+    "https://www.reddit.com/",
+]
 
 
 def get_country():
@@ -55,110 +74,7 @@ def retrieve_list_data_from_file(file_path):
 
 
 def generate_persona_language(country_code):
-    en_languages = {
-        "01": ["en-001", "en"],
-        "50": ["en-150", "en"],
-        "AG": ["en-AG", "en"],
-        "AI": ["en-AI", "en"],
-        "AS": ["en-AS", "en"],
-        "AT": ["en-AT", "en"],
-        "AU": ["en-AU", "en"],
-        "BB": ["en-BB", "en"],
-        "BE": ["en-BE", "en"],
-        "BI": ["en-BI", "en"],
-        "BM": ["en-BM", "en"],
-        "BS": ["en-BS", "en"],
-        "BW": ["en-BW", "en"],
-        "BZ": ["en-BZ", "en"],
-        "CA": ["en-CA", "en"],
-        "CC": ["en-CC", "en"],
-        "CH": ["en-CH", "en"],
-        "CK": ["en-CK", "en"],
-        "CM": ["en-CM", "en"],
-        "CX": ["en-CX", "en"],
-        "CY": ["en-CY", "en"],
-        "DE": ["en-DE", "en"],
-        "DG": ["en-DG", "en"],
-        "DK": ["en-DK", "en"],
-        "DM": ["en-DM", "en"],
-        "ER": ["en-ER", "en"],
-        "FI": ["en-FI", "en"],
-        "FJ": ["en-FJ", "en"],
-        "FK": ["en-FK", "en"],
-        "FM": ["en-FM", "en"],
-        "GB": ["en-GB", "en"],
-        "GD": ["en-GD", "en"],
-        "GG": ["en-GG", "en"],
-        "GH": ["en-GH", "en"],
-        "GI": ["en-GI", "en"],
-        "GM": ["en-GM", "en"],
-        "GU": ["en-GU", "en"],
-        "GY": ["en-GY", "en"],
-        "HK": ["en-HK", "en"],
-        "IE": ["en-IE", "en"],
-        "IL": ["en-IL", "en"],
-        "IM": ["en-IM", "en"],
-        "IN": ["en-IN", "en"],
-        "IO": ["en-IO", "en"],
-        "JE": ["en-JE", "en"],
-        "JM": ["en-JM", "en"],
-        "KE": ["en-KE", "en"],
-        "KI": ["en-KI", "en"],
-        "KN": ["en-KN", "en"],
-        "KY": ["en-KY", "en"],
-        "LC": ["en-LC", "en"],
-        "LR": ["en-LR", "en"],
-        "LS": ["en-LS", "en"],
-        "MG": ["en-MG", "en"],
-        "MH": ["en-MH", "en"],
-        "MO": ["en-MO", "en"],
-        "MP": ["en-MP", "en"],
-        "MS": ["en-MS", "en"],
-        "MT": ["en-MT", "en"],
-        "MU": ["en-MU", "en"],
-        "NA": ["en-NA", "en"],
-        "NF": ["en-NF", "en"],
-        "NG": ["en-NG", "en"],
-        "NL": ["en-NL", "en"],
-        "NR": ["en-NR", "en"],
-        "NU": ["en-NU", "en"],
-        "NZ": ["en-NZ", "en"],
-        "PG": ["en-PG", "en"],
-        "PH": ["en-PH", "en"],
-        "PK": ["en-PK", "en"],
-        "PN": ["en-PN", "en"],
-        "PR": ["en-PR", "en"],
-        "PW": ["en-PW", "en"],
-        "RW": ["en-RW", "en"],
-        "SB": ["en-SB", "en"],
-        "SC": ["en-SC", "en"],
-        "SD": ["en-SD", "en"],
-        "SE": ["en-SE", "en"],
-        "SG": ["en-SG", "en"],
-        "SH": ["en-SH", "en"],
-        "SI": ["en-SI", "en"],
-        "SL": ["en-SL", "en"],
-        "SS": ["en-SS", "en"],
-        "SX": ["en-SX", "en"],
-        "SZ": ["en-SZ", "en"],
-        "TC": ["en-TC", "en"],
-        "TK": ["en-TK", "en"],
-        "TO": ["en-TO", "en"],
-        "TT": ["en-TT", "en"],
-        "TV": ["en-TV", "en"],
-        "TZ": ["en-TZ", "en"],
-        "UG": ["en-UG", "en"],
-        "UM": ["en-UM", "en"],
-        "US": ["en-US", "en"],
-        "VC": ["en-VC", "en"],
-        "VG": ["en-VG", "en"],
-        "VI": ["en-VI", "en"],
-        "VU": ["en-VU", "en"],
-        "WS": ["en-WS", "en"],
-        "ZA": ["en-ZA", "en"],
-        "ZM": ["en-ZM", "en"],
-        "ZW": ["en-ZW", "en"],
-    }
+    en_languages = load_json_file("./docs/browsers/languages.json")
     default = ["en-US", "en"]
     default_2 = ["en-GB", "en"]
     if country_code == "US":
@@ -189,11 +105,76 @@ def generate_persona_language(country_code):
                 return default_2
         else:
             return en_languages.get(country_code, default)
-    return default
 
 
 def default_persona_callback(persona):
     print(persona)
+
+
+def get_gpu():
+    gpu_renderer = random.choice(webgl_renderers)
+    while True:
+        if gpu_renderer[1] == "desktop":
+            if "ANGLE (AMD" in gpu_renderer[0]:
+                gpu_vendor = "AMD"
+                gpu_renderer = gpu_renderer[0]
+                break
+            elif "ANGLE (Radeon" in gpu_renderer[0]:
+                gpu_vendor = "AMD"
+                gpu_renderer = gpu_renderer[0]
+                break
+            elif "ANGLE (ATI" in gpu_renderer[0]:
+                gpu_vendor = "ATI"
+                gpu_renderer = gpu_renderer[0]
+                break
+            elif "ANGLE (Intel" in gpu_renderer[0]:
+                gpu_vendor = "Intel"
+                gpu_renderer = gpu_renderer[0]
+                break
+            elif "ANGLE (NVIDIA" in gpu_renderer[0]:
+                gpu_vendor = "NVIDIA"
+                gpu_renderer = gpu_renderer[0]
+                break
+    return (gpu_vendor, gpu_renderer)
+
+
+def get_browser(browser):
+    if browser == "chrome":
+        browser = "chrome"
+        if random.random() < 0.7:
+            browser_version = chrome_versions[random.randint(51, 69)]
+        else:
+            browser_version = chrome_versions[random.randint(0, 50)]
+    elif browser == "firefox":
+        browser = "firefox"
+        if random.random() < 0.7:
+            browser_version = firefox_versions[random.randint(14, 19)]
+        else:
+            browser_version = firefox_versions[random.randint(0, 13)]
+    elif browser == "edge":
+        browser = "edge"
+        browser_version = edge_versions[random.randint(0, len(edge_versions) - 1)]
+        return (browser, browser_version)
+
+
+def generate_referrals():
+    # Referrals
+    origins_referrals = []
+    no_of_referrers = random.randint(
+        1, round((len(desktop_referrers) + len(general_referrers)) / 2)
+    )
+    for j in range(no_of_referrers):
+        referrer_index = random.randint(
+            0, len(desktop_referrers) + len(general_referrers) - 1
+        )
+        if referrer_index <= 1:
+            referrer = desktop_referrers[referrer_index]
+        else:
+            referrer = general_referrers[referrer_index - 2]
+        if referrer in origins_referrals:
+            continue
+        origins_referrals.append(referrer)
+    return origins_referrals
 
 
 def generate_persona(
@@ -207,11 +188,9 @@ def generate_persona(
     percentage_of_ios=43.56,
     persona_callback=default_persona_callback,
 ):
-    user_id = 0
+    id = 0
     # Laptop To Desktop Is In Ratio 2:1
     hardware = "Desktop"
-    # Device type, pc or smartphone
-    device_type = "is_pc"
     # CPU Cores
     hardware_concurrency = 8
     # RAM Memory In GB
@@ -219,7 +198,6 @@ def generate_persona(
     has_mouse = False
     has_battery = False
     operating_system = "Android"
-    has_touch = True
     browser = "Chrome"
     browser_version = 103
     screen_resolution = [1024, 720]
@@ -237,11 +215,7 @@ def generate_persona(
         "facebook.com",
         "twitter.com",
     ]
-    continent = "Americas"
     country = "usa"
-    timezone_offset = "8"
-    vpn_client = "nordvpn"
-    ovpn_file_name = None
     proxy_client = "gate.smartproxy.com"
     proxy_geo = None
     canvas_spoof = ()
@@ -249,119 +223,14 @@ def generate_persona(
     font_spoof = []
     webgl_spoof = []
 
-    pc = fetch_percentage_value(no_of_persona_to_generate, percentage_of_pc)
-    smartphone = fetch_percentage_value(
-        no_of_persona_to_generate, percentage_of_smartphone
+    hardware_concurrencies = load_json_file(
+        "./docs/devices/hardware_concurrencies.json"
     )
-
-    windows, mac, linux, android, ios = [], [], [], 0, 0
-    memories = [
-        [16, 47.08],
-        [8, 26.81],
-        [4, 10.35],
-        [6, 4.24],
-        [7, 3.46],
-        [12, 2.39],
-        [15, 1.94],
-        [3, 1.28],
-        [2, 0.71],
-        [10, 0.33],
-        [5, 0.22],
-        [11, 0.17],
-        [1, 0.17],
-        [14, 0.8],
-        [13, 0.03],
-        [9, 0.02],
-    ]
-    hardware_concurrencies = [
-        [4, 38.79],
-        [6, 31.61],
-        [2, 13.53],
-        [8, 13.39],
-        [12, 0.92],
-        [3, 0.63],
-        [10, 0.61],
-        [16, 0.24],
-        [18, 0.02],
-        [1, 0.22],
-        [5, 0.01],
-        [14, 0.01],
-        [24, 0.01],
-        [32, 0.01],
-    ]
     # for memory in memories:
     #         memory[1] = fetch_percentage_value(pc, memory[1])
     #     for hardware_concurrency in hardware_concurrencies:
     #         hardware_concurrency[1] = fetch_percentage_value(pc, hardware_concurrency[1])
 
-    windows.append(round(fetch_percentage_value(pc, percentage_of_windows[0])))
-    windows.append(
-        {
-            "chrome": round(
-                fetch_percentage_value(
-                    windows[0], percentage_of_windows[1].get("chrome")
-                )
-            ),
-            "firefox": round(
-                fetch_percentage_value(
-                    windows[0], percentage_of_windows[1].get("firefox")
-                )
-            ),
-            "edge": round(
-                fetch_percentage_value(windows[0], percentage_of_windows[1].get("edge"))
-            ),
-        }
-    )
-
-    mac.append(round(fetch_percentage_value(pc, percentage_of_mac[0])))
-    mac.append(
-        {
-            "chrome": round(
-                fetch_percentage_value(mac[0], percentage_of_mac[1].get("chrome"))
-            ),
-            "firefox": round(
-                fetch_percentage_value(mac[0], percentage_of_mac[1].get("firefox"))
-            ),
-            "edge": round(
-                fetch_percentage_value(mac[0], percentage_of_mac[1].get("edge"))
-            ),
-        }
-    )
-
-    linux.append(round(fetch_percentage_value(pc, percentage_of_linux[0])))
-    linux.append(
-        {
-            "chrome": round(
-                fetch_percentage_value(linux[0], percentage_of_linux[1].get("chrome"))
-            ),
-            "firefox": round(
-                fetch_percentage_value(linux[0], percentage_of_linux[1].get("firefox"))
-            ),
-            "edge": round(
-                fetch_percentage_value(linux[0], percentage_of_linux[1].get("edge"))
-            ),
-        }
-    )
-
-    android = round(fetch_percentage_value(smartphone, percentage_of_android))
-    ios = round(fetch_percentage_value(smartphone, percentage_of_ios))
-
-    to_use_devices = json.load(open("./docs/to_use_devices.txt", "r"))
-    os_versions = retrieve_list_data_from_file("./docs/os_info_refractors.txt")
-    chrome_versions = json.load(open("./docs/chrome_versions.txt", "r"))
-    firefox_versions = json.load(open("./docs/firefox_versions.txt", "r"))
-    edge_versions = json.load(open("./docs/edge_versions.txt", "r"))
-    pc_screen_resolutions = json.load(open("./docs/pc_screen_resolutions.txt"))
-    webgl_renderers = json.load(open("./docs/unmasked_webgl_renderers.txt", "r"))
-    mobile_referrers = ["https://lm.facebook.com/", "https://lm.instagram.com/"]
-    desktop_referrers = ["https://l.facebook.com", "https://l.instagram.com/"]
-    general_referrers = [
-        "https://www.google.com/",
-        "https://t.co/",
-        "https://www.pinterest.com/",
-        "https://www.linkedin.com/",
-        "https://www.reddit.com/",
-    ]
     # ovpns_file_names = retrieve_list_data_from_file("/home/kali/vpn_file_names")
 
     # for i in range(len(pc_screen_resolutions)):
@@ -383,11 +252,22 @@ def generate_persona(
     #       MOUSE_DELTA_Y) VALUES (%s, \
     #       %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
     # botsdb_cursor = botsdb.cursor()
-    for i in range(round(pc)):
-        pc_persona = []
 
-        pc_persona.append(i)
-        pc_persona.append("is_pc")
+    def get_browser_with_prob(chrome_prob, firefox_prob, edge_prob):
+        browser_pick_prob = random.uniform(0, 100)
+        if browser_pick_prob <= chrome_prob:
+            browser = get_browser("chrome")
+        elif browser_pick_prob <= chrome_prob + firefox_prob:
+            browser = get_browser("firefox")
+        elif browser_pick_prob <= chrome_prob + firefox_prob + edge_prob:
+            browser = get_browser("edge")
+        return browser
+
+    for i in range(round(pc)):
+        pc_persona = {}
+
+        pc_persona["ID"] = i
+        pc_persona["DEVICE_TYPE"] = "is_pc"
 
         # Laptop Or Desktop
         if random.random() > 0.42:
@@ -397,109 +277,75 @@ def generate_persona(
 
         # Has Mouse Or Not
         if hardware == "Desktop":
-            has_mouse = "has_mouse"
+            has_mouse = True
         else:
             if random.random() < 0.20:
-                has_mouse = "has_mouse"
+                has_mouse = True
             else:
-                has_mouse = "no_mouse"
+                has_mouse = False
 
         # Has Battery Or Not
         if hardware == "Laptop":
-            has_battery = "has_battery"
+            has_battery = True
         else:
             if random.random() < 0.01:
-                has_battery = "has_battery"
+                has_battery = True
             else:
-                has_battery = "no_battery"
+                has_battery = False
 
-        pc_persona.append(hardware)
-        # Operating System
-        if i <= windows[0]:
+        pc_persona["HARDWARE"] = hardware
+        pc_persona["HAS_BATTERY"] = has_battery
+        pc_persona["HAS_MOUSE"] = has_mouse
+
+        pc_os_pick_prob = random.uniform(0, 100)
+        if pc_os_pick_prob <= percentage_of_windows[0]:
             rand = random.random()
             if rand <= 0.7:
-                pc_persona.append(os_versions[11])
+                os_version = os_versions["windows"][-11]
             elif 0.7 < rand <= 0.95:
-                pc_persona.append(os_versions[7])
+                os_version = os_versions["windows"][7]
             else:
-                pc_persona.append(os_versions[random.randint(0, 11)])
+                os_version = random.choice(os_versions["windows"])
 
-            if i <= windows[1].get("chrome"):
-                browser = "chrome"
-                if random.random() < 0.7:
-                    browser_version = chrome_versions[random.randint(51, 69)]
-                else:
-                    browser_version = chrome_versions[random.randint(0, 50)]
-            elif i <= windows[1].get("chrome") + windows[1].get("firefox"):
-                browser = "firefox"
-                if random.random() < 0.7:
-                    browser_version = firefox_versions[random.randint(14, 19)]
-                else:
-                    browser_version = firefox_versions[random.randint(0, 13)]
-            elif i <= windows[1].get("chrome") + windows[1].get("firefox") + windows[
-                1
-            ].get("edge"):
-                browser = "edge"
-                browser_version = edge_versions[
-                    random.randint(0, len(edge_versions) - 1)
-                ]
+            browser, browser_version = get_browser_with_prob(
+                percentage_of_windows[1]["chrome"],
+                percentage_of_windows[1]["firefox"],
+                percentage_of_windows[1]["edge"],
+            )
 
-        elif i <= windows[0] + mac[0]:
+        elif pc_os_pick_prob <= percentage_of_windows[0] + percentage_of_mac[0]:
             rand = random.random()
             if rand < 0.35:
-                pc_persona.append(os_versions[26])
+                os_version = os_versions[26]
             elif 0.35 < rand < 0.7:
-                pc_persona.append(os_versions[25])
+                os_version = os_versions[25]
             else:
-                pc_persona.append(os_versions[random.randint(18, 24)])
+                os_version = os_versions[random.randint(18, 24)]
 
-            if i <= windows[0] + mac[1].get("chrome"):
-                browser = "chrome"
-                if random.random() < 0.7:
-                    browser_version = chrome_versions[random.randint(51, 69)]
-                else:
-                    browser_version = chrome_versions[random.randint(0, 50)]
-            elif i <= windows[0] + mac[1].get("chrome") + mac[1].get("firefox"):
-                browser = "firefox"
-                if random.random() < 0.7:
-                    browser_version = firefox_versions[random.randint(14, 19)]
-                else:
-                    browser_version = firefox_versions[random.randint(0, 13)]
-            elif i <= windows[0] + mac[1].get("chrome") + mac[1].get("firefox") + mac[
-                1
-            ].get("edge"):
-                browser = "edge"
-                browser_version = edge_versions[
-                    random.randint(0, len(edge_versions) - 1)
-                ]
+            browser, browser_version = get_browser_with_prob(
+                percentage_of_mac[1]["chrome"],
+                percentage_of_mac[1]["firefox"],
+                percentage_of_mac[1]["edge"],
+            )
 
-        elif i <= windows[0] + mac[0] + linux[0]:
+        elif (
+            pc_os_pick_prob
+            <= percentage_of_windows[0] + percentage_of_mac[0] + percentage_of_linux[0]
+        ):
             if random.random() < 0.85:
-                pc_persona.append(os_versions[13])
+                os_version = os_versions[13]
             else:
-                pc_persona.append(os_versions[random.randint(12, 17)])
+                os_version = os_versions[random.randint(12, 17)]
 
-            if i <= windows[0] + mac[0] + linux[1].get("chrome"):
-                browser = "chrome"
-                if random.random() < 0.7:
-                    browser_version = chrome_versions[random.randint(51, 69)]
-                else:
-                    browser_version = chrome_versions[random.randint(0, 50)]
-            elif i <= windows[0] + mac[0] + linux[1].get("chrome") + linux[1].get(
-                "firefox"
-            ):
-                browser = "firefox"
-                if random.random() < 0.7:
-                    browser_version = firefox_versions[random.randint(14, 19)]
-                else:
-                    browser_version = firefox_versions[random.randint(0, 13)]
-            elif i <= windows[0] + mac[0] + linux[1].get("chrome") + linux[1].get(
-                "firefox"
-            ) + linux[1].get("edge"):
-                browser = "edge"
-                browser_version = edge_versions[
-                    random.randint(0, len(edge_versions) - 1)
-                ]
+            browser, browser_version = get_browser_with_prob(
+                percentage_of_linux[1]["chrome"],
+                percentage_of_linux[1]["firefox"],
+                percentage_of_linux[1]["edge"],
+            )
+
+        pc_persona["OS_VERSION"] = os_version
+        pc_persona["BROWSER"] = browser
+        pc_persona["BROWSER_VERSION"] = browser_version
 
         # PC Screen Resolutions
         probability_of_screen = random.uniform(0, 100)
@@ -507,7 +353,7 @@ def generate_persona(
         for j in range(len(pc_screen_resolutions)):
             preceding_prob_sum += pc_screen_resolutions[j][2]
             if probability_of_screen <= preceding_prob_sum:
-                screen_resolution = [
+                pc_persona["SCREEN_RESOLUTION"] = [
                     pc_screen_resolutions[j][0],
                     pc_screen_resolutions[j][1],
                     pc_screen_resolutions[j][0],
@@ -516,69 +362,23 @@ def generate_persona(
                 ]
                 break
 
-        # Webgl Renderer And Vendor
-        while True:
-            gpu_renderer = webgl_renderers[random.randint(0, len(webgl_renderers) - 1)]
-            if gpu_renderer[1] == "desktop":
-                if "ANGLE (AMD" in gpu_renderer[0]:
-                    gpu_vendor = "AMD"
-                    gpu_renderer = gpu_renderer[0]
-                    break
-                elif "ANGLE (Radeon" in gpu_renderer[0]:
-                    gpu_vendor = "AMD"
-                    gpu_renderer = gpu_renderer[0]
-                    break
-                elif "ANGLE (ATI" in gpu_renderer[0]:
-                    gpu_vendor = "ATI"
-                    gpu_renderer = gpu_renderer[0]
-                    break
-                elif "ANGLE (Intel" in gpu_renderer[0]:
-                    gpu_vendor = "Intel"
-                    gpu_renderer = gpu_renderer[0]
-                    break
-                elif "ANGLE (NVIDIA" in gpu_renderer[0]:
-                    gpu_vendor = "NVIDIA"
-                    gpu_renderer = gpu_renderer[0]
-                    break
+        pc_persona["GPU_VENDOR"], pc_persona["GPU_RENDERER"] = get_gpu()
 
-        # Referrals
-        origins_referrals = []
-        no_of_referrers = random.randint(
-            1, round((len(desktop_referrers) + len(general_referrers)) / 2)
-        )
-        for j in range(no_of_referrers):
-            referrer_index = random.randint(
-                0, len(desktop_referrers) + len(general_referrers) - 1
-            )
-            if referrer_index <= 1:
-                referrer = desktop_referrers[referrer_index]
-            else:
-                referrer = general_referrers[referrer_index - 2]
-            if referrer in origins_referrals:
-                continue
-            origins_referrals.append(referrer)
-        if False:
-            # VPN
-            ovpn_index = i
-            if (i + 1) % len(ovpns_file_names) == 0:
-                ovpns_file_names.extend(ovpns_file_names)
-            ovpn_file_name = ovpns_file_names[ovpn_index]
-            if "nordvpn" in ovpn_file_name:
-                vpn_client = "nordvpn"
-            elif "ipvanish" in ovpn_file_name:
-                vpn_client = "ipvanish"
-            else:
-                vpn_client = "no_attrib"
-        else:
-            country = get_country()
-            proxy_geo = f"country-{country.lower()}-city-{random.choice(proxy_cities[country])[0]}"
+        country = get_country()
+        city = random.choice(proxy_cities[country])
+        pc_persona["COUNTRY"] = country
+        pc_persona["CITY"] = city
+        proxy_geo = f"country-{country.lower()}-city-{city[0]}"
+
+        pc_persona["PROXY_GEO"] = proxy_geo
+
         # Hardware Concurrency And Memory
         probability_of_hc = random.uniform(0, 100)
         preceding_prob_sum = 0
         for hc in hardware_concurrencies:
             preceding_prob_sum += hc[1]
             if probability_of_hc <= preceding_prob_sum:
-                hardware_concurrency = hc[0]
+                pc_persona["HARDWARE_CONCURRENCY"] = hc[0]
                 break
 
         probability_of_mem = random.uniform(0, 100)
@@ -586,90 +386,46 @@ def generate_persona(
         for mem in memories:
             preceding_prob_sum += mem[1]
             if probability_of_mem <= preceding_prob_sum:
-                memory = mem[0]
+                pc_persona["MEMORY"] = mem[0]
                 break
 
         # Navigator Platform
         if "Windows" in pc_persona[3]:
-            pc_persona.append("Win32")
+            platform = "Win32"
         elif "Mac OS" in pc_persona[3]:
-            pc_persona.append("MacIntel")
+            platform = "MacIntel"
         elif "Linux x86_64" in pc_persona[3]:
-            pc_persona.append("Linux x86_64")
+            platform = "Linux x86_64"
         elif "Linux i686" in pc_persona[3]:
-            pc_persona.append("Linux i686")
+            platform = "Linux i686"
         else:
-            pc_persona.append("void")
+            platform = "void"
 
-        # Canvas Spoof
-        canvas_spoof = [
-            random.randint(-1, 1),
-            random.randint(-1, 1),
-            random.randint(-1, 2),
-            random.randint(-1, 2),
-        ]
-        # Audio Context Spoof
-        audio_context_spoof = random.randint(1, 9) / 10
-        # Font Spoof
-        font_spoof = [random.randint(-1, 2), random.randint(-1, 2)]
-        # Webgl Spoof
-        webgl_spoof = [random.random(), random.random()]
-        # Reading Speed
-        reading_speed = random.randint(730, 1130)
+        pc_persona["PLATFORM"] = platform
+
+        pc_persona["FINGERPRINT"] = {
+            "CANVAS_OFFSET": [
+                random.randint(-1, 1),
+                random.randint(-1, 1),
+                random.randint(-1, 2),
+                random.randint(-1, 2),
+            ],
+            "AUDIO_CONTEXT_OFFSET": random.randint(1, 9) / 10,
+            "FONT_OFFSET": [random.randint(-1, 2), random.randint(-1, 2)],
+            "WEBGL_OFFSET": [random.random(), random.random()],
+        }
+        pc_persona["READING_SPEED"] = random.randint(730, 1130)
         # Mouse Delta Y
         mouse_delta_y = 50
         if random.random() < 0.5:
             mouse_delta_y = random.randint(12, 110)
 
-        pc_persona.append(canvas_spoof)
-        pc_persona.append(audio_context_spoof)
-        pc_persona.append(font_spoof)
-        pc_persona.append(webgl_spoof)
-        pc_persona.append(hardware_concurrency)
-        pc_persona.append(memory)
-        pc_persona.append(has_mouse)
-        pc_persona.append(has_battery)
-        pc_persona.append("no_touch")
-        pc_persona.append(browser)
-        pc_persona.append(browser_version)
-        pc_persona.append(screen_resolution)
-        pc_persona.append(gpu_vendor)
-        pc_persona.append(gpu_renderer)
-        pc_persona.append(proxy_client)
-        pc_persona.append(proxy_geo)
-        pc_persona.append(origins_referrals)
-        pc_persona.append(reading_speed)
-        pc_persona.append(generate_persona_language(country))
-        pc_persona.append(mouse_delta_y)
+        pc_persona["MOUSE_DELTA_Y"] = mouse_delta_y
+        pc_persona["HAS_TOUCH"] = False
+        pc_persona["LANGUAGE"] = generate_persona_language(country)
+        pc_persona["REFERRALS"] = generate_referrals()
+
         persona_callback(pc_persona)
-        db_entry_val = (
-            str(pc_persona[1]),
-            str(pc_persona[2]),
-            str(pc_persona[3]),
-            str(pc_persona[4]),
-            str(pc_persona[5]),
-            float(pc_persona[6]),
-            str(pc_persona[7]),
-            str(pc_persona[8]),
-            int(pc_persona[9]),
-            int(pc_persona[10]),
-            str(pc_persona[11]),
-            str(pc_persona[12]),
-            str(pc_persona[13]),
-            str(pc_persona[14]),
-            str(pc_persona[15]),
-            str(pc_persona[16]),
-            str(pc_persona[17]),
-            str(pc_persona[18]),
-            str(pc_persona[19]),
-            str(pc_persona[20]),
-            str(pc_persona[21]),
-            str(pc_persona[22]),
-            json.dumps(str(pc_persona[23])),
-            str(pc_persona[24]),
-        )
-        # botsdb_cursor.execute(sql, db_entry_val)
-        pc_end = i + 1
 
     for i in range(round(smartphone)):
         i += pc_end
@@ -787,21 +543,10 @@ def generate_persona(
                 continue
             origins_referrals.append(referrer)
 
-        # VPN
-        if False:
-            ovpn_index = i
-            if (i + 1) % len(ovpns_file_names) == 0:
-                ovpns_file_names.extend(ovpns_file_names)
-            ovpn_file_name = ovpns_file_names[ovpn_index]
-            if "nordvpn" in ovpn_file_name:
-                vpn_client = "nordvpn"
-            elif "ipvanish" in ovpn_file_name:
-                vpn_client = "ipvanish"
-            else:
-                vpn_client = "void"
-        else:
-            country = get_country()
-            proxy_geo = f"country-{country.lower()}-city-{random.choice(proxy_cities[country])[0]}"
+        country = get_country()
+        proxy_geo = (
+            f"country-{country.lower()}-city-{random.choice(proxy_cities[country])[0]}"
+        )
         # Hardware Concurrency And Memory
         hardware_concurrency = to_use_devices[hardware_index][10]
         if isinstance(to_use_devices[hardware_index][11], list):
@@ -859,34 +604,6 @@ def generate_persona(
         sp_persona.append(generate_persona_language(country))
         sp_persona.append(mouse_delta_y)
         persona_callback(sp_persona)
-        # db_entry_val = (
-        #     str(sp_persona[1]),
-        #     str(sp_persona[2]),
-        #     str(sp_persona[3]),
-        #     str(sp_persona[4]),
-        #     str(sp_persona[5]),
-        #     float(sp_persona[6]),
-        #     str(sp_persona[7]),
-        #     str(sp_persona[8]),
-        #     int(sp_persona[9]),
-        #     int(sp_persona[10]),
-        #     str(sp_persona[11]),
-        #     str(sp_persona[12]),
-        #     str(sp_persona[13]),
-        #     str(sp_persona[14]),
-        #     str(sp_persona[15]),
-        #     str(sp_persona[16]),
-        #     str(sp_persona[17]),
-        #     str(sp_persona[18]),
-        #     str(sp_persona[19]),
-        #     str(sp_persona[20]),
-        #     str(sp_persona[21]),
-        #     str(sp_persona[22]),
-        #     json.dumps(str(sp_persona[23])),
-        #     str(sp_persona[24]),
-        # )
-    #     botsdb_cursor.execute(sql, db_entry_val)
-    # botsdb.commit()
 
 
 from pymongo import MongoClient
