@@ -307,8 +307,8 @@ def generate_persona(
                 pc_persona["SCREEN_RESOLUTION"] = {
                     "logical_width": pc_screen_resolutions[j][0],
                     "logical_height": pc_screen_resolutions[j][1],
-                    "pixel_width": pc_screen_resolutions[j][0],
-                    "pixel_height": pc_screen_resolutions[j][1],
+                    "original_width": pc_screen_resolutions[j][0],
+                    "original_height": pc_screen_resolutions[j][1],
                     "density_pixel_ratio": 1,
                 }
                 break
@@ -460,7 +460,7 @@ def generate_persona(
             "logical_height": hardware["logical_height"],
             "original_width": hardware["original_width"],
             "original_height": hardware["original_height"],
-            "device_pixel_ratio": hardware["device_pixel_ratio"],
+            "density_pixel_ratio": hardware["density_pixel_ratio"],
         }
         sp_persona["GPU"] = random.choice(hardware["gpu"])
 

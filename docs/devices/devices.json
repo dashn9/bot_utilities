@@ -18,7 +18,7 @@
     "logical_height": 844,
     "original_width": 1170,
     "original_height": 2532,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -51,7 +51,7 @@
     "logical_height": 852,
     "original_width": 1179,
     "original_height": 2556,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -84,7 +84,7 @@
     "logical_height": 932,
     "original_width": 1290,
     "original_height": 279,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -117,7 +117,7 @@
     "logical_height": 926,
     "original_width": 1284,
     "original_height": 2778,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -151,7 +151,7 @@
     "logical_height": 844,
     "original_width": 1170,
     "original_height": 2532,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -185,7 +185,7 @@
     "logical_height": 812,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -219,7 +219,7 @@
     "logical_height": 926,
     "original_width": 1284,
     "original_height": 2778,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -253,7 +253,7 @@
     "logical_height": 844,
     "original_width": 1170,
     "original_height": 2532,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -288,7 +288,7 @@
     "logical_height": 844,
     "original_width": 1170,
     "original_height": 2532,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -323,7 +323,7 @@
     "logical_height": 812,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -358,7 +358,7 @@
     "logical_height": 926,
     "original_width": 1284,
     "original_height": 2778,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -393,7 +393,7 @@
     "logical_height": 844,
     "original_width": 1170,
     "original_height": 2532,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -428,7 +428,7 @@
     "logical_height": 667,
     "original_width": 750,
     "original_height": 1334,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       6
     ],
@@ -463,7 +463,7 @@
     "logical_height": 896,
     "original_width": 1242,
     "original_height": 2688,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -498,7 +498,7 @@
     "logical_height": 812,
     "original_width": 1125,
     "original_height": 2436,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -533,7 +533,7 @@
     "logical_height": 896,
     "original_width": 828,
     "original_height": 1792,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       6
     ],
@@ -568,7 +568,7 @@
     "logical_height": 896,
     "original_width": 828,
     "original_height": 1792,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       6
     ],
@@ -603,7 +603,7 @@
     "logical_height": 896,
     "original_width": 1242,
     "original_height": 2688,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -637,7 +637,7 @@
     "logical_height": 812,
     "original_width": 1125,
     "original_height": 2436,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -671,7 +671,7 @@
     "logical_height": 812,
     "original_width": 1125,
     "original_height": 2436,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -705,7 +705,7 @@
     "logical_height": 736,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
     ],
@@ -740,7 +740,7 @@
     "logical_height": 667,
     "original_width": 750,
     "original_height": 1334,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       6
     ],
@@ -774,7 +774,7 @@
     "logical_height": 847,
     "original_width": 1242,
     "original_height": 2208,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       4
     ],
@@ -808,7 +808,7 @@
     "logical_height": 667,
     "original_width": 750,
     "original_height": 1334,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       4
     ],
@@ -842,7 +842,7 @@
     "logical_height": 568,
     "original_width": 640,
     "original_height": 1136,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       2
     ],
@@ -878,7 +878,7 @@
     "logical_height": 780,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -914,7 +914,7 @@
     "logical_height": 780,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -950,7 +950,7 @@
     "logical_height": 823,
     "original_width": 1440,
     "original_height": 3088,
-    "device_pixel_ratio": 3.75,
+    "density_pixel_ratio": 3.75,
     "hardware_concurrency": [
       8
     ],
@@ -986,7 +986,7 @@
     "logical_height": 869,
     "original_width": 1440,
     "original_height": 3040,
-    "device_pixel_ratio": 3.5,
+    "density_pixel_ratio": 3.5,
     "hardware_concurrency": [
       8
     ],
@@ -1021,7 +1021,7 @@
     "logical_height": 869,
     "original_width": 1080,
     "original_height": 2280,
-    "device_pixel_ratio": 2.625,
+    "density_pixel_ratio": 2.625,
     "hardware_concurrency": [
       8
     ],
@@ -1060,7 +1060,7 @@
     "logical_height": 780,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1099,7 +1099,7 @@
     "logical_height": 823,
     "original_width": 1440,
     "original_height": 3088,
-    "device_pixel_ratio": 3.75,
+    "density_pixel_ratio": 3.75,
     "hardware_concurrency": [
       8
     ],
@@ -1138,7 +1138,7 @@
     "logical_height": 800,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1174,7 +1174,7 @@
     "logical_height": 760,
     "original_width": 1080,
     "original_height": 2280,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1214,7 +1214,7 @@
     "logical_height": 869,
     "original_width": 1440,
     "original_height": 3040,
-    "device_pixel_ratio": 3.5,
+    "density_pixel_ratio": 3.5,
     "hardware_concurrency": [
       8
     ],
@@ -1249,7 +1249,7 @@
     "logical_height": 1340,
     "original_width": 800,
     "original_height": 1340,
-    "device_pixel_ratio": 1,
+    "density_pixel_ratio": 1,
     "hardware_concurrency": [
       8
     ],
@@ -1284,7 +1284,7 @@
     "logical_height": 740,
     "original_width": 1440,
     "original_height": 2960,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       8
     ],
@@ -1321,7 +1321,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -1353,7 +1353,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -1383,7 +1383,7 @@
     "logical_height": 803,
     "original_width": 1080,
     "original_height": 2408,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       8
     ],
@@ -1416,7 +1416,7 @@
     "logical_height": 760,
     "original_width": 1440,
     "original_height": 3040,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       8
     ],
@@ -1450,7 +1450,7 @@
     "logical_height": 800,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1482,7 +1482,7 @@
     "logical_height": 800,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1516,7 +1516,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -1547,7 +1547,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -1580,7 +1580,7 @@
     "logical_height": 780,
     "original_width": 720,
     "original_height": 1560,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -1613,7 +1613,7 @@
     "logical_height": 740,
     "original_width": 1080,
     "original_height": 2220,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1651,7 +1651,7 @@
     "logical_height": 640,
     "original_width": 720,
     "original_height": 1280,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       4
     ],
@@ -1689,7 +1689,7 @@
     "logical_height": 640,
     "original_width": 720,
     "original_height": 1280,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -1725,7 +1725,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1761,7 +1761,7 @@
     "logical_height": 640,
     "original_width": 720,
     "original_height": 1280,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       4
     ],
@@ -1795,7 +1795,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -1835,7 +1835,7 @@
     "logical_height": 914,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.625,
+    "density_pixel_ratio": 2.625,
     "hardware_concurrency": [
       8
     ],
@@ -1866,7 +1866,7 @@
     "logical_height": 851,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -1897,7 +1897,7 @@
     "logical_height": 873,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -1927,7 +1927,7 @@
     "logical_height": 800,
     "original_width": 1440,
     "original_height": 3200,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       8
     ],
@@ -1960,7 +1960,7 @@
     "logical_height": 873,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -1988,7 +1988,7 @@
     "logical_height": 851,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2017,7 +2017,7 @@
     "logical_height": 851,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2046,7 +2046,7 @@
     "logical_height": 851,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2074,7 +2074,7 @@
     "logical_height": 873,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2106,7 +2106,7 @@
     "logical_height": 873,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2136,7 +2136,7 @@
     "logical_height": 640,
     "original_width": 480,
     "original_height": 960,
-    "device_pixel_ratio": 1.5,
+    "density_pixel_ratio": 1.5,
     "hardware_concurrency": [
       4
     ],
@@ -2164,7 +2164,7 @@
     "logical_height": 720,
     "original_width": 720,
     "original_height": 1440,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2191,7 +2191,7 @@
     "logical_height": 873,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2218,7 +2218,7 @@
     "logical_height": 851,
     "original_width": 1080,
     "original_height": 2340,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2245,7 +2245,7 @@
     "logical_height": 830,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.75,
+    "density_pixel_ratio": 2.75,
     "hardware_concurrency": [
       8
     ],
@@ -2271,7 +2271,7 @@
     "logical_height": 914,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.625,
+    "density_pixel_ratio": 2.625,
     "hardware_concurrency": [
       8
     ],
@@ -2297,7 +2297,7 @@
     "logical_height": 780,
     "original_width": 1440,
     "original_height": 3120,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       8
     ],
@@ -2324,7 +2324,7 @@
     "logical_height": 732,
     "original_width": 1440,
     "original_height": 2560,
-    "device_pixel_ratio": 3.5,
+    "density_pixel_ratio": 3.5,
     "hardware_concurrency": [
       4
     ],
@@ -2351,7 +2351,7 @@
     "logical_height": 869,
     "original_width": 1440,
     "original_height": 3040,
-    "device_pixel_ratio": 3.9,
+    "density_pixel_ratio": 3.9,
     "hardware_concurrency": [
       8
     ],
@@ -2382,7 +2382,7 @@
     "logical_height": 840,
     "original_width": 1080,
     "original_height": 2520,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2415,7 +2415,7 @@
     "logical_height": 919,
     "original_width": 1440,
     "original_height": 3216,
-    "device_pixel_ratio": 3.5,
+    "density_pixel_ratio": 3.5,
     "hardware_concurrency": [
       8
     ],
@@ -2442,7 +2442,7 @@
     "logical_height": 919,
     "original_width": 1080,
     "original_height": 2412,
-    "device_pixel_ratio": 2.625,
+    "density_pixel_ratio": 2.625,
     "hardware_concurrency": [
       8
     ],
@@ -2472,7 +2472,7 @@
     "logical_height": 914,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.625,
+    "density_pixel_ratio": 2.625,
     "hardware_concurrency": [
       8
     ],
@@ -2500,7 +2500,7 @@
     "logical_height": 914,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 2.625,
+    "density_pixel_ratio": 2.625,
     "hardware_concurrency": [
       8
     ],
@@ -2526,7 +2526,7 @@
     "logical_height": 400,
     "original_width": 480,
     "original_height": 800,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       4
     ],
@@ -2552,7 +2552,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2578,7 +2578,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2604,7 +2604,7 @@
     "logical_height": 720,
     "original_width": 720,
     "original_height": 1440,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2635,7 +2635,7 @@
     "logical_height": 720,
     "original_width": 720,
     "original_height": 1440,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2665,7 +2665,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2696,7 +2696,7 @@
     "logical_height": 640,
     "original_width": 1440,
     "original_height": 2560,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       8
     ],
@@ -2724,7 +2724,7 @@
     "logical_height": 780,
     "original_width": 720,
     "original_height": 1560,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2750,7 +2750,7 @@
     "logical_height": 820,
     "original_width": 1080,
     "original_height": 2460,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2776,7 +2776,7 @@
     "logical_height": 800,
     "original_width": 1080,
     "original_height": 2400,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2803,7 +2803,7 @@
     "logical_height": 757,
     "original_width": 1080,
     "original_height": 2270,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2829,7 +2829,7 @@
     "logical_height": 800,
     "original_width": 720,
     "original_height": 1600,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       8
     ],
@@ -2856,7 +2856,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2884,7 +2884,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2912,7 +2912,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2941,7 +2941,7 @@
     "logical_height": 640,
     "original_width": 1080,
     "original_height": 1920,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -2968,7 +2968,7 @@
     "logical_height": 640,
     "original_width": 720,
     "original_height": 1280,
-    "device_pixel_ratio": 2,
+    "density_pixel_ratio": 2,
     "hardware_concurrency": [
       4
     ],
@@ -2996,7 +2996,7 @@
     "logical_height": 640,
     "original_width": 1440,
     "original_height": 2560,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       4
     ],
@@ -3029,7 +3029,7 @@
     "logical_height": 720,
     "original_width": 1440,
     "original_height": 2880,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       4
     ],
@@ -3063,7 +3063,7 @@
     "logical_height": 640,
     "original_width": 1440,
     "original_height": 2560,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       4
     ],
@@ -3093,7 +3093,7 @@
     "logical_height": 720,
     "original_width": 1080,
     "original_height": 2160,
-    "device_pixel_ratio": 3,
+    "density_pixel_ratio": 3,
     "hardware_concurrency": [
       8
     ],
@@ -3124,7 +3124,7 @@
     "logical_height": 640,
     "original_width": 1440,
     "original_height": 2560,
-    "device_pixel_ratio": 4,
+    "density_pixel_ratio": 4,
     "hardware_concurrency": [
       4
     ],
