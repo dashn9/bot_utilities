@@ -189,13 +189,6 @@ def generate_persona(
     percentage_of_ios=43.56,
     persona_callback=default_persona_callback,
 ):
-    # sql = "INSERT INTO us_based_identities(\
-    #       DEVICE_TYPE, HARDWARE, UA_OS, PLATFORM, CANVAS_FP_OFFSET, AUDIO_CONTEXT_FP_OFFSET, FONT_FP_OFFSET,\
-    #       WEBGL_FP_OFFSET, HARDWARE_CONCURRENCY, MEMORY, HAS_MOUSE, HAS_BATTERY, HAS_TOUCH, BROWSER, BROWSER_VERSION,\
-    #       SCREEN_RESOLUTION, GPU_VENDOR, GPU_RENDERER, PROXY_CLIENT, PROXY_GEO, REFERRALS, READING_SPEED, LANGUAGE,\
-    #       MOUSE_DELTA_Y) VALUES (%s, \
-    #       %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-    # botsdb_cursor = botsdb.cursor()
 
     def get_browser_with_prob(chrome_prob, firefox_prob, edge_prob):
         browser_pick_prob = random.uniform(0, 100)
@@ -357,15 +350,15 @@ def generate_persona(
         pc_persona["PLATFORM"] = platform
 
         pc_persona["FINGERPRINT"] = {
-            "CANVAS_OFFSET": [
+            "canvas_offset": [
                 random.randint(-1, 1),
                 random.randint(-1, 1),
                 random.randint(-1, 2),
                 random.randint(-1, 2),
             ],
-            "AUDIO_CONTEXT_OFFSET": random.randint(1, 9) / 10,
-            "FONT_OFFSET": [random.randint(-1, 2), random.randint(-1, 2)],
-            "WEBGL_OFFSET": [random.random(), random.random()],
+            "audio_context_offset": random.randint(1, 9) / 10,
+            "font_offset": [random.randint(-1, 2), random.randint(-1, 2)],
+            "webgl_offset": [random.random(), random.random()],
         }
         pc_persona["READING_SPEED"] = random.randint(730, 1130)
         # Mouse Delta Y
@@ -485,15 +478,15 @@ def generate_persona(
         sp_persona["PLATFORM"] = random.choice(hardware["platforms"])
 
         sp_persona["FINGERPRINT"] = {
-            "CANVAS_OFFSET": [
+            "canvas_offset": [
                 random.randint(-1, 1),
                 random.randint(-1, 1),
                 random.randint(-1, 2),
                 random.randint(-1, 2),
             ],
-            "AUDIO_CONTEXT_OFFSET": random.randint(1, 9) / 10,
-            "FONT_OFFSET": [random.randint(-1, 2), random.randint(-1, 2)],
-            "WEBGL_OFFSET": [random.random(), random.random()],
+            "audio_context_offset": random.randint(1, 9) / 10,
+            "font_offset": [random.randint(-1, 2), random.randint(-1, 2)],
+            "webgl_offset": [random.random(), random.random()],
         }
         sp_persona["READING_SPEED"] = random.randint(580, 930)
 
