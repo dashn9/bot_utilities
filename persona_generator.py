@@ -512,6 +512,10 @@ identity_collection = mongo_client.bots.identities
 
 def insert_persona_to_db(persona):
     persona["COOKIES"] = []
+    persona["TIMEZONE_ID"] = None
+    persona["TIMEZONE_FULL_NAME"] = None
+    persona["TIMEZONE_OFFSET"] = None
+    persona["FULL_TIMEZONE_INFO"] = {}
     identity_collection.insert_one(persona)
 
 
