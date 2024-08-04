@@ -11,9 +11,18 @@
       "16.4",
       "16.4.1",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 390,
     "logical_height": 844,
     "original_width": 1170,
@@ -44,9 +53,18 @@
       "16.4",
       "16.4.1",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 393,
     "logical_height": 852,
     "original_width": 1179,
@@ -77,9 +95,18 @@
       "16.4",
       "16.4.1",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 430,
     "logical_height": 932,
     "original_width": 1290,
@@ -110,9 +137,18 @@
       "16.4",
       "16.4.1",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 428,
     "logical_height": 926,
     "original_width": 1284,
@@ -144,9 +180,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 390,
     "logical_height": 844,
     "original_width": 1170,
@@ -178,9 +223,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 375,
     "logical_height": 812,
     "original_width": 1080,
@@ -212,9 +266,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 428,
     "logical_height": 926,
     "original_width": 1284,
@@ -246,9 +309,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 390,
     "logical_height": 844,
     "original_width": 1170,
@@ -281,9 +353,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 390,
     "logical_height": 844,
     "original_width": 1170,
@@ -316,9 +397,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 375,
     "logical_height": 812,
     "original_width": 1080,
@@ -351,9 +441,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 428,
     "logical_height": 926,
     "original_width": 1284,
@@ -386,9 +485,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 390,
     "logical_height": 844,
     "original_width": 1170,
@@ -421,9 +529,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 375,
     "logical_height": 667,
     "original_width": 750,
@@ -456,9 +573,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["iPhone"],
+    "platforms": [
+      "iPhone"
+    ],
     "logical_width": 414,
     "logical_height": 896,
     "original_width": 1242,
@@ -491,9 +617,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["IPhone"],
+    "platforms": [
+      "IPhone"
+    ],
     "logical_width": 375,
     "logical_height": 812,
     "original_width": 1125,
@@ -526,9 +661,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["IPhone"],
+    "platforms": [
+      "IPhone"
+    ],
     "logical_width": 414,
     "logical_height": 896,
     "original_width": 828,
@@ -561,9 +705,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["IPhone"],
+    "platforms": [
+      "IPhone"
+    ],
     "logical_width": 414,
     "logical_height": 896,
     "original_width": 828,
@@ -596,9 +749,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["IPhone"],
+    "platforms": [
+      "IPhone"
+    ],
     "logical_width": 414,
     "logical_height": 896,
     "original_width": 1242,
@@ -630,9 +792,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["IPhone"],
+    "platforms": [
+      "IPhone"
+    ],
     "logical_width": 375,
     "logical_height": 812,
     "original_width": 1125,
@@ -664,9 +835,18 @@
       "16.3",
       "16.4",
       "16.5",
-      "17"
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
     ],
-    "platforms": ["IPhone"],
+    "platforms": [
+      "IPhone"
+    ],
     "logical_width": 375,
     "logical_height": 812,
     "original_width": 1125,
@@ -682,177 +862,6 @@
       {
         "vendor": "Apple Inc",
         "webgl_renderer": "Apple A11 GPU"
-      }
-    ]
-  },
-  {
-    "name": "iPhone 8 Plus",
-    "models": [],
-    "os": "iOS",
-    "os_versions": [
-      "11",
-      "15.4",
-      "15.5",
-      "15.6",
-      "16",
-      "16.3",
-      "16.4",
-      "16.5",
-      "17"
-    ],
-    "platforms": ["IPhone"],
-    "logical_width": 414,
-    "logical_height": 736,
-    "original_width": 1080,
-    "original_height": 1920,
-    "density_pixel_ratio": 3,
-    "hardware_concurrency": [
-      6
-    ],
-    "memory": [
-      3
-    ],
-    "gpu": [
-      {
-        "vendor": "Apple Inc",
-        "webgl_renderer": "Apple A11 GPU"
-      }
-    ]
-  },
-  {
-    "name": "iPhone 8",
-    "models": [],
-    "os": "iOS",
-    "os_versions": [
-      "11",
-      "15.6",
-      "15.4",
-      "15.5",
-      "15.6",
-      "16",
-      "16.3",
-      "16.4",
-      "16.5",
-      "17"
-    ],
-    "platforms": ["IPhone"],
-    "logical_width": 375,
-    "logical_height": 667,
-    "original_width": 750,
-    "original_height": 1334,
-    "density_pixel_ratio": 2,
-    "hardware_concurrency": [
-      6
-    ],
-    "memory": [
-      2
-    ],
-    "gpu": [
-      {
-        "vendor": "Apple Inc",
-        "webgl_renderer": "Apple A11 GPU"
-      }
-    ]
-  },
-  {
-    "name": "iPhone 7 Plus",
-    "models": [],
-    "os": "iOS",
-    "os_versions": [
-      "10.0.1",
-      "15.4",
-      "15.5",
-      "15.6",
-      "15.6",
-      "16.3",
-      "16.4",
-      "16.5",
-      "17"
-    ],
-    "platforms": ["IPhone"],
-    "logical_width": 476,
-    "logical_height": 847,
-    "original_width": 1242,
-    "original_height": 2208,
-    "density_pixel_ratio": 3,
-    "hardware_concurrency": [
-      4
-    ],
-    "memory": [
-      3
-    ],
-    "gpu": [
-      {
-        "vendor": "IMG",
-        "webgl_renderer": "PowerVR Series7XT Plus"
-      }
-    ]
-  },
-  {
-    "name": "iPhone 7",
-    "models": [],
-    "os": "iOS",
-    "os_versions": [
-      "10.0.1",
-      "15.4",
-      "15.5",
-      "15.6",
-      "15.6",
-      "16.3",
-      "16.4",
-      "16.5",
-      "17"
-    ],
-    "platforms": ["IPhone"],
-    "logical_width": 375,
-    "logical_height": 667,
-    "original_width": 750,
-    "original_height": 1334,
-    "density_pixel_ratio": 2,
-    "hardware_concurrency": [
-      4
-    ],
-    "memory": [
-      2
-    ],
-    "gpu": [
-      {
-        "vendor": "IMG",
-        "webgl_renderer": "PowerVR Series7XT Plus"
-      }
-    ]
-  },
-  {
-    "name": "iPhone SE 1st gen",
-    "models": [],
-    "os": "iOS",
-    "os_versions": [
-      "9.3.2",
-      "15.4",
-      "15.5",
-      "15.6",
-      "15.6",
-      "16.3",
-      "16.4",
-      "16.5",
-      "17"
-    ],
-    "platforms": ["IPhone"],
-    "logical_width": 320,
-    "logical_height": 568,
-    "original_width": 640,
-    "original_height": 1136,
-    "density_pixel_ratio": 2,
-    "hardware_concurrency": [
-      2
-    ],
-    "memory": [
-      2
-    ],
-    "gpu": [
-      {
-        "vendor": "IMG",
-        "webgl_renderer": "PowerVR GT7600"
       }
     ]
   },
@@ -873,7 +882,9 @@
     "os_versions": [
       "13"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 780,
     "original_width": 1080,
@@ -909,7 +920,9 @@
     "os_versions": [
       "13"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 780,
     "original_width": 1080,
@@ -945,7 +958,9 @@
     "os_versions": [
       "13"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 384,
     "logical_height": 823,
     "original_width": 1440,
@@ -981,7 +996,9 @@
       "9",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 869,
     "original_width": 1440,
@@ -1016,7 +1033,9 @@
       "9",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 869,
     "original_width": 1080,
@@ -1055,7 +1074,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv9l"],
+    "platforms": [
+      "Linux armv9l"
+    ],
     "logical_width": 360,
     "logical_height": 780,
     "original_width": 1080,
@@ -1094,7 +1115,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv9l"],
+    "platforms": [
+      "Linux armv9l"
+    ],
     "logical_width": 384,
     "logical_height": 823,
     "original_width": 1440,
@@ -1133,7 +1156,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 1080,
@@ -1169,7 +1194,9 @@
       "9",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 760,
     "original_width": 1080,
@@ -1209,7 +1236,9 @@
       "9",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 869,
     "original_width": 1440,
@@ -1244,7 +1273,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 800,
     "logical_height": 1340,
     "original_width": 800,
@@ -1279,7 +1310,9 @@
       "8",
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 740,
     "original_width": 1440,
@@ -1316,7 +1349,9 @@
       "10",
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -1348,7 +1383,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -1378,7 +1415,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 803,
     "original_width": 1080,
@@ -1411,7 +1450,9 @@
       "9",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 760,
     "original_width": 1440,
@@ -1445,7 +1486,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 1080,
@@ -1477,7 +1520,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 1080,
@@ -1511,7 +1556,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -1542,7 +1589,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -1575,7 +1624,9 @@
       "9",
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 780,
     "original_width": 720,
@@ -1608,7 +1659,9 @@
       "8",
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 740,
     "original_width": 1080,
@@ -1646,7 +1699,9 @@
       "4.4.4",
       "7"
     ],
-    "platforms": ["Android"],
+    "platforms": [
+      "Android"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 720,
@@ -1720,7 +1775,9 @@
       "7",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -1756,7 +1813,9 @@
       "5.1",
       "6.0.1"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 720,
@@ -1790,7 +1849,9 @@
       "6.0.1",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -1830,7 +1891,9 @@
       "12",
       "13"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 914,
     "original_width": 1080,
@@ -1861,7 +1924,9 @@
       "9",
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 851,
     "original_width": 1080,
@@ -1892,7 +1957,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 873,
     "original_width": 1080,
@@ -1922,7 +1989,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 1440,
@@ -1955,7 +2024,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 873,
     "original_width": 1080,
@@ -1983,7 +2054,9 @@
       "9",
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 851,
     "original_width": 1080,
@@ -2012,7 +2085,9 @@
       "9",
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 851,
     "original_width": 1080,
@@ -2041,7 +2116,9 @@
       "9",
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 851,
     "original_width": 1080,
@@ -2069,7 +2146,9 @@
     "os_versions": [
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 873,
     "original_width": 1080,
@@ -2101,7 +2180,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 873,
     "original_width": 1080,
@@ -2131,7 +2212,9 @@
     "os_versions": [
       "8.1.0"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 320,
     "logical_height": 640,
     "original_width": 480,
@@ -2159,7 +2242,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 720,
     "original_width": 720,
@@ -2186,7 +2271,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 873,
     "original_width": 1080,
@@ -2213,7 +2300,9 @@
       "10",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 293,
     "logical_height": 851,
     "original_width": 1080,
@@ -2240,7 +2329,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 393,
     "logical_height": 830,
     "original_width": 1080,
@@ -2266,7 +2357,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 914,
     "original_width": 1080,
@@ -2292,7 +2385,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 780,
     "original_width": 1440,
@@ -2319,7 +2414,9 @@
       "7.1",
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 732,
     "original_width": 1440,
@@ -2346,7 +2443,9 @@
       "10",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 869,
     "original_width": 1440,
@@ -2377,7 +2476,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 840,
     "original_width": 1080,
@@ -2410,7 +2511,9 @@
       "11",
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 919,
     "original_width": 1440,
@@ -2437,7 +2540,9 @@
     "os_versions": [
       "12"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 919,
     "original_width": 1080,
@@ -2467,7 +2572,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 914,
     "original_width": 1080,
@@ -2495,7 +2602,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 412,
     "logical_height": 914,
     "original_width": 1080,
@@ -2521,7 +2630,9 @@
     "os_versions": [
       "8.1.0"
     ],
-    "platforms": ["Linux armv7l"],
+    "platforms": [
+      "Linux armv7l"
+    ],
     "logical_width": 240,
     "logical_height": 400,
     "original_width": 480,
@@ -2547,7 +2658,9 @@
     "os_versions": [
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -2573,7 +2686,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -2599,7 +2714,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 720,
     "original_width": 720,
@@ -2630,7 +2747,9 @@
       "7.1.1",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 720,
     "original_width": 720,
@@ -2660,7 +2779,9 @@
       "7.1.1",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -2691,7 +2812,9 @@
       "7.1.1",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1440,
@@ -2719,7 +2842,9 @@
       "9",
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 780,
     "original_width": 720,
@@ -2745,7 +2870,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 820,
     "original_width": 1080,
@@ -2771,7 +2898,9 @@
     "os_versions": [
       "10"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 1080,
@@ -2798,7 +2927,9 @@
     "os_versions": [
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 757,
     "original_width": 1080,
@@ -2824,7 +2955,9 @@
     "os_versions": [
       "11"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 800,
     "original_width": 720,
@@ -2851,7 +2984,9 @@
       "7.1",
       "8.1"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -2879,7 +3014,9 @@
       "7.1",
       "8.1"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -2907,7 +3044,9 @@
       "7.1",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -2936,7 +3075,9 @@
       "7.1",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1080,
@@ -2963,7 +3104,9 @@
     "os_versions": [
       "7.1.1"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 720,
@@ -2991,7 +3134,9 @@
       "7",
       "8"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1440,
@@ -3024,7 +3169,9 @@
       "7",
       "9"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 720,
     "original_width": 1440,
@@ -3058,7 +3205,9 @@
       "6.0.1",
       "8"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1440,
@@ -3088,7 +3237,9 @@
       "7.1.1",
       "8"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 720,
     "original_width": 1080,
@@ -3119,7 +3270,9 @@
     "os_versions": [
       "7.0"
     ],
-    "platforms": ["Linux armv8l"],
+    "platforms": [
+      "Linux armv8l"
+    ],
     "logical_width": 360,
     "logical_height": 640,
     "original_width": 1440,
