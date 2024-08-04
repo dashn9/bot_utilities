@@ -1,7 +1,9 @@
 [
   {
     "name": "iPhone 14",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "16",
@@ -43,7 +45,9 @@
   },
   {
     "name": "iPhone 14 Pro",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "16",
@@ -85,7 +89,9 @@
   },
   {
     "name": "iPhone 14 Pro Max",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "16",
@@ -127,7 +133,9 @@
   },
   {
     "name": "iPhone 14 Plus",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "16",
@@ -169,7 +177,9 @@
   },
   {
     "name": "iPhone 13",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "15",
@@ -212,7 +222,9 @@
   },
   {
     "name": "iPhone 13 mini",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "15",
@@ -255,7 +267,9 @@
   },
   {
     "name": "iPhone 13 Pro Max",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "15",
@@ -298,7 +312,9 @@
   },
   {
     "name": "iPhone 13 Pro",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "15",
@@ -341,7 +357,9 @@
   },
   {
     "name": "iPhone 12",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "14.1",
@@ -385,7 +403,9 @@
   },
   {
     "name": "iPhone 12 mini",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "14.1",
@@ -429,7 +449,9 @@
   },
   {
     "name": "iPhone 12 Pro Max",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "14.1",
@@ -473,7 +495,9 @@
   },
   {
     "name": "iPhone 12 Pro",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "14.1",
@@ -517,7 +541,9 @@
   },
   {
     "name": "iPhone SE 2nd gen",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "15.4",
@@ -561,7 +587,9 @@
   },
   {
     "name": "iPhone 11 Pro Max",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "13",
@@ -605,7 +633,9 @@
   },
   {
     "name": "iPhone 11 Pro",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "13",
@@ -649,7 +679,9 @@
   },
   {
     "name": "iPhone 11",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "13",
@@ -693,7 +725,9 @@
   },
   {
     "name": "iPhone XR",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "12",
@@ -737,7 +771,9 @@
   },
   {
     "name": "iPhone XS Max",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "12",
@@ -781,7 +817,9 @@
   },
   {
     "name": "iPhone XS",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "12",
@@ -824,7 +862,9 @@
   },
   {
     "name": "iPhone X",
-    "models": [],
+    "models": [
+      "15E148"
+    ],
     "os": "iOS",
     "os_versions": [
       "11.1.1",
