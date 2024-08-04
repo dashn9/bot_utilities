@@ -1,5 +1,153 @@
 [
   {
+    "name": "iPhone 15",
+    "models": [
+      "15E148"
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
+    ],
+    "platforms": [
+      "iPhone"
+    ],
+    "logical_width": 393,
+    "logical_height": 852,
+    "original_width": 1179,
+    "original_height": 2556,
+    "density_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      6
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A16 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "models": [
+      "15E148"
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
+    ],
+    "platforms": [
+      "iPhone"
+    ],
+    "logical_width": 393,
+    "logical_height": 852,
+    "original_width": 1179,
+    "original_height": 2556,
+    "density_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A17 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15 Pro Max",
+    "models": [
+      "15E148"
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
+    ],
+    "platforms": [
+      "iPhone"
+    ],
+    "logical_width": 430,
+    "logical_height": 932,
+    "original_width": 1290,
+    "original_height": 2790,
+    "density_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A17 GPU"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15 Plus",
+    "models": [
+      "15E148"
+    ],
+    "os": "iOS",
+    "os_versions": [
+      "17",
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "18"
+    ],
+    "platforms": [
+      "iPhone"
+    ],
+    "logical_width": 430,
+    "logical_height": 932,
+    "original_width": 1290,
+    "original_height": 2796,
+    "density_pixel_ratio": 3,
+    "hardware_concurrency": [
+      6
+    ],
+    "memory": [
+      8
+    ],
+    "gpu": [
+      {
+        "vendor": "Apple Inc",
+        "webgl_renderer": "Apple A17 GPU"
+      }
+    ]
+  },
+  {
     "name": "iPhone 14",
     "models": [
       "15E148"
@@ -116,7 +264,7 @@
     "logical_width": 430,
     "logical_height": 932,
     "original_width": 1290,
-    "original_height": 279,
+    "original_height": 2796,
     "density_pixel_ratio": 3,
     "hardware_concurrency": [
       6
