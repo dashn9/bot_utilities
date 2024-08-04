@@ -425,6 +425,8 @@ def generate_persona(
                 percentage_of_ios[1]["safari"],
                 percentage_of_ios[1]["edge"],
             )
+            if browser == "safari":
+                browser_version[2] = "604.1"
 
         sp_persona["HARDWARE"] = hardware["name"]
         # Operating System
