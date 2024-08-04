@@ -182,11 +182,11 @@ def generate_persona(
     no_of_persona_to_generate=100,
     percentage_of_smartphone=57.34,
     percentage_of_pc=42.66,
-    percentage_of_windows=[57, {"chrome": 100, "safari": 0, "edge": 0}],
-    percentage_of_mac=[43, {"chrome": 100, "safari": 0, "edge": 0}],
+    percentage_of_windows=[57, {"chrome": 79.895, "safari": 0, "edge": 20.105}],
+    percentage_of_mac=[43, {"chrome": 73.65, "safari": 26.35, "edge": 0}],
     percentage_of_linux=[0, {"chrome": 100, "safari": 0, "edge": 0}],
-    percentage_of_android=56.44,
-    percentage_of_ios=43.56,
+    percentage_of_android=[56.44, {"chrome": 100, "safari": 0, "edge": 0}],
+    percentage_of_ios=[43.56, {"chrome": 12.15, "safari": 87.95, "edge": 0}],
     persona_callback=default_persona_callback,
 ):
 
@@ -386,16 +386,32 @@ def generate_persona(
         # There is a better way to write the code below such that you can filter out any specific device
         # based of set probabilities
         rand = random.random()
-        if rand <= 0.4:
-            hardware = random.choice(
-                list(
-                    filter(
-                        lambda devices: devices["name"].startswith("Samsung"),
-                        smartphone_devices,
+        if rand <= percentage_of_android[0]:
+            if random.random() <= 0.6:
+                hardware = random.choice(
+                    list(
+                        filter(
+                            lambda devices: devices["name"].startswith("Samsung"),
+                            smartphone_devices,
+                        )
                     )
                 )
-            )
-        elif 0.4 < rand <= 0.55:
+            else:
+                hardware = random.choice(
+                    list(
+                        filter(
+                            lambda devices: devices["os"] == "Android"
+                            and not devices["name"].startswith("Samsung"),
+                            smartphone_devices,
+                        )
+                    )
+                )
+                browser, browser_version = get_browser_with_prob(
+                    percentage_of_android[1]["chrome"],
+                    percentage_of_android[1]["safari"],
+                    percentage_of_android[1]["edge"],
+                )
+        elif rand <= percentage_of_android[0] + percentage_of_ios[0]:
             hardware = random.choice(
                 list(
                     filter(
@@ -404,15 +420,10 @@ def generate_persona(
                     )
                 )
             )
-        else:
-            hardware = random.choice(
-                list(
-                    filter(
-                        lambda devices: devices["os"] == "Android"
-                        and not devices["name"].startswith("Samsung"),
-                        smartphone_devices,
-                    )
-                )
+            browser, browser_version = get_browser_with_prob(
+                percentage_of_ios[1]["chrome"],
+                percentage_of_ios[1]["safari"],
+                percentage_of_ios[1]["edge"],
             )
 
         sp_persona["HARDWARE"] = hardware["name"]
@@ -435,12 +446,6 @@ def generate_persona(
         sp_persona["OS"] = hardware["os"]
         sp_persona["OS_VERSION"] = os_version
         sp_persona["DEVICE_MODEL"] = device_model
-
-        browser = "chrome"
-        if random.random() < 0.7:
-            browser_version = chrome_versions[random.randint(51, 69)]
-        else:
-            browser_version = chrome_versions[random.randint(0, 50)]
 
         sp_persona["BROWSER"] = browser
         sp_persona["BROWSER_VERSION"] = browser_version
