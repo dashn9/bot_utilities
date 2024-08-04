@@ -146,8 +146,8 @@ def get_browser(browser):
             browser_version = chrome_versions[random.randint(51, 69)]
         else:
             browser_version = chrome_versions[random.randint(0, 50)]
-    elif browser == "firefox":
-        browser = "firefox"
+    elif browser == "safari":
+        browser = "safari"
         if random.random() < 0.7:
             browser_version = firefox_versions[random.randint(14, 19)]
         else:
@@ -182,21 +182,21 @@ def generate_persona(
     no_of_persona_to_generate=100,
     percentage_of_smartphone=57.34,
     percentage_of_pc=42.66,
-    percentage_of_windows=[57, {"chrome": 100, "firefox": 0, "edge": 0}],
-    percentage_of_mac=[43, {"chrome": 100, "firefox": 0, "edge": 0}],
-    percentage_of_linux=[0, {"chrome": 100, "firefox": 0, "edge": 0}],
+    percentage_of_windows=[57, {"chrome": 100, "safari": 0, "edge": 0}],
+    percentage_of_mac=[43, {"chrome": 100, "safari": 0, "edge": 0}],
+    percentage_of_linux=[0, {"chrome": 100, "safari": 0, "edge": 0}],
     percentage_of_android=56.44,
     percentage_of_ios=43.56,
     persona_callback=default_persona_callback,
 ):
 
-    def get_browser_with_prob(chrome_prob, firefox_prob, edge_prob):
+    def get_browser_with_prob(chrome_prob, safari_prob, edge_prob):
         browser_pick_prob = random.uniform(0, 100)
         if browser_pick_prob <= chrome_prob:
             browser = get_browser("chrome")
-        elif browser_pick_prob <= chrome_prob + firefox_prob:
-            browser = get_browser("firefox")
-        elif browser_pick_prob <= chrome_prob + firefox_prob + edge_prob:
+        elif browser_pick_prob <= chrome_prob + safari_prob:
+            browser = get_browser("safari")
+        elif browser_pick_prob <= chrome_prob + safari_prob + edge_prob:
             browser = get_browser("edge")
         return browser
 
@@ -248,7 +248,7 @@ def generate_persona(
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_windows[1]["chrome"],
-                percentage_of_windows[1]["firefox"],
+                percentage_of_windows[1]["safari"],
                 percentage_of_windows[1]["edge"],
             )
 
@@ -266,7 +266,7 @@ def generate_persona(
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_mac[1]["chrome"],
-                percentage_of_mac[1]["firefox"],
+                percentage_of_mac[1]["safari"],
                 percentage_of_mac[1]["edge"],
             )
 
@@ -282,7 +282,7 @@ def generate_persona(
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_linux[1]["chrome"],
-                percentage_of_linux[1]["firefox"],
+                percentage_of_linux[1]["safari"],
                 percentage_of_linux[1]["edge"],
             )
 
@@ -423,18 +423,15 @@ def generate_persona(
             else:
                 os_version = random.choice(hardware["os_versions"])
 
-            if hardware["models"]:
-                device_model = random.choice(hardware["models"])
-            else:
-                device_model = hardware["name"]
-
         elif hardware["os"] == "iOS":
             if random.random() <= 0.7:
                 os_version = hardware["os_versions"][-1]
             else:
                 os_version = random.choice(hardware["os_versions"])
+        if hardware["models"]:
+            device_model = random.choice(hardware["models"])
+        else:
             device_model = hardware["name"]
-
         sp_persona["OS"] = hardware["os"]
         sp_persona["OS_VERSION"] = os_version
         sp_persona["DEVICE_MODEL"] = device_model
