@@ -1,37 +1,76 @@
 {
-    "windows": [
-        "Windows NT 6.1",
-        "Windows NT 6.2",
-        "Windows NT 6.3",
-        "Windows NT 10.0",
-        "Windows NT 6.1; WOW64",
-        "Windows NT 6.2; WOW64",
-        "Windows NT 6.3; WOW64",
-        "Windows NT 10.0; WOW64",
-        "Windows NT 6.1; Win64; x64",
-        "Windows NT 6.2; Win64; x64",
-        "Windows NT 6.3; Win64; x64",
-        "Windows NT 10.0; Win64; x64"
+    "win": [
+        {
+            "architecture": "x86",
+            "bitness": "64",
+            "platform": "Windows",
+            "navigator_platform": "Win32",
+            "platform_versions": [
+                "1"
+            ]
+        }
     ],
-    "linux": [
-        "X11; Linux i686;",
-        "X11; Linux x86_64;",
-        "X11; Ubuntu; Linux i686;",
-        "X11; Ubuntu; Linux x86_64;",
-        "X11; Fedora; Linux x86_64;",
-        "X11; FreeBSD amd64; Linux x86_64;"
-    ],
-    "macintosh": [
-        "Macintosh; Intel Mac OS X 10_12_6",
-        "Macintosh; Intel Mac OS X 10_13_6",
-        "Macintosh; Intel Mac OS X 10_14_6",
-        "Macintosh; Intel Mac OS X 10_15_0",
-        "Macintosh; Intel Mac OS X 10_15_1",
-        "Macintosh; Intel Mac OS X 10_15_2",
-        "Macintosh; Intel Mac OS X 10_15_3",
-        "Macintosh; Intel Mac OS X 10_15_4",
-        "Macintosh; Intel Mac OS X 10_15_5",
-        "Macintosh; Intel Mac OS X 10_15_6",
-        "Macintosh; Intel Mac OS X 10_15_7"
+    "mac": [
+        {
+            "architecture": "x86",
+            "bitness": "64",
+            "platform": "MacOS",
+            "navigator_platform": "MacIntel",
+            "platform_versions": [
+                "15.1",
+                "15.0",
+                "14.6",
+                "14.5",
+                "14.4.1",
+                "14.4",
+                "14.3.1",
+                "14.3",
+                "14.2.1",
+                "14.2",
+                "14.1.2",
+                "14.1.1",
+                "14",
+                "13.6.8",
+                "13.6.7",
+                "13.6.6",
+                "13.6.5",
+                "13.6.4",
+                "13.6",
+                "13.5.2",
+                "13.5.1",
+                "13.5",
+                "13.4.1",
+                "13.4",
+                "13.3.1",
+                "13.3",
+                "13.2.1",
+                "13.2",
+                "13.1",
+                "13.0.1",
+                "13.0",
+                "12.7.6",
+                "12.7.5",
+                "12.7.4",
+                "12.7.3",
+                "12.7.2",
+                "12.7.1",
+                "12.7",
+                "12.6.9",
+                "12.6.8",
+                "12.6.7",
+                "12.6.6",
+                "12.6",
+                "12.5.1",
+                "12.5",
+                "12.4",
+                "12.3.1",
+                "12.3",
+                "12.2.1",
+                "12.2",
+                "12.1",
+                "12.0.1",
+                "12.0"
+            ]
+        }
     ]
 }
