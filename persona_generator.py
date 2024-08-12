@@ -28,10 +28,10 @@ hardware_concurrencies = load_json_file("./docs/devices/hardware_concurrencies.j
 
 smartphone_devices = load_json_file("./docs/devices/devices.json")
 os_versions = load_json_file("./docs/devices/os.json")
-chrome_versions = json.load(open("./docs/chrome_versions.txt", "r"))
-firefox_versions = json.load(open("./docs/firefox_versions.txt", "r"))
-edge_versions = json.load(open("./docs/edge_versions.txt", "r"))
-pc_screen_resolutions = json.load(open("./docs/devices/pc_screen_resolutions.json"))
+chrome_versions = load_json_file("./docs/browsers_versions/chrome.json", "r")
+safari_versions = load_json_file("./docs/browser_versions/safari.json", "r")
+edge_versions = load_json_file("./docs/browser_versions/edge.json", "r")
+pc_screen_resolutions = load_json_file("./docs/devices/pc_screen_resolutions.json")
 mobile_referrers = ["https://lm.facebook.com/", "https://lm.instagram.com/"]
 desktop_referrers = ["https://l.facebook.com", "https://l.instagram.com/"]
 general_referrers = [
@@ -149,9 +149,9 @@ def get_browser(browser):
     elif browser == "safari":
         browser = "safari"
         if random.random() < 0.7:
-            browser_version = firefox_versions[random.randint(14, 19)]
+            browser_version = safari_versions[random.randint(14, 19)]
         else:
-            browser_version = firefox_versions[random.randint(0, 13)]
+            browser_version = safari_versions[random.randint(0, 13)]
     elif browser == "edge":
         browser = "edge"
         browser_version = edge_versions[random.randint(0, len(edge_versions) - 1)]
@@ -504,6 +504,9 @@ def generate_persona(
         else:
             genenerate_pc_persona(i + 1)
 
+            # use a 24 pixel depth
+            # use abiodun's laptop to determine nav platform on mac arm chips
+
 
 from pymongo import MongoClient
 
@@ -517,7 +520,8 @@ identity_collection = mongo_client.bots.identities
 def insert_persona_to_db(persona):
     persona["COOKIES"] = []
     persona["TIMEZONE"] = {}
-    identity_collection.insert_one(persona)
+    # identity_collection.insert_one(persona)
+    print(persona)
 
 
 generate_persona(persona_callback=insert_persona_to_db)
