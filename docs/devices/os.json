@@ -18,9 +18,6 @@
             "platform": "macOS",
             "navigator_platform": "MacIntel",
             "platform_versions": {
-                "15": [
-                    "15.1"
-                ],
                 "14": [
                     "14.6",
                     "14.5",

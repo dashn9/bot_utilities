@@ -8,8 +8,10 @@ config = {
     # Can also be os version in the case of mac
     "PROB_LATEST_PLATFORM_VERSION": 0.88,
     "WIN_VERSIONS": [11, 10],
-    "MAC_VERSIONS": [15, 14, 13, 12],
+    "MAC_VERSIONS": [14, 13, 12],
 }
+
+# mac devices that comes with catalina or earlier preinstalled has user agent versions that does not go beyond 10_15_7, perhaps you can use it as a vector to improve overall traffic conformity(to evade ad detection)
 
 
 def load_json_file(filename) -> dict:
