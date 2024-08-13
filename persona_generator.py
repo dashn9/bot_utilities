@@ -155,9 +155,9 @@ def get_browser(browser):
     if browser == "chrome":
         browser = "chrome"
         if random.random() < 0.7:
-            browser_version = chrome_versions[random.randint(51, 69)]
+            browser_version = chrome_versions[random.randint(21, 52)]
         else:
-            browser_version = chrome_versions[random.randint(0, 50)]
+            browser_version = chrome_versions[random.randint(0, 20)]
     elif browser == "safari":
         browser = "safari"
         if random.random() < 0.7:
@@ -263,7 +263,9 @@ def generate_persona(
                 "version": (
                     pc_os["win"]["platform_versions"][os_version][0]
                     if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
-                    else random.choice(pc_os["win"]["platform_versions"][1:])
+                    else random.choice(
+                        pc_os["win"]["platform_versions"][os_version][1:]
+                    )
                 ),
             }
 
@@ -281,17 +283,22 @@ def generate_persona(
                 else random.choice(config["MAC_VERSIONS"][1:])
             )
             # TODO: abstract into seperate function
-            pc_persona["PLATFORM"] = {
-                "bitness": pc_os["mac"]["bitness"],
-                "architecture": pc_os["mac"]["architecture"],
-                "navigator_platform": pc_os["mac"]["navigator_platform"],
-                "name": pc_os["mac"]["platform"],
-                "version": (
-                    pc_os["mac"]["platform_versions"][os_version][0]
-                    if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
-                    else random.choice(pc_os["mac"]["platform_versions"][1:])
-                ),
-            }
+            try:
+                pc_persona["PLATFORM"] = {
+                    "bitness": pc_os["mac"]["bitness"],
+                    "architecture": pc_os["mac"]["architecture"],
+                    "navigator_platform": pc_os["mac"]["navigator_platform"],
+                    "name": pc_os["mac"]["platform"],
+                    "version": (
+                        pc_os["mac"]["platform_versions"][os_version][0]
+                        if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
+                        else random.choice(
+                            pc_os["mac"]["platform_versions"][os_version][1:]
+                        )
+                    ),
+                }
+            except:
+                print(pc_os["mac"])
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_mac[1]["chrome"],
