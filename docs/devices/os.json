@@ -5,16 +5,17 @@
             "bitness": "64",
             "platform": "Windows",
             "navigator_platform": "Win32",
-            "platform_versions": [
-                "1"
-            ]
+            "platform_versions": {
+                "11": ["15.0.0", "14.0.0", "13.0.0"],
+                "10": ["10.0.0", "8.0.0", "7.0.0"]
+            }
         }
     ],
     "mac": [
         {
             "architecture": "x86",
             "bitness": "64",
-            "platform": "MacOS",
+            "platform": "macOS",
             "navigator_platform": "MacIntel",
             "platform_versions": {
                 "15": [

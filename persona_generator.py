@@ -1,6 +1,16 @@
 import json
 import random
 
+# The latest versions should come first in the array
+config = {
+    "PROB_LATEST_WIN_VERSION": 0.86,
+    "PROB_LATEST_MAC_VERSION": 0.71,
+    # Can also be os version in the case of mac
+    "PROB_LATEST_PLATFORM_VERSION": 0.88,
+    "WIN_VERSIONS": [11, 10],
+    "MAC_VERSIONS": [15, 14, 13, 12],
+}
+
 
 def load_json_file(filename) -> dict:
     """
@@ -26,11 +36,11 @@ country_distribution = load_json_file("./config/identities_country_distribution.
 other_countries = list(proxy_cities.keys() - country_distribution.keys())
 hardware_concurrencies = load_json_file("./docs/devices/hardware_concurrencies.json")
 
-smartphone_devices = load_json_file("./docs/devices/devices.json")
-os_versions = load_json_file("./docs/devices/os.json")
-chrome_versions = load_json_file("./docs/browsers_versions/chrome.json", "r")
-safari_versions = load_json_file("./docs/browser_versions/safari.json", "r")
-edge_versions = load_json_file("./docs/browser_versions/edge.json", "r")
+smartphone_devices = load_json_file("./docs/devices/smartphone_devices.json")
+pc_oses = load_json_file("./docs/devices/os.json")
+chrome_versions = load_json_file("./docs/browsers/versions/chrome.json")
+safari_versions = load_json_file("./docs/browsers/versions/safari.json")
+edge_versions = load_json_file("./docs/browsers/versions/edge.json")
 pc_screen_resolutions = load_json_file("./docs/devices/pc_screen_resolutions.json")
 mobile_referrers = ["https://lm.facebook.com/", "https://lm.instagram.com/"]
 desktop_referrers = ["https://l.facebook.com", "https://l.instagram.com/"]
@@ -235,16 +245,27 @@ def generate_persona(
         pc_persona["HAS_MOUSE"] = has_mouse
         pc_persona["DEVICE_MODEL"] = None
 
+        pc_persona["PLATFORM"] = {}
         pc_os_pick_prob = random.uniform(0, 100)
         if pc_os_pick_prob <= percentage_of_windows[0]:
             os = "Windows"
-            rand = random.random()
-            if rand <= 0.7:
-                os_version = os_versions["windows"][-11]
-            elif 0.7 < rand <= 0.95:
-                os_version = os_versions["windows"][7]
-            else:
-                os_version = random.choice(os_versions["windows"])
+            # TODO: abstract into seperate function
+            pc_persona["PLATFORM"]["bitness"] = pc_oses["win"]["bitness"]
+            pc_persona["PLATFORM"]["architecture"] = pc_oses["win"]["architecture"]
+            pc_persona["PLATFORM"]["navigator_platform"] = pc_oses["win"][
+                "navigator_platform"
+            ]
+            pc_persona["PLATFORM"]["name"] = pc_oses["win"]["platform"]
+            os_version = (
+                config["WIN_VERSIONS"][0]
+                if random.random() <= config["PROB_LATEST_WIN_VERSION"]
+                else random.choice(config["WIN_VERSIONS"][1:])
+            )
+            pc_persona["PLATFORM"]["version"] = (
+                pc_oses["win"]["platform_versions"][0]
+                if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
+                else random.choice(pc_oses["win"]["platform_versions"][1:])
+            )
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_windows[1]["chrome"],
@@ -253,16 +274,25 @@ def generate_persona(
             )
 
         elif pc_os_pick_prob <= percentage_of_windows[0] + percentage_of_mac[0]:
-            os = "Mac"
-            rand = random.random()
-            if rand < 0.35:
-                os_version = os_versions["macintosh"][-1]
-            elif 0.35 < rand < 0.7:
-                os_version = os_versions["macintosh"][-2]
-            else:
-                os_version = os_versions["macintosh"][
-                    random.randint(0, len(os_versions["macintosh"]) - 3)
-                ]
+            os = "Macintosh"
+            # TODO: abstract into seperate function
+            pc_persona["PLATFORM"]["bitness"] = pc_oses["mac"]["bitness"]
+            pc_persona["PLATFORM"]["architecture"] = pc_oses["mac"]["architecture"]
+            pc_persona["PLATFORM"]["navigator_platform"] = pc_oses["mac"][
+                "navigator_platform"
+            ]
+            pc_persona["PLATFORM"]["name"] = pc_oses["mac"]["platform"]
+
+            os_version = (
+                config["WIN_VERSIONS"][0]
+                if random.random() <= config["PROB_LATEST_WIN_VERSION"]
+                else random.choice(config["WIN_VERSIONS"][1:])
+            )
+            pc_persona["PLATFORM"]["version"] = (
+                pc_oses["mac"]["platform_versions"][0]
+                if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
+                else random.choice(pc_oses["mac"]["platform_versions"][1:])
+            )
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_mac[1]["chrome"],
@@ -276,9 +306,9 @@ def generate_persona(
         ):
             os = "Linux"
             if random.random() < 0.85:
-                os_version = os_versions["linux"][1]
+                os_version = pc_oses["linux"][1]
             else:
-                os_version = random.choice(os_versions["linux"])
+                os_version = random.choice(pc_oses["linux"])
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_linux[1]["chrome"],
@@ -406,11 +436,11 @@ def generate_persona(
                         )
                     )
                 )
-                browser, browser_version = get_browser_with_prob(
-                    percentage_of_android[1]["chrome"],
-                    percentage_of_android[1]["safari"],
-                    percentage_of_android[1]["edge"],
-                )
+            browser, browser_version = get_browser_with_prob(
+                percentage_of_android[1]["chrome"],
+                percentage_of_android[1]["safari"],
+                percentage_of_android[1]["edge"],
+            )
         elif rand <= percentage_of_android[0] + percentage_of_ios[0]:
             hardware = random.choice(
                 list(
@@ -432,15 +462,15 @@ def generate_persona(
         # Operating System
         if hardware["os"] == "Android":
             if random.random() <= 0.8:
-                os_version = hardware["os_versions"][-1]
+                os_version = hardware["pc_oses"][-1]
             else:
-                os_version = random.choice(hardware["os_versions"])
+                os_version = random.choice(hardware["pc_oses"])
 
         elif hardware["os"] == "iOS":
             if random.random() <= 0.7:
-                os_version = hardware["os_versions"][-1]
+                os_version = hardware["pc_oses"][-1]
             else:
-                os_version = random.choice(hardware["os_versions"])
+                os_version = random.choice(hardware["pc_oses"])
         if hardware["models"]:
             device_model = random.choice(hardware["models"])
         else:
