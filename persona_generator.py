@@ -7,8 +7,8 @@ config = {
     "PROB_LATEST_MAC_VERSION": 0.71,
     # Can also be os version in the case of mac
     "PROB_LATEST_PLATFORM_VERSION": 0.88,
-    "WIN_VERSIONS": [11, 10],
-    "MAC_VERSIONS": [14, 13, 12],
+    "WIN_VERSIONS": ["11", "10"],
+    "MAC_VERSIONS": ["14", "13", "12"],
 }
 
 # mac devices that comes with catalina or earlier preinstalled has user agent versions that does not go beyond 10_15_7, perhaps you can use it as a vector to improve overall traffic conformity(to evade ad detection)
@@ -39,7 +39,7 @@ other_countries = list(proxy_cities.keys() - country_distribution.keys())
 hardware_concurrencies = load_json_file("./docs/devices/hardware_concurrencies.json")
 
 smartphone_devices = load_json_file("./docs/devices/smartphone_devices.json")
-pc_oses = load_json_file("./docs/devices/os.json")
+pc_os = load_json_file("./docs/devices/pc_os.json")
 chrome_versions = load_json_file("./docs/browsers/versions/chrome.json")
 safari_versions = load_json_file("./docs/browsers/versions/safari.json")
 edge_versions = load_json_file("./docs/browsers/versions/edge.json")
@@ -246,28 +246,26 @@ def generate_persona(
         pc_persona["HAS_BATTERY"] = has_battery
         pc_persona["HAS_MOUSE"] = has_mouse
         pc_persona["DEVICE_MODEL"] = None
-
-        pc_persona["PLATFORM"] = {}
         pc_os_pick_prob = random.uniform(0, 100)
         if pc_os_pick_prob <= percentage_of_windows[0]:
             os = "Windows"
-            # TODO: abstract into seperate function
-            pc_persona["PLATFORM"]["bitness"] = pc_oses["win"]["bitness"]
-            pc_persona["PLATFORM"]["architecture"] = pc_oses["win"]["architecture"]
-            pc_persona["PLATFORM"]["navigator_platform"] = pc_oses["win"][
-                "navigator_platform"
-            ]
-            pc_persona["PLATFORM"]["name"] = pc_oses["win"]["platform"]
             os_version = (
                 config["WIN_VERSIONS"][0]
                 if random.random() <= config["PROB_LATEST_WIN_VERSION"]
                 else random.choice(config["WIN_VERSIONS"][1:])
             )
-            pc_persona["PLATFORM"]["version"] = (
-                pc_oses["win"]["platform_versions"][0]
-                if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
-                else random.choice(pc_oses["win"]["platform_versions"][1:])
-            )
+            # TODO: abstract into seperate function
+            pc_persona["PLATFORM"] = {
+                "bitness": pc_os["win"]["bitness"],
+                "architecture": pc_os["win"]["architecture"],
+                "navigator_platform": pc_os["win"]["navigator_platform"],
+                "name": pc_os["win"]["platform"],
+                "version": (
+                    pc_os["win"]["platform_versions"][os_version][0]
+                    if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
+                    else random.choice(pc_os["win"]["platform_versions"][1:])
+                ),
+            }
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_windows[1]["chrome"],
@@ -277,24 +275,23 @@ def generate_persona(
 
         elif pc_os_pick_prob <= percentage_of_windows[0] + percentage_of_mac[0]:
             os = "Macintosh"
-            # TODO: abstract into seperate function
-            pc_persona["PLATFORM"]["bitness"] = pc_oses["mac"]["bitness"]
-            pc_persona["PLATFORM"]["architecture"] = pc_oses["mac"]["architecture"]
-            pc_persona["PLATFORM"]["navigator_platform"] = pc_oses["mac"][
-                "navigator_platform"
-            ]
-            pc_persona["PLATFORM"]["name"] = pc_oses["mac"]["platform"]
-
             os_version = (
-                config["WIN_VERSIONS"][0]
-                if random.random() <= config["PROB_LATEST_WIN_VERSION"]
-                else random.choice(config["WIN_VERSIONS"][1:])
+                config["MAC_VERSIONS"][0]
+                if random.random() <= config["PROB_LATEST_MAC_VERSION"]
+                else random.choice(config["MAC_VERSIONS"][1:])
             )
-            pc_persona["PLATFORM"]["version"] = (
-                pc_oses["mac"]["platform_versions"][0]
-                if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
-                else random.choice(pc_oses["mac"]["platform_versions"][1:])
-            )
+            # TODO: abstract into seperate function
+            pc_persona["PLATFORM"] = {
+                "bitness": pc_os["mac"]["bitness"],
+                "architecture": pc_os["mac"]["architecture"],
+                "navigator_platform": pc_os["mac"]["navigator_platform"],
+                "name": pc_os["mac"]["platform"],
+                "version": (
+                    pc_os["mac"]["platform_versions"][os_version][0]
+                    if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
+                    else random.choice(pc_os["mac"]["platform_versions"][1:])
+                ),
+            }
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_mac[1]["chrome"],
@@ -308,9 +305,9 @@ def generate_persona(
         ):
             os = "Linux"
             if random.random() < 0.85:
-                os_version = pc_oses["linux"][1]
+                os_version = pc_os["linux"][1]
             else:
-                os_version = random.choice(pc_oses["linux"])
+                os_version = random.choice(pc_os["linux"])
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_linux[1]["chrome"],
@@ -366,20 +363,6 @@ def generate_persona(
             if probability_of_mem <= preceding_prob_sum:
                 pc_persona["MEMORY"] = mem[0]
                 break
-
-        # Navigator Platform
-        if "Windows" in os_version:
-            platform = "Win32"
-        elif "Mac OS" in os_version:
-            platform = "MacIntel"
-        elif "Linux x86_64" in os_version:
-            platform = "Linux x86_64"
-        elif "Linux i686" in os_version:
-            platform = "Linux i686"
-        else:
-            platform = "void"
-
-        pc_persona["PLATFORM"] = platform
 
         pc_persona["FINGERPRINT"] = {
             "canvas_offset": [
@@ -461,18 +444,16 @@ def generate_persona(
                 browser_version[2] = "604.1"
 
         sp_persona["HARDWARE"] = hardware["name"]
+        os_version = random.choice(hardware["os_versions"])
         # Operating System
-        if hardware["os"] == "Android":
-            if random.random() <= 0.8:
-                os_version = hardware["pc_oses"][-1]
-            else:
-                os_version = random.choice(hardware["pc_oses"])
-
-        elif hardware["os"] == "iOS":
-            if random.random() <= 0.7:
-                os_version = hardware["pc_oses"][-1]
-            else:
-                os_version = random.choice(hardware["pc_oses"])
+        # TODO: abstract into seperate function
+        sp_persona["PLATFORM"] = {
+            "bitness": None,
+            "architecture": None,
+            "navigator_platform": random.choice(hardware["platforms"]),
+            "name": hardware["os"],
+            "version": os_version,
+        }
         if hardware["models"]:
             device_model = random.choice(hardware["models"])
         else:
@@ -510,8 +491,6 @@ def generate_persona(
             hardware["hardware_concurrency"]
         )
         sp_persona["MEMORY"] = random.choice(hardware["memory"])
-
-        sp_persona["PLATFORM"] = random.choice(hardware["platforms"])
 
         sp_persona["FINGERPRINT"] = {
             "canvas_offset": [
