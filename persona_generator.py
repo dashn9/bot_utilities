@@ -538,8 +538,8 @@ identity_collection = mongo_client.bots.identities
 def insert_persona_to_db(persona):
     persona["COOKIES"] = []
     persona["TIMEZONE"] = {}
-    # identity_collection.insert_one(persona)
-    print(persona)
+    identity_collection.insert_one(persona)
+    # print(persona)
 
 
 generate_persona(persona_callback=insert_persona_to_db)
