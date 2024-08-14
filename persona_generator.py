@@ -333,6 +333,7 @@ def generate_persona(
         pc_persona["OS_VERSION"] = os_version
         pc_persona["BROWSER"] = browser
         pc_persona["BROWSER_VERSION"] = browser_version
+        pc_persona["USER_AGENT"] = None
 
         # PC Screen Resolutions
         probability_of_screen = random.uniform(0, 100)
@@ -478,6 +479,7 @@ def generate_persona(
 
         sp_persona["BROWSER"] = browser
         sp_persona["BROWSER_VERSION"] = browser_version
+        sp_persona["USER_AGENT"] = None
         # Screen Resolutions
         sp_persona["SCREEN_RESOLUTION"] = {
             "logical_width": hardware["logical_width"],
