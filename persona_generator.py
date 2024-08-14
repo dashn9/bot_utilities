@@ -14,6 +14,13 @@ config = {
 # mac devices that comes with catalina or earlier preinstalled has user agent versions that does not go beyond 10_15_7, perhaps you can use it as a vector to improve overall traffic conformity(to evade ad detection)
 
 
+def ensure_version_format(version):
+    parts = version.split(".")
+    while len(parts) < 3:
+        parts.append("0")
+    return ".".join(parts)
+
+
 def load_json_file(filename) -> dict:
     """
     Load the contents of a JSON file into a dictionary.
@@ -459,7 +466,7 @@ def generate_persona(
             "architecture": None,
             "navigator_platform": random.choice(hardware["platforms"]),
             "name": hardware["os"],
-            "version": os_version,
+            "version": ensure_version_format(os_version),
         }
         if hardware["models"]:
             device_model = random.choice(hardware["models"])
