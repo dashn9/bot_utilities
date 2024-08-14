@@ -415,7 +415,7 @@ def generate_persona(
 
         # There is a better way to write the code below such that you can filter out any specific device
         # based of set probabilities
-        rand = random.random()
+        rand = random.uniform(0, 100)
         if rand <= percentage_of_android[0]:
             if random.random() <= 0.6:
                 hardware = random.choice(
