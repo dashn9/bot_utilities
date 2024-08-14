@@ -14,9 +14,9 @@ config = {
 # mac devices that comes with catalina or earlier preinstalled has user agent versions that does not go beyond 10_15_7, perhaps you can use it as a vector to improve overall traffic conformity(to evade ad detection)
 
 
-def ensure_version_format(version):
+def ensure_version_format(version, version_point_count=3):
     parts = version.split(".")
-    while len(parts) < 3:
+    while len(parts) < version_point_count:
         parts.append("0")
     return ".".join(parts)
 
@@ -275,6 +275,7 @@ def generate_persona(
                     )
                 ),
             }
+            os_version = ensure_version_format(os_version, version_point_count=2)
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_windows[1]["chrome"],
@@ -290,22 +291,19 @@ def generate_persona(
                 else random.choice(config["MAC_VERSIONS"][1:])
             )
             # TODO: abstract into seperate function
-            try:
-                pc_persona["PLATFORM"] = {
-                    "bitness": pc_os["mac"]["bitness"],
-                    "architecture": pc_os["mac"]["architecture"],
-                    "navigator_platform": pc_os["mac"]["navigator_platform"],
-                    "name": pc_os["mac"]["platform"],
-                    "version": (
-                        pc_os["mac"]["platform_versions"][os_version][0]
-                        if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
-                        else random.choice(
-                            pc_os["mac"]["platform_versions"][os_version][1:]
-                        )
-                    ),
-                }
-            except:
-                print(pc_os["mac"])
+            pc_persona["PLATFORM"] = {
+                "bitness": pc_os["mac"]["bitness"],
+                "architecture": pc_os["mac"]["architecture"],
+                "navigator_platform": pc_os["mac"]["navigator_platform"],
+                "name": pc_os["mac"]["platform"],
+                "version": (
+                    pc_os["mac"]["platform_versions"][os_version][0]
+                    if random.random() <= config["PROB_LATEST_PLATFORM_VERSION"]
+                    else random.choice(
+                        pc_os["mac"]["platform_versions"][os_version][1:]
+                    )
+                ),
+            }
 
             browser, browser_version = get_browser_with_prob(
                 percentage_of_mac[1]["chrome"],
