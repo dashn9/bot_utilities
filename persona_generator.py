@@ -536,9 +536,14 @@ def generate_persona(
 from pymongo import MongoClient
 
 # mongodb doesn't allow transactions unless you use a replicaset
+mongodb_credentials = load_json_file('.db_credentials.json', 'r')
 mongo_client = MongoClient(
-    "localhost", 27017, username="localhost", password="localhost"
+    mongodb_credentials['MONGO_HOST'],
+    mongodb_credentials['MONGO_PORT'],
+    username=mongodb_credentials['MONGO_USER'],
+    password=mongodb_credentials['MONGO_PASSWORD']
 )
+
 identity_collection = mongo_client.bots.identities
 
 
