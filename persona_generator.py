@@ -1,5 +1,6 @@
 import json
 import random
+from datetime import datetime
 
 # The latest versions should come first in the array
 config = {
@@ -12,6 +13,8 @@ config = {
 }
 
 # mac devices that comes with catalina or earlier preinstalled has user agent versions that does not go beyond 10_15_7, perhaps you can use it as a vector to improve overall traffic conformity(to evade ad detection)
+
+ID_OFFSET = 0
 
 
 def ensure_version_format(version, version_point_count=3):
@@ -33,8 +36,23 @@ def load_json_file(filename) -> dict:
         return data
 
 
+def smartproxy_proxies():
+    global proxy_client, proxy_cities, mobile_proxy_cities
+    proxy_client = "gate.smartproxy.com"
+    proxy_cities = load_json_file("./docs/proxy_cities/smartproxy.json")
+    mobile_proxy_cities = load_json_file("./docs/proxy_cities/smartproxy.json")
+
+
+def dataimpulse_proxies():
+    global proxy_client, proxy_cities, mobile_proxy_cities
+    proxy_client = "gw.dataimpulse.com"
+    proxy_cities = load_json_file("./docs/proxy_cities/dataimpulse.json")
+    mobile_proxy_cities = load_json_file("./docs/proxy_cities/mobile/dataimpulse.json")
+
+
 proxy_client = "gate.smartproxy.com"
 proxy_cities = load_json_file("./docs/proxy_cities/smartproxy.json")
+dataimpulse_proxies()
 webgl_renderers = load_json_file("./docs/devices/unmasked_webgl_renderers.json")
 
 memories = load_json_file("./docs/devices/memories.json")
@@ -56,7 +74,6 @@ desktop_referrers = ["https://l.facebook.com", "https://l.instagram.com/"]
 general_referrers = [
     "https://www.google.com/",
     "https://t.co/",
-    "https://www.pinterest.com/",
     "https://www.linkedin.com/",
     "https://www.reddit.com/",
 ]
@@ -354,9 +371,10 @@ def generate_persona(
         country = get_country()
         city = random.choice(proxy_cities[country])
         pc_persona["COUNTRY"] = country
-        pc_persona["CITY"] = city[1]
-        proxy_geo = f"country-{country.lower()}-city-{city[0]}"
+        pc_persona["CITY"] = city[0]
+        proxy_geo = f"{country.lower()};city.{city[1]}"
 
+        pc_persona["PROXY_TYPE"] = "residential"
         pc_persona["PROXY_CLIENT"] = proxy_client
         pc_persona["PROXY_GEO"] = proxy_geo
 
@@ -399,6 +417,7 @@ def generate_persona(
         pc_persona["LANGUAGE"] = generate_persona_language(country)
         pc_persona["REFERRALS"] = generate_referrals()
 
+        pc_persona["CREATED_AT"] = datetime.now()
         persona_callback(pc_persona)
 
     def generate_sp_persona(id):
@@ -488,16 +507,22 @@ def generate_persona(
         }
         sp_persona["GPU"] = random.choice(hardware["gpu"])
 
+        proxy_type = "residential"
         country = get_country()
-        city = random.choice(proxy_cities[country])
+        if random.random() < 0.6:
+            proxy_type = "mobile"
+            city = random.choice(mobile_proxy_cities[country])
+        else:
+            city = random.choice(proxy_cities[country])
         sp_persona["COUNTRY"] = country
-        sp_persona["CITY"] = city[1]
-        proxy_geo = f"country-{country.lower()}-city-{city[0]}"
+        sp_persona["CITY"] = city[0]
+        proxy_geo = f"{country.lower()};city.{city[1]}"
 
         sp_persona["HAS_TOUCH"] = True
         sp_persona["LANGUAGE"] = generate_persona_language(country)
         sp_persona["REFERRALS"] = generate_referrals()
 
+        sp_persona["PROXY_TYPE"] = proxy_type
         sp_persona["PROXY_CLIENT"] = proxy_client
         sp_persona["PROXY_GEO"] = proxy_geo
         # Hardware Concurrency And Memory
@@ -521,30 +546,34 @@ def generate_persona(
 
         sp_persona["MOUSE_DELTA_Y"] = 50
 
+        sp_persona["CREATED_AT"] = datetime.now()
+
         persona_callback(sp_persona)
 
     for i in range(no_of_persona_to_generate):
         if random.uniform(0, 100) <= percentage_of_smartphone:
-            generate_sp_persona(i + 1)
+            generate_sp_persona(i + 1 + ID_OFFSET)
         else:
-            genenerate_pc_persona(i + 1)
-
-            # use a 24 pixel depth
-            # use abiodun's laptop to determine nav platform on mac arm chips
+            genenerate_pc_persona(i + 1 + ID_OFFSET)
 
 
-from pymongo import MongoClient
+from pymongo import MongoClient, ASCENDING
 
 # mongodb doesn't allow transactions unless you use a replicaset
-mongodb_credentials = load_json_file('.db_credentials.json', 'r')
+mongodb_credentials = load_json_file(".db_credentials.json")
 mongo_client = MongoClient(
-    mongodb_credentials['MONGO_HOST'],
-    mongodb_credentials['MONGO_PORT'],
-    username=mongodb_credentials['MONGO_USER'],
-    password=mongodb_credentials['MONGO_PASSWORD']
+    mongodb_credentials["MONGO_HOST"],
+    mongodb_credentials["MONGO_PORT"],
+    username=mongodb_credentials["MONGO_USER"],
+    password=mongodb_credentials["MONGO_PASSWORD"],
 )
 
-identity_collection = mongo_client.bots.identities
+identity_collection = getattr(
+    getattr(mongo_client, mongodb_credentials["MONGO_DB"]),
+    mongodb_credentials["MONGO_COLLECTION"],
+)
+
+identity_collection.create_index([("ID", ASCENDING)], unique=True)
 
 
 def insert_persona_to_db(persona):

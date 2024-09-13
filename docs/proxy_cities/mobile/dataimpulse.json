@@ -5569,6 +5569,40 @@
     ],
     "CH": [
         [
+            "Bern",
+            "bern"
+        ],
+        [
+            "Geneva",
+            "geneva"
+        ],
+        [
+            "Geroldswil",
+            "geroldswil"
+        ],
+        [
+            "Lausanne",
+            "lausanne"
+        ],
+        [
+            "Lucerne",
+            "lucerne"
+        ],
+        [
+            "Neuchâtel",
+            "neuchatel"
+        ],
+        [
+            "Renens",
+            "renens"
+        ],
+        [
+            "Zurich",
+            "zurich"
+        ]
+    ],
+    "CN": [
+        [
             "Beijing",
             "beijing"
         ],
