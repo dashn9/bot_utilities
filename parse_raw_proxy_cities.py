@@ -1,5 +1,23 @@
 import re
 import json
+import unicodedata
+
+
+def normalize_string(s):
+    """Normalize a string to pure English a-z characters."""
+    if not isinstance(s, str):
+        return s
+
+    # Convert to lowercase
+    s = s.lower()
+
+    # Remove non-word characters except for space
+    s = re.sub(r"\W+", "", s)
+
+    # Normalize Unicode characters to ASCII
+    s = unicodedata.normalize("NFKD", s).encode("ASCII", "ignore").decode("ASCII")
+
+    return s
 
 
 def process_file(file_path):
@@ -13,11 +31,7 @@ def process_file(file_path):
 
             if original:  # Only process non-empty lines
                 # Use regex to keep Unicode letters and spaces
-                processed = (
-                    re.sub(r"[^\w\s]", "", original, flags=re.UNICODE)
-                    .lower()
-                    .replace(" ", "")
-                )
+                processed = normalize_string(original)
 
                 # Append the pair to the result list
                 result.append([original, processed])

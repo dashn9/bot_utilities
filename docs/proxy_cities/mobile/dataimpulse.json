@@ -1,10 +1,6 @@
 {
     "US": [
         [
-            "Adamsville",
-            "adamsville"
-        ],
-        [
             "Addison",
             "addison"
         ],
@@ -15,6 +11,10 @@
         [
             "Akron",
             "akron"
+        ],
+        [
+            "Alabaster",
+            "alabaster"
         ],
         [
             "Alameda",
@@ -45,12 +45,20 @@
             "alexandria"
         ],
         [
+            "Algonquin",
+            "algonquin"
+        ],
+        [
             "Aliquippa",
             "aliquippa"
         ],
         [
             "Aliso Viejo",
             "alisoviejo"
+        ],
+        [
+            "Allen",
+            "allen"
         ],
         [
             "Allentown",
@@ -117,12 +125,20 @@
             "ashburn"
         ],
         [
-            "Asheville",
-            "asheville"
+            "Ashville",
+            "ashville"
+        ],
+        [
+            "Athens",
+            "athens"
         ],
         [
             "Atlanta",
             "atlanta"
+        ],
+        [
+            "Auburn",
+            "auburn"
         ],
         [
             "Aurora",
@@ -135,14 +151,6 @@
         [
             "Babylon",
             "babylon"
-        ],
-        [
-            "Baden",
-            "baden"
-        ],
-        [
-            "Bahama",
-            "bahama"
         ],
         [
             "Baltimore",
@@ -173,10 +181,6 @@
             "beaconfalls"
         ],
         [
-            "Bedford",
-            "bedford"
-        ],
-        [
             "Belleville",
             "belleville"
         ],
@@ -193,12 +197,12 @@
             "bend"
         ],
         [
-            "Bennington",
-            "bennington"
-        ],
-        [
             "Berkley",
             "berkley"
+        ],
+        [
+            "Bessemer",
+            "bessemer"
         ],
         [
             "Bethlehem",
@@ -229,6 +233,10 @@
             "bloomington"
         ],
         [
+            "Bluffdale",
+            "bluffdale"
+        ],
+        [
             "Boise",
             "boise"
         ],
@@ -245,12 +253,8 @@
             "bradenton"
         ],
         [
-            "Brandon",
-            "brandon"
-        ],
-        [
-            "Brazil",
-            "brazil"
+            "Brentwood",
+            "brentwood"
         ],
         [
             "Briarcliffe Acres",
@@ -259,18 +263,6 @@
         [
             "Bridgeport",
             "bridgeport"
-        ],
-        [
-            "Brighton",
-            "brighton"
-        ],
-        [
-            "Broadview Heights",
-            "broadviewheights"
-        ],
-        [
-            "Bronson",
-            "bronson"
         ],
         [
             "Brook Park",
@@ -283,10 +275,6 @@
         [
             "Brooklyn",
             "brooklyn"
-        ],
-        [
-            "Broomfield",
-            "broomfield"
         ],
         [
             "Brownwood",
@@ -329,6 +317,10 @@
             "cadiz"
         ],
         [
+            "Caledonia",
+            "caledonia"
+        ],
+        [
             "Calera",
             "calera"
         ],
@@ -337,8 +329,8 @@
             "cambridge"
         ],
         [
-            "Campton",
-            "campton"
+            "Canonsburg",
+            "canonsburg"
         ],
         [
             "Canton",
@@ -361,12 +353,16 @@
             "carolstream"
         ],
         [
-            "Cary",
-            "cary"
+            "Carthage",
+            "carthage"
         ],
         [
             "Cassville",
             "cassville"
+        ],
+        [
+            "Castalian Springs",
+            "castaliansprings"
         ],
         [
             "Cedar Park",
@@ -375,10 +371,6 @@
         [
             "Celeste",
             "celeste"
-        ],
-        [
-            "Central Islip",
-            "centralislip"
         ],
         [
             "Cerrillos",
@@ -421,6 +413,10 @@
             "cherryhill"
         ],
         [
+            "Cherryville",
+            "cherryville"
+        ],
+        [
             "Chesapeake",
             "chesapeake"
         ],
@@ -429,16 +425,8 @@
             "chicago"
         ],
         [
-            "Chicago Heights",
-            "chicagoheights"
-        ],
-        [
             "Chillicothe",
             "chillicothe"
-        ],
-        [
-            "China Spring",
-            "chinaspring"
         ],
         [
             "Chino",
@@ -453,6 +441,10 @@
             "cincinnati"
         ],
         [
+            "Citrus Heights",
+            "citrusheights"
+        ],
+        [
             "City of Saint Peters",
             "cityofsaintpeters"
         ],
@@ -463,10 +455,6 @@
         [
             "Clarksville",
             "clarksville"
-        ],
-        [
-            "Clearwater",
-            "clearwater"
         ],
         [
             "Clemson",
@@ -493,16 +481,8 @@
             "coalcity"
         ],
         [
-            "Cohoes",
-            "cohoes"
-        ],
-        [
             "Colorado Springs",
             "coloradosprings"
-        ],
-        [
-            "Columbia",
-            "columbia"
         ],
         [
             "Columbia City",
@@ -533,8 +513,16 @@
             "coram"
         ],
         [
+            "Coraopolis",
+            "coraopolis"
+        ],
+        [
             "Corona",
             "corona"
+        ],
+        [
+            "Council Bluffs",
+            "councilbluffs"
         ],
         [
             "Cranberry Township",
@@ -557,14 +545,6 @@
             "dallas"
         ],
         [
-            "Dallas Center",
-            "dallascenter"
-        ],
-        [
-            "Dania Beach",
-            "daniabeach"
-        ],
-        [
             "Davenport",
             "davenport"
         ],
@@ -579,6 +559,10 @@
         [
             "Deer Park",
             "deerpark"
+        ],
+        [
+            "Denham Springs",
+            "denhamsprings"
         ],
         [
             "Denver",
@@ -625,10 +609,6 @@
             "durham"
         ],
         [
-            "Eagle River",
-            "eagleriver"
-        ],
-        [
             "Earlham",
             "earlham"
         ],
@@ -651,6 +631,14 @@
         [
             "Eastvale",
             "eastvale"
+        ],
+        [
+            "Eaton Rapids",
+            "eatonrapids"
+        ],
+        [
+            "Eden Prairie",
+            "edenprairie"
         ],
         [
             "Edison",
@@ -693,8 +681,8 @@
             "elkhart"
         ],
         [
-            "Elkhorn",
-            "elkhorn"
+            "Ellwood City",
+            "ellwoodcity"
         ],
         [
             "Elmhurst",
@@ -729,6 +717,18 @@
             "fairoaks"
         ],
         [
+            "Fairfax",
+            "fairfax"
+        ],
+        [
+            "Fall River",
+            "fallriver"
+        ],
+        [
+            "Farmersburg",
+            "farmersburg"
+        ],
+        [
             "Farmington",
             "farmington"
         ],
@@ -739,10 +739,6 @@
         [
             "Federal Way",
             "federalway"
-        ],
-        [
-            "Ferndale",
-            "ferndale"
         ],
         [
             "Ferris",
@@ -785,8 +781,8 @@
             "fortlauderdale"
         ],
         [
-            "Fort Thomas",
-            "fortthomas"
+            "Fort Myers",
+            "fortmyers"
         ],
         [
             "Fort Wayne",
@@ -813,10 +809,6 @@
             "freedom"
         ],
         [
-            "Freeport",
-            "freeport"
-        ],
-        [
             "Fresno",
             "fresno"
         ],
@@ -825,16 +817,8 @@
             "fulton"
         ],
         [
-            "Gainesville",
-            "gainesville"
-        ],
-        [
             "Gallatin",
             "gallatin"
-        ],
-        [
-            "Galt",
-            "galt"
         ],
         [
             "Gap",
@@ -849,6 +833,10 @@
             "gardner"
         ],
         [
+            "Garner",
+            "garner"
+        ],
+        [
             "Gastonia",
             "gastonia"
         ],
@@ -861,8 +849,8 @@
             "gilbert"
         ],
         [
-            "Glendale",
-            "glendale"
+            "Glastonbury",
+            "glastonbury"
         ],
         [
             "Goose Creek",
@@ -873,16 +861,16 @@
             "goshen"
         ],
         [
+            "Grand Prairie",
+            "grandprairie"
+        ],
+        [
             "Grand Rapids",
             "grandrapids"
         ],
         [
             "Granite Bay",
             "granitebay"
-        ],
-        [
-            "Great Falls",
-            "greatfalls"
         ],
         [
             "Great Neck",
@@ -909,18 +897,6 @@
             "greenwood"
         ],
         [
-            "Greer",
-            "greer"
-        ],
-        [
-            "Gretna",
-            "gretna"
-        ],
-        [
-            "Gulf Park Estates",
-            "gulfparkestates"
-        ],
-        [
             "Gustine",
             "gustine"
         ],
@@ -943,6 +919,10 @@
         [
             "Hampton Bays",
             "hamptonbays"
+        ],
+        [
+            "Hamtramck",
+            "hamtramck"
         ],
         [
             "Hanover Park",
@@ -989,16 +969,16 @@
             "hillsborough"
         ],
         [
+            "Hinckley",
+            "hinckley"
+        ],
+        [
             "Hoboken",
             "hoboken"
         ],
         [
             "Hoffman Estates",
             "hoffmanestates"
-        ],
-        [
-            "Holland",
-            "holland"
         ],
         [
             "Hollywood",
@@ -1011,6 +991,10 @@
         [
             "Honolulu",
             "honolulu"
+        ],
+        [
+            "Horton",
+            "horton"
         ],
         [
             "Hot Springs",
@@ -1077,6 +1061,10 @@
             "jamestown"
         ],
         [
+            "Jean",
+            "jean"
+        ],
+        [
             "Jeannette",
             "jeannette"
         ],
@@ -1093,10 +1081,6 @@
             "jerseyville"
         ],
         [
-            "Jourdanton",
-            "jourdanton"
-        ],
-        [
             "Justice",
             "justice"
         ],
@@ -1109,16 +1093,20 @@
             "kearney"
         ],
         [
-            "Kenner",
-            "kenner"
-        ],
-        [
             "Kenosha",
             "kenosha"
         ],
         [
+            "Kent",
+            "kent"
+        ],
+        [
             "Kewaskum",
             "kewaskum"
+        ],
+        [
+            "Kings Grant",
+            "kingsgrant"
         ],
         [
             "Kingston",
@@ -1133,20 +1121,8 @@
             "knightdale"
         ],
         [
-            "Knox",
-            "knox"
-        ],
-        [
             "Knoxville",
             "knoxville"
-        ],
-        [
-            "Kouts",
-            "kouts"
-        ],
-        [
-            "Kyle",
-            "kyle"
         ],
         [
             "La Grange",
@@ -1155,10 +1131,6 @@
         [
             "La Porte",
             "laporte"
-        ],
-        [
-            "Laguna Hills",
-            "lagunahills"
         ],
         [
             "Lake Elsinore",
@@ -1177,8 +1149,12 @@
             "lakevillage"
         ],
         [
-            "Lake Wylie",
-            "lakewylie"
+            "Lake Zurich",
+            "lakezurich"
+        ],
+        [
+            "Lakehurst",
+            "lakehurst"
         ],
         [
             "Lakeville",
@@ -1201,10 +1177,6 @@
             "lawrence"
         ],
         [
-            "Lawrenceville",
-            "lawrenceville"
-        ],
-        [
             "Lawton",
             "lawton"
         ],
@@ -1215,10 +1187,6 @@
         [
             "Lehi",
             "lehi"
-        ],
-        [
-            "Lehighton",
-            "lehighton"
         ],
         [
             "Lewistown",
@@ -1233,8 +1201,8 @@
             "lexington"
         ],
         [
-            "Lima",
-            "lima"
+            "Lincoln",
+            "lincoln"
         ],
         [
             "Lindsay",
@@ -1251,6 +1219,10 @@
         [
             "Livonia",
             "livonia"
+        ],
+        [
+            "Lodi",
+            "lodi"
         ],
         [
             "Logan",
@@ -1297,6 +1269,10 @@
             "lynbrook"
         ],
         [
+            "Macomb",
+            "macomb"
+        ],
+        [
             "Madison",
             "madison"
         ],
@@ -1325,20 +1301,16 @@
             "manteca"
         ],
         [
-            "Mantua",
-            "mantua"
-        ],
-        [
-            "Marble Falls",
-            "marblefalls"
+            "Maple Shade Township",
+            "mapleshadetownship"
         ],
         [
             "Marietta",
             "marietta"
         ],
         [
-            "Marion",
-            "marion"
+            "Marlton",
+            "marlton"
         ],
         [
             "Mason",
@@ -1347,14 +1319,6 @@
         [
             "Matthews",
             "matthews"
-        ],
-        [
-            "McDonough",
-            "mcdonough"
-        ],
-        [
-            "McLeansboro",
-            "mcleansboro"
         ],
         [
             "Medina",
@@ -1377,10 +1341,6 @@
             "mendota"
         ],
         [
-            "Menifee",
-            "menifee"
-        ],
-        [
             "Mesa",
             "mesa"
         ],
@@ -1401,12 +1361,12 @@
             "middlebury"
         ],
         [
-            "Midvale",
-            "midvale"
+            "Midland",
+            "midland"
         ],
         [
-            "Milledgeville",
-            "milledgeville"
+            "Midvale",
+            "midvale"
         ],
         [
             "Millersburg",
@@ -1429,6 +1389,10 @@
             "minot"
         ],
         [
+            "Miramar Beach",
+            "miramarbeach"
+        ],
+        [
             "Mission",
             "mission"
         ],
@@ -1443,6 +1407,10 @@
         [
             "Modesto",
             "modesto"
+        ],
+        [
+            "Monaca",
+            "monaca"
         ],
         [
             "Monroe",
@@ -1465,12 +1433,24 @@
             "mountjuliet"
         ],
         [
+            "Mount Pleasant",
+            "mountpleasant"
+        ],
+        [
             "Mount Prospect",
             "mountprospect"
         ],
         [
             "Mt. Pleasant",
             "mtpleasant"
+        ],
+        [
+            "Munroe Falls",
+            "munroefalls"
+        ],
+        [
+            "Murfreesboro",
+            "murfreesboro"
         ],
         [
             "Myrtle Beach",
@@ -1483,10 +1463,6 @@
         [
             "Nashville",
             "nashville"
-        ],
-        [
-            "Natalia",
-            "natalia"
         ],
         [
             "Navasota",
@@ -1529,14 +1505,6 @@
             "newark"
         ],
         [
-            "Newburgh",
-            "newburgh"
-        ],
-        [
-            "Newland",
-            "newland"
-        ],
-        [
             "Newport News",
             "newportnews"
         ],
@@ -1573,12 +1541,12 @@
             "northlittlerock"
         ],
         [
-            "North Miami Beach",
-            "northmiamibeach"
-        ],
-        [
             "North Palm Beach",
             "northpalmbeach"
+        ],
+        [
+            "North Richland Hills",
+            "northrichlandhills"
         ],
         [
             "North Vernon",
@@ -1601,20 +1569,12 @@
             "oaklawn"
         ],
         [
-            "Oak Ridge",
-            "oakridge"
-        ],
-        [
             "Oakland",
             "oakland"
         ],
         [
             "Ocala",
             "ocala"
-        ],
-        [
-            "Offutt Air Force Base",
-            "offuttairforcebase"
         ],
         [
             "Oklahoma City",
@@ -1645,12 +1605,12 @@
             "orlando"
         ],
         [
-            "Oshkosh",
-            "oshkosh"
-        ],
-        [
             "Oskaloosa",
             "oskaloosa"
+        ],
+        [
+            "Overland Park",
+            "overlandpark"
         ],
         [
             "Owensboro",
@@ -1733,6 +1693,10 @@
             "pierceton"
         ],
         [
+            "Pilot Grove",
+            "pilotgrove"
+        ],
+        [
             "Pineville",
             "pineville"
         ],
@@ -1753,8 +1717,20 @@
             "pittsburgh"
         ],
         [
+            "Pittsford",
+            "pittsford"
+        ],
+        [
+            "Placentia",
+            "placentia"
+        ],
+        [
             "Placerville",
             "placerville"
+        ],
+        [
+            "Plano",
+            "plano"
         ],
         [
             "Pleasanton",
@@ -1797,8 +1773,8 @@
             "poughkeepsie"
         ],
         [
-            "Powhatan",
-            "powhatan"
+            "Prairie du Chien",
+            "prairieduchien"
         ],
         [
             "Prattville",
@@ -1813,16 +1789,8 @@
             "providence"
         ],
         [
-            "Purgatory",
-            "purgatory"
-        ],
-        [
             "Queens",
             "queens"
-        ],
-        [
-            "Raeford",
-            "raeford"
         ],
         [
             "Raleigh",
@@ -1873,6 +1841,14 @@
             "richmond"
         ],
         [
+            "Richton",
+            "richton"
+        ],
+        [
+            "Ridge",
+            "ridge"
+        ],
+        [
             "Ridgeland",
             "ridgeland"
         ],
@@ -1897,24 +1873,16 @@
             "rochester"
         ],
         [
-            "Rock Hill",
-            "rockhill"
-        ],
-        [
-            "Rockford",
-            "rockford"
-        ],
-        [
             "Rockville",
             "rockville"
         ],
         [
-            "Rocky Mount",
-            "rockymount"
-        ],
-        [
             "Roselle",
             "roselle"
+        ],
+        [
+            "Rosemont",
+            "rosemont"
         ],
         [
             "Rosenberg",
@@ -1939,10 +1907,6 @@
         [
             "Royal Oak",
             "royaloak"
-        ],
-        [
-            "Royston",
-            "royston"
         ],
         [
             "Ryde",
@@ -1977,10 +1941,6 @@
             "sanantonio"
         ],
         [
-            "San Bernardino",
-            "sanbernardino"
-        ],
-        [
             "San Diego",
             "sandiego"
         ],
@@ -2007,10 +1967,6 @@
         [
             "Sanford",
             "sanford"
-        ],
-        [
-            "Santa Ana",
-            "santaana"
         ],
         [
             "Santaquin",
@@ -2041,6 +1997,10 @@
             "secaucus"
         ],
         [
+            "Shelbyville",
+            "shelbyville"
+        ],
+        [
             "Shelton",
             "shelton"
         ],
@@ -2065,14 +2025,6 @@
             "slatington"
         ],
         [
-            "Slidell",
-            "slidell"
-        ],
-        [
-            "Smithton",
-            "smithton"
-        ],
-        [
             "Smyrna",
             "smyrna"
         ],
@@ -2093,14 +2045,6 @@
             "somerville"
         ],
         [
-            "South Bound Brook",
-            "southboundbrook"
-        ],
-        [
-            "South Plainfield",
-            "southplainfield"
-        ],
-        [
             "Southfield",
             "southfield"
         ],
@@ -2113,16 +2057,16 @@
             "spackenkill"
         ],
         [
+            "Sparks",
+            "sparks"
+        ],
+        [
             "Sparta",
             "sparta"
         ],
         [
             "Spiveys Corner",
             "spiveyscorner"
-        ],
-        [
-            "Spring",
-            "spring"
         ],
         [
             "Spring Lake",
@@ -2133,16 +2077,8 @@
             "springfield"
         ],
         [
-            "Springville",
-            "springville"
-        ],
-        [
             "St Louis",
             "stlouis"
-        ],
-        [
-            "St. Petersburg",
-            "stpetersburg"
         ],
         [
             "Stanley",
@@ -2155,10 +2091,6 @@
         [
             "Sterling Heights",
             "sterlingheights"
-        ],
-        [
-            "Sterrett",
-            "sterrett"
         ],
         [
             "Stockdale",
@@ -2181,20 +2113,20 @@
             "stow"
         ],
         [
-            "Suffolk",
-            "suffolk"
+            "Streamwood",
+            "streamwood"
+        ],
+        [
+            "Struthers",
+            "struthers"
         ],
         [
             "Sunnyvale",
             "sunnyvale"
         ],
         [
-            "Superior",
-            "superior"
-        ],
-        [
-            "Syosset",
-            "syosset"
+            "Sylva",
+            "sylva"
         ],
         [
             "Syracuse",
@@ -2211,10 +2143,6 @@
         [
             "Tampa",
             "tampa"
-        ],
-        [
-            "Taylor",
-            "taylor"
         ],
         [
             "Temecula",
@@ -2237,6 +2165,10 @@
             "thebronx"
         ],
         [
+            "The Villages",
+            "thevillages"
+        ],
+        [
             "Tiffin",
             "tiffin"
         ],
@@ -2245,12 +2177,12 @@
             "tooele"
         ],
         [
-            "Torrington",
-            "torrington"
+            "Topeka",
+            "topeka"
         ],
         [
-            "Tracy",
-            "tracy"
+            "Torrington",
+            "torrington"
         ],
         [
             "Trenton",
@@ -2281,12 +2213,16 @@
             "tulsa"
         ],
         [
+            "Tuscaloosa",
+            "tuscaloosa"
+        ],
+        [
             "Tustin",
             "tustin"
         ],
         [
-            "Union",
-            "union"
+            "Umatilla",
+            "umatilla"
         ],
         [
             "Uniontown",
@@ -2315,6 +2251,10 @@
         [
             "Virginia Beach",
             "virginiabeach"
+        ],
+        [
+            "Wallingford",
+            "wallingford"
         ],
         [
             "Waltham",
@@ -2349,10 +2289,6 @@
             "waterbury"
         ],
         [
-            "Waterloo",
-            "waterloo"
-        ],
-        [
             "Waukegan",
             "waukegan"
         ],
@@ -2365,8 +2301,8 @@
             "waynesville"
         ],
         [
-            "Weirsdale",
-            "weirsdale"
+            "Wesley Chapel",
+            "wesleychapel"
         ],
         [
             "West Babylon",
@@ -2379,10 +2315,6 @@
         [
             "West Haven",
             "westhaven"
-        ],
-        [
-            "West Henrietta",
-            "westhenrietta"
         ],
         [
             "West Jordan",
@@ -2425,12 +2357,20 @@
             "whitehalltownship"
         ],
         [
+            "Whitelaw",
+            "whitelaw"
+        ],
+        [
             "Whitesboro",
             "whitesboro"
         ],
         [
             "Wichita",
             "wichita"
+        ],
+        [
+            "Wickenburg",
+            "wickenburg"
         ],
         [
             "Wildwood",
@@ -2445,16 +2385,16 @@
             "windsor"
         ],
         [
+            "Winnebago",
+            "winnebago"
+        ],
+        [
             "Winston-Salem",
             "winstonsalem"
         ],
         [
             "Winter Garden",
             "wintergarden"
-        ],
-        [
-            "Winter Park",
-            "winterpark"
         ],
         [
             "Winter Springs",
@@ -2469,20 +2409,12 @@
             "woodridge"
         ],
         [
-            "Wright",
-            "wright"
-        ],
-        [
             "Yonkers",
             "yonkers"
         ],
         [
             "York",
             "york"
-        ],
-        [
-            "Yorktown",
-            "yorktown"
         ],
         [
             "Youngstown",
@@ -2503,6 +2435,10 @@
             "accrington"
         ],
         [
+            "Adlington",
+            "adlington"
+        ],
+        [
             "Aldershot",
             "aldershot"
         ],
@@ -2511,32 +2447,28 @@
             "alness"
         ],
         [
-            "Andover",
-            "andover"
-        ],
-        [
-            "Ashford",
-            "ashford"
-        ],
-        [
             "Aylesbury",
             "aylesbury"
+        ],
+        [
+            "Baildon",
+            "baildon"
         ],
         [
             "Ballymena",
             "ballymena"
         ],
         [
-            "Bargeddie",
-            "bargeddie"
-        ],
-        [
             "Barking",
             "barking"
         ],
         [
-            "Barrow in Furness",
-            "barrowinfurness"
+            "Barnet",
+            "barnet"
+        ],
+        [
+            "Barnsley",
+            "barnsley"
         ],
         [
             "Barry",
@@ -2547,8 +2479,8 @@
             "basingstoke"
         ],
         [
-            "Batley",
-            "batley"
+            "Beccles",
+            "beccles"
         ],
         [
             "Bedlington",
@@ -2559,36 +2491,20 @@
             "belfast"
         ],
         [
-            "Belgrave",
-            "belgrave"
-        ],
-        [
-            "Belmont",
-            "belmont"
-        ],
-        [
-            "Birkenhead",
-            "birkenhead"
-        ],
-        [
             "Birmingham",
             "birmingham"
         ],
         [
-            "Blackburn",
-            "blackburn"
+            "Blackpool",
+            "blackpool"
+        ],
+        [
+            "Blyth",
+            "blyth"
         ],
         [
             "Bolton",
             "bolton"
-        ],
-        [
-            "Bottesford",
-            "bottesford"
-        ],
-        [
-            "Bournemouth",
-            "bournemouth"
         ],
         [
             "Bracknell",
@@ -2603,12 +2519,12 @@
             "brent"
         ],
         [
-            "Bridgwater",
-            "bridgwater"
-        ],
-        [
             "Brierley Hill",
             "brierleyhill"
+        ],
+        [
+            "Brighton",
+            "brighton"
         ],
         [
             "Bristol",
@@ -2621,10 +2537,6 @@
         [
             "Buckley",
             "buckley"
-        ],
-        [
-            "Bude",
-            "bude"
         ],
         [
             "Burngreave",
@@ -2643,12 +2555,12 @@
             "cannock"
         ],
         [
-            "Cardiff",
-            "cardiff"
+            "Canterbury",
+            "canterbury"
         ],
         [
-            "Catford",
-            "catford"
+            "Cardiff",
+            "cardiff"
         ],
         [
             "Chapel Allerton",
@@ -2667,24 +2579,16 @@
             "chorley"
         ],
         [
-            "Christchurch",
-            "christchurch"
+            "Chulmleigh",
+            "chulmleigh"
         ],
         [
             "City of Westminster",
             "cityofwestminster"
         ],
         [
-            "Clayton",
-            "clayton"
-        ],
-        [
-            "Clayton-le-Woods",
-            "claytonlewoods"
-        ],
-        [
-            "Clubmoor",
-            "clubmoor"
+            "Cleckheaton",
+            "cleckheaton"
         ],
         [
             "Clydach",
@@ -2703,6 +2607,10 @@
             "consett"
         ],
         [
+            "Corby",
+            "corby"
+        ],
+        [
             "Coventry",
             "coventry"
         ],
@@ -2711,24 +2619,20 @@
             "cowdenbeath"
         ],
         [
-            "Crigglestone",
-            "crigglestone"
+            "Crystal Palace",
+            "crystalpalace"
         ],
         [
-            "Dalry",
-            "dalry"
+            "Dagenham",
+            "dagenham"
         ],
         [
-            "Devizes",
-            "devizes"
+            "Danderhall",
+            "danderhall"
         ],
         [
-            "Dewsbury",
-            "dewsbury"
-        ],
-        [
-            "Dickens Heath",
-            "dickensheath"
+            "Detling",
+            "detling"
         ],
         [
             "Didsbury",
@@ -2739,24 +2643,36 @@
             "doncaster"
         ],
         [
-            "Droylsden",
-            "droylsden"
+            "Douglas",
+            "douglas"
+        ],
+        [
+            "Drighlington",
+            "drighlington"
         ],
         [
             "Dunfermline",
             "dunfermline"
         ],
         [
+            "Durham",
+            "durham"
+        ],
+        [
             "Ealing",
             "ealing"
         ],
         [
-            "Earley",
-            "earley"
+            "East Kilbride",
+            "eastkilbride"
         ],
         [
             "Easton",
             "easton"
+        ],
+        [
+            "Edgware",
+            "edgware"
         ],
         [
             "Edinburgh",
@@ -2767,16 +2683,16 @@
             "enfield"
         ],
         [
+            "Erskine",
+            "erskine"
+        ],
+        [
             "Exeter",
             "exeter"
         ],
         [
             "Formby",
             "formby"
-        ],
-        [
-            "Fulham",
-            "fulham"
         ],
         [
             "Gatehouse of Fleet",
@@ -2787,36 +2703,16 @@
             "gateshead"
         ],
         [
+            "Giffnock",
+            "giffnock"
+        ],
+        [
             "Glasgow",
             "glasgow"
         ],
         [
-            "Gosport",
-            "gosport"
-        ],
-        [
-            "Greenwich",
-            "greenwich"
-        ],
-        [
             "Hackney",
             "hackney"
-        ],
-        [
-            "Hale",
-            "hale"
-        ],
-        [
-            "Halifax",
-            "halifax"
-        ],
-        [
-            "Hamilton",
-            "hamilton"
-        ],
-        [
-            "Harlow",
-            "harlow"
         ],
         [
             "Harringay",
@@ -2827,8 +2723,12 @@
             "harrow"
         ],
         [
-            "Hemel Hempstead",
-            "hemelhempstead"
+            "Hassocks",
+            "hassocks"
+        ],
+        [
+            "Henley on Thames",
+            "henleyonthames"
         ],
         [
             "Hereford",
@@ -2839,8 +2739,8 @@
             "hingham"
         ],
         [
-            "Horsforth",
-            "horsforth"
+            "Holbeck",
+            "holbeck"
         ],
         [
             "Horsham",
@@ -2855,16 +2755,12 @@
             "hounslow"
         ],
         [
-            "Huddersfield",
-            "huddersfield"
-        ],
-        [
             "Hull",
             "hull"
         ],
         [
-            "Humberstone",
-            "humberstone"
+            "Huttons Ambo",
+            "huttonsambo"
         ],
         [
             "Ipswich",
@@ -2875,20 +2771,16 @@
             "jarrow"
         ],
         [
+            "Keighley",
+            "keighley"
+        ],
+        [
             "Kensington",
             "kensington"
         ],
         [
             "Kettering",
             "kettering"
-        ],
-        [
-            "Kings Lynn",
-            "kingslynn"
-        ],
-        [
-            "Kingsbridge",
-            "kingsbridge"
         ],
         [
             "Kingston upon Thames",
@@ -2899,16 +2791,8 @@
             "largs"
         ],
         [
-            "Larkhill",
-            "larkhill"
-        ],
-        [
             "Leeds",
             "leeds"
-        ],
-        [
-            "Leysdown-on-Sea",
-            "leysdownonsea"
         ],
         [
             "Liverpool",
@@ -2919,16 +2803,24 @@
             "llanfaircaereinion"
         ],
         [
-            "Lochearnhead",
-            "lochearnhead"
+            "Lochmaben",
+            "lochmaben"
         ],
         [
             "London",
             "london"
         ],
         [
-            "Lydiard Tregoze",
-            "lydiardtregoze"
+            "Loudwater",
+            "loudwater"
+        ],
+        [
+            "Lowestoft",
+            "lowestoft"
+        ],
+        [
+            "Luton",
+            "luton"
         ],
         [
             "Lytham St Annes",
@@ -2947,32 +2839,48 @@
             "mangotsfield"
         ],
         [
+            "Maple Cross",
+            "maplecross"
+        ],
+        [
             "March",
             "march"
-        ],
-        [
-            "Melrose",
-            "melrose"
-        ],
-        [
-            "Mexborough",
-            "mexborough"
         ],
         [
             "Middlesbrough",
             "middlesbrough"
         ],
         [
-            "Milnrow",
-            "milnrow"
-        ],
-        [
             "Milton Keynes",
             "miltonkeynes"
         ],
         [
+            "Mistley",
+            "mistley"
+        ],
+        [
+            "Morden",
+            "morden"
+        ],
+        [
+            "Morley",
+            "morley"
+        ],
+        [
+            "Mossley",
+            "mossley"
+        ],
+        [
+            "Mossley Hill",
+            "mossleyhill"
+        ],
+        [
             "Newcastle upon Tyne",
             "newcastleupontyne"
+        ],
+        [
+            "Newcastle-under-Lyme",
+            "newcastleunderlyme"
         ],
         [
             "Newham",
@@ -2985,10 +2893,6 @@
         [
             "Newton Aycliffe",
             "newtonaycliffe"
-        ],
-        [
-            "Norbiton",
-            "norbiton"
         ],
         [
             "North Tyneside",
@@ -3015,60 +2919,40 @@
             "orgreave"
         ],
         [
-            "Panfield",
-            "panfield"
+            "Over Kellet",
+            "overkellet"
         ],
         [
-            "Peckham",
-            "peckham"
+            "Panfield",
+            "panfield"
         ],
         [
             "Pershore",
             "pershore"
         ],
         [
-            "Peterborough",
-            "peterborough"
-        ],
-        [
             "Plymouth",
             "plymouth"
+        ],
+        [
+            "Pontarddulais",
+            "pontarddulais"
         ],
         [
             "Port Talbot",
             "porttalbot"
         ],
         [
-            "Prestwich",
-            "prestwich"
-        ],
-        [
             "Prestwick",
             "prestwick"
         ],
         [
-            "Queensferry",
-            "queensferry"
+            "Pudsey",
+            "pudsey"
         ],
         [
-            "Reading",
-            "reading"
-        ],
-        [
-            "Ringway",
-            "ringway"
-        ],
-        [
-            "Romford",
-            "romford"
-        ],
-        [
-            "Romsey",
-            "romsey"
-        ],
-        [
-            "Salford",
-            "salford"
+            "Rotherham",
+            "rotherham"
         ],
         [
             "Sandhurst",
@@ -3079,10 +2963,6 @@
             "scholes"
         ],
         [
-            "Selkirk",
-            "selkirk"
-        ],
-        [
             "Shadwell",
             "shadwell"
         ],
@@ -3091,12 +2971,12 @@
             "sheffield"
         ],
         [
-            "Shipley",
-            "shipley"
-        ],
-        [
             "Solihull",
             "solihull"
+        ],
+        [
+            "South Ockendon",
+            "southockendon"
         ],
         [
             "Southall",
@@ -3111,10 +2991,6 @@
             "southwark"
         ],
         [
-            "Sowerby Bridge",
-            "sowerbybridge"
-        ],
-        [
             "Spennymoor",
             "spennymoor"
         ],
@@ -3123,12 +2999,16 @@
             "stalbans"
         ],
         [
-            "Staveley",
-            "staveley"
+            "Stockton-on-Tees",
+            "stocktonontees"
         ],
         [
-            "Stevenage",
-            "stevenage"
+            "Stoke",
+            "stoke"
+        ],
+        [
+            "Stokenchurch",
+            "stokenchurch"
         ],
         [
             "Stourport-on-Severn",
@@ -3147,10 +3027,6 @@
             "swanscombe"
         ],
         [
-            "Swillington",
-            "swillington"
-        ],
-        [
             "Swindon Village",
             "swindonvillage"
         ],
@@ -3159,8 +3035,12 @@
             "taunton"
         ],
         [
-            "Tetsworth",
-            "tetsworth"
+            "Thornaby",
+            "thornaby"
+        ],
+        [
+            "Tring",
+            "tring"
         ],
         [
             "Twickenham",
@@ -3175,20 +3055,12 @@
             "wandsworth"
         ],
         [
-            "Warrington",
-            "warrington"
-        ],
-        [
             "Washington",
             "washington"
         ],
         [
             "Waterlooville",
             "waterlooville"
-        ],
-        [
-            "Watford",
-            "watford"
         ],
         [
             "Welwyn",
@@ -3199,16 +3071,8 @@
             "wembley"
         ],
         [
-            "Wenvoe",
-            "wenvoe"
-        ],
-        [
-            "West Bromwich",
-            "westbromwich"
-        ],
-        [
-            "West Derby",
-            "westderby"
+            "Wilmslow",
+            "wilmslow"
         ],
         [
             "Wisbech",
@@ -3219,8 +3083,16 @@
             "wolverhampton"
         ],
         [
-            "Yeadon",
-            "yeadon"
+            "Woodley",
+            "woodley"
+        ],
+        [
+            "Worcester",
+            "worcester"
+        ],
+        [
+            "Worksop",
+            "worksop"
         ],
         [
             "York",
@@ -3237,10 +3109,6 @@
             "beauharnois"
         ],
         [
-            "Beaumont",
-            "beaumont"
-        ],
-        [
             "Belfast",
             "belfast"
         ],
@@ -3253,16 +3121,16 @@
             "burnaby"
         ],
         [
+            "Cache Creek",
+            "cachecreek"
+        ],
+        [
             "Calgary",
             "calgary"
         ],
         [
             "Concord",
             "concord"
-        ],
-        [
-            "Cranbrook",
-            "cranbrook"
         ],
         [
             "Drayton Valley",
@@ -3293,6 +3161,10 @@
             "kitchener"
         ],
         [
+            "La Conception",
+            "laconception"
+        ],
+        [
             "Mississauga",
             "mississauga"
         ],
@@ -3319,10 +3191,6 @@
         [
             "Ottawa",
             "ottawa"
-        ],
-        [
-            "Red Deer",
-            "reddeer"
         ],
         [
             "Regina",
@@ -3361,8 +3229,8 @@
             "summerside"
         ],
         [
-            "Surrey",
-            "surrey"
+            "Taber",
+            "taber"
         ],
         [
             "Thornhill",
@@ -3403,12 +3271,8 @@
             "brisbane"
         ],
         [
-            "Gold Coast",
-            "goldcoast"
-        ],
-        [
-            "Katanning",
-            "katanning"
+            "Cairns",
+            "cairns"
         ],
         [
             "Melbourne",
@@ -3417,10 +3281,6 @@
         [
             "Perth",
             "perth"
-        ],
-        [
-            "Reynella",
-            "reynella"
         ],
         [
             "Surry Hills",
@@ -3445,10 +3305,6 @@
             "dublin"
         ],
         [
-            "Dundrum",
-            "dundrum"
-        ],
-        [
             "Naas",
             "naas"
         ],
@@ -3462,6 +3318,10 @@
         ]
     ],
     "NZ": [
+        [
+            "Ashburton",
+            "ashburton"
+        ],
         [
             "Auckland",
             "auckland"
@@ -3483,10 +3343,6 @@
             "newplymouth"
         ],
         [
-            "Riwaka",
-            "riwaka"
-        ],
-        [
             "Tauranga",
             "tauranga"
         ],
@@ -3501,24 +3357,20 @@
             "angernandermarch"
         ],
         [
-            "Asten",
-            "asten"
-        ],
-        [
             "Bad Vöslau",
             "badvoslau"
         ],
         [
-            "Bartholomäberg",
-            "bartholomaberg"
-        ],
-        [
-            "Deuchendorf",
-            "deuchendorf"
+            "Ebensee",
+            "ebensee"
         ],
         [
             "Fohnsdorf",
             "fohnsdorf"
+        ],
+        [
+            "Fußach",
+            "fuach"
         ],
         [
             "Graz",
@@ -3529,44 +3381,44 @@
             "heimschuh"
         ],
         [
-            "Himberg",
-            "himberg"
-        ],
-        [
             "Innsbruck",
             "innsbruck"
         ],
         [
-            "Kapellen",
-            "kapellen"
+            "Itter",
+            "itter"
         ],
         [
             "Kennelbach",
             "kennelbach"
         ],
         [
-            "Korneuburg",
-            "korneuburg"
+            "Kremsmünster",
+            "kremsmunster"
         ],
         [
             "Langenrohr",
             "langenrohr"
         ],
         [
-            "Langenzersdorf",
-            "langenzersdorf"
-        ],
-        [
             "Leopoldsdorf",
             "leopoldsdorf"
+        ],
+        [
+            "Lichtenwörth",
+            "lichtenworth"
+        ],
+        [
+            "Linz",
+            "linz"
         ],
         [
             "Markersdorf an der Pielach",
             "markersdorfanderpielach"
         ],
         [
-            "Melk",
-            "melk"
+            "Mistelbach",
+            "mistelbach"
         ],
         [
             "Mühlau",
@@ -3581,10 +3433,6 @@
             "oberndorfintirol"
         ],
         [
-            "Pöchlarn",
-            "pochlarn"
-        ],
-        [
             "Rankweil",
             "rankweil"
         ],
@@ -3593,12 +3441,12 @@
             "reutte"
         ],
         [
-            "Rust",
-            "rust"
+            "Ritzing",
+            "ritzing"
         ],
         [
-            "Schweizersberg",
-            "schweizersberg"
+            "Rust",
+            "rust"
         ],
         [
             "Spittal an der Drau",
@@ -3609,8 +3457,8 @@
             "timmersdorf"
         ],
         [
-            "Unterfreundorf",
-            "unterfreundorf"
+            "Tobaj",
+            "tobaj"
         ],
         [
             "Vienna",
@@ -3619,10 +3467,6 @@
         [
             "Villach",
             "villach"
-        ],
-        [
-            "Vösendorf",
-            "vosendorf"
         ]
     ],
     "BE": [
@@ -3637,10 +3481,6 @@
         [
             "Liège",
             "liege"
-        ],
-        [
-            "Marche-en-Famenne",
-            "marcheenfamenne"
         ]
     ],
     "DK": [
@@ -3657,8 +3497,8 @@
             "frederiksberg"
         ],
         [
-            "Glostrup Municipality",
-            "glostrupmunicipality"
+            "Viby J",
+            "vibyj"
         ]
     ],
     "FI": [
@@ -3667,42 +3507,46 @@
             "helsinki"
         ],
         [
+            "Siilinjärvi",
+            "siilinjarvi"
+        ],
+        [
             "Tampere",
             "tampere"
         ]
     ],
     "FR": [
         [
-            "Albertville",
-            "albertville"
+            "Annemasse",
+            "annemasse"
         ],
         [
-            "Annecy",
-            "annecy"
+            "Asnières-sur-Seine",
+            "asnieressurseine"
         ],
         [
-            "Bain-de-Bretagne",
-            "baindebretagne"
-        ],
-        [
-            "Biarritz",
-            "biarritz"
-        ],
-        [
-            "Blanzay",
-            "blanzay"
+            "Bélesta",
+            "belesta"
         ],
         [
             "Bordeaux",
             "bordeaux"
         ],
         [
-            "Boulogne-Billancourt",
-            "boulognebillancourt"
+            "Bourganeuf",
+            "bourganeuf"
         ],
         [
             "Châteauneuf-les-Martigues",
             "chateauneuflesmartigues"
+        ],
+        [
+            "Colombes",
+            "colombes"
+        ],
+        [
+            "Créteil",
+            "creteil"
         ],
         [
             "Évreux",
@@ -3713,16 +3557,16 @@
             "fontainessursaone"
         ],
         [
-            "Issoire",
-            "issoire"
-        ],
-        [
             "Ivry-sur-Seine",
             "ivrysurseine"
         ],
         [
             "La Rivière-Saint-Sauveur",
             "larivieresaintsauveur"
+        ],
+        [
+            "Lannion",
+            "lannion"
         ],
         [
             "Le Plessis-Robinson",
@@ -3737,8 +3581,8 @@
             "lyon"
         ],
         [
-            "Mametz",
-            "mametz"
+            "Marseille",
+            "marseille"
         ],
         [
             "Méricourt",
@@ -3753,36 +3597,40 @@
             "nice"
         ],
         [
-            "Nieul",
-            "nieul"
-        ],
-        [
             "Paris",
             "paris"
+        ],
+        [
+            "Riom",
+            "riom"
         ],
         [
             "Roques",
             "roques"
         ],
         [
-            "Saint-Denis",
-            "saintdenis"
+            "Salpêtrière",
+            "salpetriere"
+        ],
+        [
+            "Sénas",
+            "senas"
+        ],
+        [
+            "Talence",
+            "talence"
+        ],
+        [
+            "Thésée",
+            "thesee"
+        ],
+        [
+            "Toulouse",
+            "toulouse"
         ],
         [
             "Tours",
             "tours"
-        ],
-        [
-            "Tourville-sur-Odon",
-            "tourvillesurodon"
-        ],
-        [
-            "Villejuif",
-            "villejuif"
-        ],
-        [
-            "Villeurbanne",
-            "villeurbanne"
         ]
     ],
     "DE": [
@@ -3795,40 +3643,24 @@
             "ahaus"
         ],
         [
-            "Bad Bentheim",
-            "badbentheim"
-        ],
-        [
-            "Bad Homburg",
-            "badhomburg"
-        ],
-        [
             "Bad Neustadt an der Saale",
             "badneustadtandersaale"
-        ],
-        [
-            "Bamberg",
-            "bamberg"
         ],
         [
             "Berlin",
             "berlin"
         ],
         [
+            "Beverungen",
+            "beverungen"
+        ],
+        [
             "Biberach an der Riss",
             "biberachanderriss"
         ],
         [
-            "Bocholt",
-            "bocholt"
-        ],
-        [
             "Bochum",
             "bochum"
-        ],
-        [
-            "Bodenheim",
-            "bodenheim"
         ],
         [
             "Borken",
@@ -3839,16 +3671,16 @@
             "burgthann"
         ],
         [
-            "Celle",
-            "celle"
+            "Castrop-Rauxel",
+            "castroprauxel"
         ],
         [
             "Cologne",
             "cologne"
         ],
         [
-            "Darmstadt",
-            "darmstadt"
+            "Crailsheim",
+            "crailsheim"
         ],
         [
             "Dortmund",
@@ -3871,8 +3703,8 @@
             "eggolsheim"
         ],
         [
-            "Eppelheim",
-            "eppelheim"
+            "Eibenstock",
+            "eibenstock"
         ],
         [
             "Erlangen",
@@ -3889,6 +3721,10 @@
         [
             "Frankfurt am Main",
             "frankfurtammain"
+        ],
+        [
+            "Friedrichsdorf",
+            "friedrichsdorf"
         ],
         [
             "Gelsenkirchen",
@@ -3911,16 +3747,16 @@
             "hanover"
         ],
         [
+            "Heidenau",
+            "heidenau"
+        ],
+        [
             "Herbrechtingen",
             "herbrechtingen"
         ],
         [
             "Hohen Neuendorf",
             "hohenneuendorf"
-        ],
-        [
-            "Ingolstadt",
-            "ingolstadt"
         ],
         [
             "Kaiserslautern",
@@ -3935,8 +3771,12 @@
             "kiel"
         ],
         [
-            "Königstein im Taunus",
-            "konigsteinimtaunus"
+            "Korschenbroich",
+            "korschenbroich"
+        ],
+        [
+            "Krefeld",
+            "krefeld"
         ],
         [
             "Leipzig",
@@ -3947,24 +3787,24 @@
             "leverkusen"
         ],
         [
-            "Ludwigsburg",
-            "ludwigsburg"
+            "Lübeck",
+            "lubeck"
         ],
         [
-            "Lützen",
-            "lutzen"
+            "Ludwigsburg",
+            "ludwigsburg"
         ],
         [
             "Maintal",
             "maintal"
         ],
         [
-            "Mainz",
-            "mainz"
-        ],
-        [
             "Mannheim",
             "mannheim"
+        ],
+        [
+            "Maxhütte-Haidhof",
+            "maxhuttehaidhof"
         ],
         [
             "Mörfelden-Walldorf",
@@ -3983,16 +3823,8 @@
             "munich"
         ],
         [
-            "Neckarsulm",
-            "neckarsulm"
-        ],
-        [
             "Neu-Ulm",
             "neuulm"
-        ],
-        [
-            "Neugersdorf",
-            "neugersdorf"
         ],
         [
             "Neustadt an der Weinstraße",
@@ -4019,20 +3851,8 @@
             "paderborn"
         ],
         [
-            "Ratingen",
-            "ratingen"
-        ],
-        [
             "Ravensburg",
             "ravensburg"
-        ],
-        [
-            "Rostock",
-            "rostock"
-        ],
-        [
-            "Rottenburg an der Laaber",
-            "rottenburganderlaaber"
         ],
         [
             "Saarbrücken",
@@ -4043,8 +3863,8 @@
             "schermbeck"
         ],
         [
-            "Sinzheim",
-            "sinzheim"
+            "Stadtbergen",
+            "stadtbergen"
         ],
         [
             "Straußfurt",
@@ -4059,28 +3879,36 @@
             "sulzheim"
         ],
         [
-            "Tettenweis",
-            "tettenweis"
+            "Trebur",
+            "trebur"
         ],
         [
             "Ulm",
             "ulm"
         ],
         [
-            "Velbert",
-            "velbert"
+            "Villingen-Schwenningen",
+            "villingenschwenningen"
+        ],
+        [
+            "Warendorf",
+            "warendorf"
         ],
         [
             "Werne",
             "werne"
         ],
         [
-            "Witten",
-            "witten"
-        ],
-        [
             "Wuppertal",
             "wuppertal"
+        ],
+        [
+            "Würzburg",
+            "wurzburg"
+        ],
+        [
+            "Wustrow",
+            "wustrow"
         ]
     ],
     "IT": [
@@ -4097,32 +3925,28 @@
             "ancona"
         ],
         [
-            "Appignano",
-            "appignano"
-        ],
-        [
-            "Aprilia",
-            "aprilia"
+            "Anzio",
+            "anzio"
         ],
         [
             "Aragona",
             "aragona"
         ],
         [
+            "Area Produttiva",
+            "areaproduttiva"
+        ],
+        [
             "Asti",
             "asti"
         ],
         [
-            "Barletta",
-            "barletta"
+            "Belpasso",
+            "belpasso"
         ],
         [
             "Bergamo",
             "bergamo"
-        ],
-        [
-            "Besana in Brianza",
-            "besanainbrianza"
         ],
         [
             "Bologna",
@@ -4131,10 +3955,6 @@
         [
             "Boltiere",
             "boltiere"
-        ],
-        [
-            "Borgo Europa",
-            "borgoeuropa"
         ],
         [
             "Borgolavezzaro",
@@ -4157,14 +3977,6 @@
             "brugherio"
         ],
         [
-            "Bucine",
-            "bucine"
-        ],
-        [
-            "Cabella Ligure",
-            "cabellaligure"
-        ],
-        [
             "Cagliari",
             "cagliari"
         ],
@@ -4173,24 +3985,32 @@
             "calatafimi"
         ],
         [
+            "Campolongo Maggiore",
+            "campolongomaggiore"
+        ],
+        [
             "Capirro",
             "capirro"
+        ],
+        [
+            "Carosino",
+            "carosino"
+        ],
+        [
+            "Casagiove",
+            "casagiove"
         ],
         [
             "Casalecchio di Reno",
             "casalecchiodireno"
         ],
         [
-            "Casella",
-            "casella"
-        ],
-        [
             "Caserta",
             "caserta"
         ],
         [
-            "Cassino",
-            "cassino"
+            "Cassano Irpino",
+            "cassanoirpino"
         ],
         [
             "Castelfidardo",
@@ -4205,16 +4025,32 @@
             "castenedolo"
         ],
         [
-            "Castrofilippo",
-            "castrofilippo"
-        ],
-        [
             "Catania",
             "catania"
         ],
         [
+            "Cesano Boscone",
+            "cesanoboscone"
+        ],
+        [
+            "Cinisello Balsamo",
+            "cinisellobalsamo"
+        ],
+        [
             "Ciserano",
             "ciserano"
+        ],
+        [
+            "Colleatterrato Alto",
+            "colleatterratoalto"
+        ],
+        [
+            "Cologno al Serio",
+            "colognoalserio"
+        ],
+        [
+            "Comiso",
+            "comiso"
         ],
         [
             "Conversano",
@@ -4229,20 +4065,12 @@
             "cosenza"
         ],
         [
-            "Costarainera",
-            "costarainera"
-        ],
-        [
-            "Dormelletto",
-            "dormelletto"
+            "Cumiana",
+            "cumiana"
         ],
         [
             "Fara Filiorum Petri",
             "farafiliorumpetri"
-        ],
-        [
-            "Fiumefreddo Bruzio",
-            "fiumefreddobruzio"
         ],
         [
             "Florence",
@@ -4257,16 +4085,16 @@
             "genoa"
         ],
         [
-            "Gozzano",
-            "gozzano"
+            "Giugliano in Campania",
+            "giuglianoincampania"
         ],
         [
             "Grinzane Cavour",
             "grinzanecavour"
         ],
         [
-            "Iannassi-Bosco Perrotta",
-            "iannassiboscoperrotta"
+            "Imola",
+            "imola"
         ],
         [
             "Istrana",
@@ -4277,16 +4105,16 @@
             "ivrea"
         ],
         [
+            "Laghetto",
+            "laghetto"
+        ],
+        [
+            "Lecce",
+            "lecce"
+        ],
+        [
             "Legnano",
             "legnano"
-        ],
-        [
-            "Lesina",
-            "lesina"
-        ],
-        [
-            "Lipomo",
-            "lipomo"
         ],
         [
             "Livorno",
@@ -4297,16 +4125,24 @@
             "lodi"
         ],
         [
-            "Madonna Pozzo Guacito",
-            "madonnapozzoguacito"
+            "Lucca",
+            "lucca"
         ],
         [
             "Mantova",
             "mantova"
         ],
         [
+            "Maracalagonis",
+            "maracalagonis"
+        ],
+        [
             "Marina Palmense",
             "marinapalmense"
+        ],
+        [
+            "Marrubiu",
+            "marrubiu"
         ],
         [
             "Mattinata",
@@ -4315,10 +4151,6 @@
         [
             "Meda",
             "meda"
-        ],
-        [
-            "Merì",
-            "meri"
         ],
         [
             "Messina",
@@ -4353,6 +4185,10 @@
             "naples"
         ],
         [
+            "Nerviano",
+            "nerviano"
+        ],
+        [
             "Nettuno",
             "nettuno"
         ],
@@ -4361,20 +4197,16 @@
             "novamilanese"
         ],
         [
-            "Novate Milanese",
-            "novatemilanese"
-        ],
-        [
-            "Nuoro",
-            "nuoro"
-        ],
-        [
             "Oristano",
             "oristano"
         ],
         [
             "Ormelle",
             "ormelle"
+        ],
+        [
+            "Orta Nova",
+            "ortanova"
         ],
         [
             "Ortona",
@@ -4397,12 +4229,20 @@
             "palermo"
         ],
         [
+            "Paliano",
+            "paliano"
+        ],
+        [
             "Parma",
             "parma"
         ],
         [
             "Partinico",
             "partinico"
+        ],
+        [
+            "Passignano sul Trasimeno",
+            "passignanosultrasimeno"
         ],
         [
             "Perugia",
@@ -4413,20 +4253,16 @@
             "pescara"
         ],
         [
+            "Pianura",
+            "pianura"
+        ],
+        [
             "Piazza Armerina",
             "piazzaarmerina"
         ],
         [
             "Pieve Emanuele",
             "pieveemanuele"
-        ],
-        [
-            "Pineta",
-            "pineta"
-        ],
-        [
-            "Piove di Sacco",
-            "piovedisacco"
         ],
         [
             "Pisa",
@@ -4437,16 +4273,32 @@
             "pomiglianodarco"
         ],
         [
+            "Ponte dell'Aspio",
+            "pontedellaspio"
+        ],
+        [
+            "Pontinia",
+            "pontinia"
+        ],
+        [
             "Porto Recanati",
             "portorecanati"
+        ],
+        [
+            "Posillipo",
+            "posillipo"
+        ],
+        [
+            "Reggio Emilia",
+            "reggioemilia"
         ],
         [
             "Rho",
             "rho"
         ],
         [
-            "Riardo",
-            "riardo"
+            "Riccione",
+            "riccione"
         ],
         [
             "Rimini",
@@ -4465,10 +4317,6 @@
             "rovato"
         ],
         [
-            "S.P. in Palazzi",
-            "spinpalazzi"
-        ],
-        [
             "Sacile",
             "sacile"
         ],
@@ -4477,16 +4325,12 @@
             "salerno"
         ],
         [
-            "Saluggia",
-            "saluggia"
+            "Salgareda",
+            "salgareda"
         ],
         [
             "Sambuca di Sicilia",
             "sambucadisicilia"
-        ],
-        [
-            "San Giovanni la Punta",
-            "sangiovannilapunta"
         ],
         [
             "San Marcellino",
@@ -4505,76 +4349,52 @@
             "sanminiatobasso"
         ],
         [
-            "San Pietro",
-            "sanpietro"
+            "San Nicola la Strada",
+            "sannicolalastrada"
         ],
         [
-            "San Sebastiano al Vesuvio",
-            "sansebastianoalvesuvio"
+            "San Pietro",
+            "sanpietro"
         ],
         [
             "Sannicandro Garganico",
             "sannicandrogarganico"
         ],
         [
-            "Sant'Agata de' Goti",
-            "santagatadegoti"
-        ],
-        [
             "Sassari",
             "sassari"
         ],
         [
-            "Scandicci",
-            "scandicci"
-        ],
-        [
-            "Scarlino Scalo",
-            "scarlinoscalo"
+            "Sassinoro",
+            "sassinoro"
         ],
         [
             "Scicli",
             "scicli"
         ],
         [
-            "Sesto Fiorentino",
-            "sestofiorentino"
-        ],
-        [
-            "Sesto San Giovanni",
-            "sestosangiovanni"
-        ],
-        [
-            "Setteville",
-            "setteville"
-        ],
-        [
             "Seveso",
             "seveso"
         ],
         [
-            "Sora",
-            "sora"
+            "Syracuse",
+            "syracuse"
         ],
         [
-            "Susegana",
-            "susegana"
+            "Tolentino",
+            "tolentino"
+        ],
+        [
+            "Tor Lupara",
+            "torlupara"
         ],
         [
             "Tortolì",
             "tortoli"
         ],
         [
-            "Trecastelli",
-            "trecastelli"
-        ],
-        [
             "Trento",
             "trento"
-        ],
-        [
-            "Treviso",
-            "treviso"
         ],
         [
             "Turin",
@@ -4585,10 +4405,6 @@
             "urgnano"
         ],
         [
-            "Valle Santa",
-            "vallesanta"
-        ],
-        [
             "Venice",
             "venice"
         ],
@@ -4597,12 +4413,8 @@
             "verona"
         ],
         [
-            "Villafranca in Lunigiana",
-            "villafrancainlunigiana"
-        ],
-        [
-            "Villanova Monferrato",
-            "villanovamonferrato"
+            "Villafranca di Verona",
+            "villafrancadiverona"
         ],
         [
             "Villar Dora",
@@ -4615,6 +4427,10 @@
         [
             "Villongo",
             "villongo"
+        ],
+        [
+            "Zerbolò",
+            "zerbolo"
         ]
     ],
     "JP": [
@@ -4623,12 +4439,24 @@
             "chiyoda"
         ],
         [
+            "Fukushima",
+            "fukushima"
+        ],
+        [
             "Hayashima",
             "hayashima"
         ],
         [
-            "Higashiikebukuro",
-            "higashiikebukuro"
+            "Hekinan",
+            "hekinan"
+        ],
+        [
+            "Kakamigahara",
+            "kakamigahara"
+        ],
+        [
+            "Katsushika",
+            "katsushika"
         ],
         [
             "Kitajima",
@@ -4643,10 +4471,6 @@
             "minatoku"
         ],
         [
-            "Nankoku",
-            "nankoku"
-        ],
-        [
             "Negishi",
             "negishi"
         ],
@@ -4657,6 +4481,10 @@
         [
             "Roppongi",
             "roppongi"
+        ],
+        [
+            "Suita",
+            "suita"
         ],
         [
             "Tokyo",
@@ -4673,10 +4501,6 @@
     ],
     "LU": [
         [
-            "Fischbach",
-            "fischbach"
-        ],
-        [
             "Luxembourg",
             "luxembourg"
         ]
@@ -4691,12 +4515,20 @@
             "amsterdam"
         ],
         [
-            "Badhoevedorp",
-            "badhoevedorp"
+            "Arnhem",
+            "arnhem"
         ],
         [
-            "Bergschenhoek",
-            "bergschenhoek"
+            "Dronten",
+            "dronten"
+        ],
+        [
+            "Enschede",
+            "enschede"
+        ],
+        [
+            "Gorinchem",
+            "gorinchem"
         ],
         [
             "IJsselstein",
@@ -4719,12 +4551,12 @@
             "oudbeijerland"
         ],
         [
-            "Rotterdam",
-            "rotterdam"
+            "Roermond",
+            "roermond"
         ],
         [
-            "Sittard",
-            "sittard"
+            "Rotterdam",
+            "rotterdam"
         ],
         [
             "The Hague",
@@ -4733,10 +4565,6 @@
         [
             "Utrecht",
             "utrecht"
-        ],
-        [
-            "Wassenaar",
-            "wassenaar"
         ]
     ],
     "NO": [
@@ -4765,12 +4593,16 @@
             "acoruna"
         ],
         [
-            "Agost",
-            "agost"
+            "A Pobra do Caramiñal",
+            "apobradocaraminal"
         ],
         [
-            "Alameda",
-            "alameda"
+            "Adra",
+            "adra"
+        ],
+        [
+            "Agost",
+            "agost"
         ],
         [
             "Albacete",
@@ -4781,8 +4613,12 @@
             "albalatdelaribera"
         ],
         [
-            "Albinyana",
-            "albinyana"
+            "Alboraya",
+            "alboraya"
+        ],
+        [
+            "Albuñol",
+            "albunol"
         ],
         [
             "Alcalá de Guadaira",
@@ -4793,24 +4629,36 @@
             "alcaladehenares"
         ],
         [
+            "Alcalá del Río",
+            "alcaladelrio"
+        ],
+        [
             "Alcantarilla",
             "alcantarilla"
+        ],
+        [
+            "Alcaudete",
+            "alcaudete"
         ],
         [
             "Alcobendas",
             "alcobendas"
         ],
         [
-            "Aldea Real",
-            "aldeareal"
+            "Alcoletge",
+            "alcoletge"
         ],
         [
             "Alfafar",
             "alfafar"
         ],
         [
-            "Alfondeguilla",
-            "alfondeguilla"
+            "Algeciras",
+            "algeciras"
+        ],
+        [
+            "Alhama de Almería",
+            "alhamadealmeria"
         ],
         [
             "Alhendín",
@@ -4819,10 +4667,6 @@
         [
             "Alicante",
             "alicante"
-        ],
-        [
-            "Almansa",
-            "almansa"
         ],
         [
             "Almería",
@@ -4857,8 +4701,8 @@
             "armilla"
         ],
         [
-            "Arona",
-            "arona"
+            "Arrecife",
+            "arrecife"
         ],
         [
             "Atarfe",
@@ -4867,14 +4711,6 @@
         [
             "Avilés",
             "aviles"
-        ],
-        [
-            "Ayamonte",
-            "ayamonte"
-        ],
-        [
-            "Badajoz",
-            "badajoz"
         ],
         [
             "Badalona",
@@ -4893,8 +4729,8 @@
             "benidorm"
         ],
         [
-            "Benijofar",
-            "benijofar"
+            "Benigànim",
+            "beniganim"
         ],
         [
             "Bilbao",
@@ -4913,6 +4749,10 @@
             "briviesca"
         ],
         [
+            "Burriana",
+            "burriana"
+        ],
+        [
             "Burujón",
             "burujon"
         ],
@@ -4929,10 +4769,6 @@
             "calesdemallorca"
         ],
         [
-            "Callosa d'En Sarrià",
-            "callosadensarria"
-        ],
-        [
             "Canet d'En Berenguer",
             "canetdenberenguer"
         ],
@@ -4943,6 +4779,10 @@
         [
             "Carrizal",
             "carrizal"
+        ],
+        [
+            "Cartagena",
+            "cartagena"
         ],
         [
             "Castalla",
@@ -4989,12 +4829,8 @@
             "ciutadella"
         ],
         [
-            "Colunga",
-            "colunga"
-        ],
-        [
-            "Comares",
-            "comares"
+            "Coma-ruga",
+            "comaruga"
         ],
         [
             "Córdoba",
@@ -5005,12 +4841,24 @@
             "coriadelrio"
         ],
         [
+            "Coslada",
+            "coslada"
+        ],
+        [
             "Cox",
             "cox"
         ],
         [
             "Crevillent",
             "crevillent"
+        ],
+        [
+            "Culleredo",
+            "culleredo"
+        ],
+        [
+            "Derio",
+            "derio"
         ],
         [
             "Don Benito",
@@ -5029,6 +4877,10 @@
             "durango"
         ],
         [
+            "El Altet",
+            "elaltet"
+        ],
+        [
             "El Arahal",
             "elarahal"
         ],
@@ -5045,8 +4897,16 @@
             "elsauzal"
         ],
         [
+            "El Viso del Alcor",
+            "elvisodelalcor"
+        ],
+        [
             "Elche",
             "elche"
+        ],
+        [
+            "Elda",
+            "elda"
         ],
         [
             "Erandio",
@@ -5055,6 +4915,10 @@
         [
             "Estación de Cártama",
             "estaciondecartama"
+        ],
+        [
+            "Estremera",
+            "estremera"
         ],
         [
             "Ferrol",
@@ -5069,8 +4933,20 @@
             "firgas"
         ],
         [
+            "Fuengirola",
+            "fuengirola"
+        ],
+        [
+            "Gandia",
+            "gandia"
+        ],
+        [
             "Garrovillas",
             "garrovillas"
+        ],
+        [
+            "Garrucha",
+            "garrucha"
         ],
         [
             "Gavà",
@@ -5085,10 +4961,6 @@
             "gijon"
         ],
         [
-            "Golf del Sur",
-            "golfdelsur"
-        ],
-        [
             "Granada",
             "granada"
         ],
@@ -5101,12 +4973,20 @@
             "guaro"
         ],
         [
+            "Guia",
+            "guia"
+        ],
+        [
             "Hellín",
             "hellin"
         ],
         [
             "Horta de Sant Joan",
             "hortadesantjoan"
+        ],
+        [
+            "Huelva",
+            "huelva"
         ],
         [
             "Illescas",
@@ -5121,16 +5001,8 @@
             "ingenio"
         ],
         [
-            "Iniesta",
-            "iniesta"
-        ],
-        [
             "Isla Cristina",
             "islacristina"
-        ],
-        [
-            "Iznájar",
-            "iznajar"
         ],
         [
             "Jaén",
@@ -5149,24 +5021,24 @@
             "lalfasdelpi"
         ],
         [
-            "L'Eliana",
-            "leliana"
+            "L'Arboç",
+            "larboc"
         ],
         [
-            "La Font de la Figuera",
-            "lafontdelafiguera"
+            "L'Eliana",
+            "leliana"
         ],
         [
             "la Garriga",
             "lagarriga"
         ],
         [
-            "La Manga del Mar Menor",
-            "lamangadelmarmenor"
-        ],
-        [
             "la Nucia",
             "lanucia"
+        ],
+        [
+            "La Oliva",
+            "laoliva"
         ],
         [
             "La Orotava",
@@ -5181,8 +5053,8 @@
             "lavictoriadeacentejo"
         ],
         [
-            "Las Mesas",
-            "lasmesas"
+            "Langreo",
+            "langreo"
         ],
         [
             "Las Palmas de Gran Canaria",
@@ -5193,10 +5065,6 @@
             "laspedroneras"
         ],
         [
-            "Laujar de Andarax",
-            "laujardeandarax"
-        ],
-        [
             "Lebrija",
             "lebrija"
         ],
@@ -5205,8 +5073,8 @@
             "leganes"
         ],
         [
-            "Linares",
-            "linares"
+            "Lloret de Mar",
+            "lloretdemar"
         ],
         [
             "Lobón",
@@ -5221,16 +5089,20 @@
             "lucena"
         ],
         [
+            "Lugo",
+            "lugo"
+        ],
+        [
             "Lugones",
             "lugones"
         ],
         [
-            "Madrid",
-            "madrid"
+            "Maçanet de la Selva",
+            "macanetdelaselva"
         ],
         [
-            "Mairena del Alcor",
-            "mairenadelalcor"
+            "Madrid",
+            "madrid"
         ],
         [
             "Málaga",
@@ -5245,40 +5117,44 @@
             "marbella"
         ],
         [
+            "Marchena",
+            "marchena"
+        ],
+        [
             "Martos",
             "martos"
         ],
         [
-            "Mazagón",
-            "mazagon"
-        ],
-        [
-            "Mocejón",
-            "mocejon"
+            "Mérida",
+            "merida"
         ],
         [
             "Mogente",
             "mogente"
         ],
         [
-            "Mojacar Pueblo",
-            "mojacarpueblo"
+            "Moguer",
+            "moguer"
         ],
         [
             "Molina de Segura",
             "molinadesegura"
         ],
         [
-            "Montijo",
-            "montijo"
+            "Mollina",
+            "mollina"
         ],
         [
-            "Móstoles",
-            "mostoles"
+            "Montcada i Reixac",
+            "montcadaireixac"
         ],
         [
             "Murcia",
             "murcia"
+        ],
+        [
+            "Navahermosa",
+            "navahermosa"
         ],
         [
             "Nerja",
@@ -5317,24 +5193,20 @@
             "pilardelahoradada"
         ],
         [
-            "Pinoso",
-            "pinoso"
+            "Piles",
+            "piles"
         ],
         [
             "Pinto",
             "pinto"
         ],
         [
-            "Pozo de Guadalajara",
-            "pozodeguadalajara"
+            "Port de Sagunt",
+            "portdesagunt"
         ],
         [
             "Pozoblanco",
             "pozoblanco"
-        ],
-        [
-            "Prado del Rey",
-            "pradodelrey"
         ],
         [
             "Puçol",
@@ -5353,16 +5225,40 @@
             "riogordo"
         ],
         [
+            "Roquetas de Mar",
+            "roquetasdemar"
+        ],
+        [
+            "Rota",
+            "rota"
+        ],
+        [
+            "Sabadell",
+            "sabadell"
+        ],
+        [
             "Salamanca",
             "salamanca"
+        ],
+        [
+            "San Adrián",
+            "sanadrian"
         ],
         [
             "San Cristóbal de La Laguna",
             "sancristobaldelalaguna"
         ],
         [
+            "San Isidro",
+            "sanisidro"
+        ],
+        [
             "San Juan de Aznalfarache",
             "sanjuandeaznalfarache"
+        ],
+        [
+            "San Sebastián de La Gomera",
+            "sansebastiandelagomera"
         ],
         [
             "San Vicent del Raspeig",
@@ -5371,14 +5267,6 @@
         [
             "Sant Boi de Llobregat",
             "santboidellobregat"
-        ],
-        [
-            "Sant Carles de la Ràpita",
-            "santcarlesdelarapita"
-        ],
-        [
-            "Sant Feliu de Codines",
-            "santfeliudecodines"
         ],
         [
             "Sant Joan d'Alacant",
@@ -5395,10 +5283,6 @@
         [
             "Santander",
             "santander"
-        ],
-        [
-            "Santibáñez el Bajo",
-            "santibanezelbajo"
         ],
         [
             "Segur de Calafell",
@@ -5429,10 +5313,6 @@
             "tarragona"
         ],
         [
-            "Tavernes de la Valldigna",
-            "tavernesdelavalldigna"
-        ],
-        [
             "Terrassa",
             "terrassa"
         ],
@@ -5443,6 +5323,14 @@
         [
             "Toledo",
             "toledo"
+        ],
+        [
+            "Torre del Mar",
+            "torredelmar"
+        ],
+        [
+            "Torreblanca",
+            "torreblanca"
         ],
         [
             "Torredonjimeno",
@@ -5473,12 +5361,12 @@
             "torrijos"
         ],
         [
-            "Torrox Costa",
-            "torroxcosta"
-        ],
-        [
             "Trigueros",
             "trigueros"
+        ],
+        [
+            "Trujillo",
+            "trujillo"
         ],
         [
             "Utebo",
@@ -5525,6 +5413,10 @@
             "vilafrancadelpenedes"
         ],
         [
+            "Vilanova i la Geltrú",
+            "vilanovailageltru"
+        ],
+        [
             "Villa del Río",
             "villadelrio"
         ],
@@ -5535,6 +5427,10 @@
         [
             "Villajoyosa",
             "villajoyosa"
+        ],
+        [
+            "Villalcón",
+            "villalcon"
         ],
         [
             "Villarejo de Fuentes",
@@ -5549,19 +5445,15 @@
             "yecla"
         ],
         [
-            "Yuncos",
-            "yuncos"
-        ],
-        [
-            "Zalamea de la Serena",
-            "zalameadelaserena"
+            "Zafra",
+            "zafra"
         ],
         [
             "Zaragoza",
             "zaragoza"
         ]
     ],
-    "SE": [
+    "SG": [
         [
             "Singapore",
             "singapore"
@@ -5575,10 +5467,6 @@
         [
             "Geneva",
             "geneva"
-        ],
-        [
-            "Geroldswil",
-            "geroldswil"
         ],
         [
             "Lausanne",
@@ -5599,164 +5487,6 @@
         [
             "Zurich",
             "zurich"
-        ]
-    ],
-    "CN": [
-        [
-            "Beijing",
-            "beijing"
-        ],
-        [
-            "Changsha",
-            "changsha"
-        ],
-        [
-            "Changzhou",
-            "changzhou"
-        ],
-        [
-            "Chengdu",
-            "chengdu"
-        ],
-        [
-            "Chongqing",
-            "chongqing"
-        ],
-        [
-            "Dongcheng",
-            "dongcheng"
-        ],
-        [
-            "Guangzhou",
-            "guangzhou"
-        ],
-        [
-            "Guiping",
-            "guiping"
-        ],
-        [
-            "Hangzhou",
-            "hangzhou"
-        ],
-        [
-            "Hanting",
-            "hanting"
-        ],
-        [
-            "Harbin",
-            "harbin"
-        ],
-        [
-            "Hefei",
-            "hefei"
-        ],
-        [
-            "Jilin City",
-            "jilincity"
-        ],
-        [
-            "Jinan",
-            "jinan"
-        ],
-        [
-            "Jincheng",
-            "jincheng"
-        ],
-        [
-            "Jining",
-            "jining"
-        ],
-        [
-            "Jinrongjie",
-            "jinrongjie"
-        ],
-        [
-            "Kunming",
-            "kunming"
-        ],
-        [
-            "Liuxiang",
-            "liuxiang"
-        ],
-        [
-            "Loudi",
-            "loudi"
-        ],
-        [
-            "Nanjing",
-            "nanjing"
-        ],
-        [
-            "Qingdao",
-            "qingdao"
-        ],
-        [
-            "Qinnan",
-            "qinnan"
-        ],
-        [
-            "Shanghai",
-            "shanghai"
-        ],
-        [
-            "Shenyang",
-            "shenyang"
-        ],
-        [
-            "Shenzhen",
-            "shenzhen"
-        ],
-        [
-            "Shijiazhuang",
-            "shijiazhuang"
-        ],
-        [
-            "Sujiatun",
-            "sujiatun"
-        ],
-        [
-            "Suzhou",
-            "suzhou"
-        ],
-        [
-            "Tianjin",
-            "tianjin"
-        ],
-        [
-            "Wuhan",
-            "wuhan"
-        ],
-        [
-            "Wuxi",
-            "wuxi"
-        ],
-        [
-            "Xiamen",
-            "xiamen"
-        ],
-        [
-            "Xinxiang",
-            "xinxiang"
-        ],
-        [
-            "Yangzhou",
-            "yangzhou"
-        ],
-        [
-            "Zhangjiagang",
-            "zhangjiagang"
-        ],
-        [
-            "Zhengzhou",
-            "zhengzhou"
-        ],
-        [
-            "Zhenjiang",
-            "zhenjiang"
-        ],
-        [
-            "Zibo",
-            "zibo"
         ]
     ]
 }
