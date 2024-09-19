@@ -408,7 +408,7 @@ def generate_persona(
         }
         pc_persona["READING_SPEED"] = random.randint(730, 1130)
         # Mouse Delta Y
-        mouse_delta_y = 50
+        mouse_delta_y = 1
         if random.random() < 0.5:
             mouse_delta_y = random.randint(12, 110)
 
@@ -544,7 +544,7 @@ def generate_persona(
         }
         sp_persona["READING_SPEED"] = random.randint(580, 930)
 
-        sp_persona["MOUSE_DELTA_Y"] = 50
+        sp_persona["MOUSE_DELTA_Y"] = 1
 
         sp_persona["CREATED_AT"] = datetime.now()
 
