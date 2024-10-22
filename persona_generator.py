@@ -215,7 +215,7 @@ def generate_referrals():
 
 
 def generate_persona(
-    no_of_persona_to_generate=100,
+    no_of_persona_to_generate=10000,
     percentage_of_smartphone=57.34,
     percentage_of_pc=42.66,
     percentage_of_windows=[57, {"chrome": 79.895, "safari": 0, "edge": 20.105}],
@@ -409,8 +409,6 @@ def generate_persona(
         pc_persona["READING_SPEED"] = random.randint(730, 1130)
         # Mouse Delta Y
         mouse_delta_y = 1
-        if random.random() < 0.5:
-            mouse_delta_y = random.randint(12, 110)
 
         pc_persona["MOUSE_DELTA_Y"] = mouse_delta_y
         pc_persona["HAS_TOUCH"] = False
