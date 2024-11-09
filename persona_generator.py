@@ -69,14 +69,7 @@ chrome_versions = load_json_file("./docs/browsers/versions/chrome.json")
 safari_versions = load_json_file("./docs/browsers/versions/safari.json")
 edge_versions = load_json_file("./docs/browsers/versions/edge.json")
 pc_screen_resolutions = load_json_file("./docs/devices/pc_screen_resolutions.json")
-mobile_referrers = ["https://lm.facebook.com/", "https://lm.instagram.com/"]
-desktop_referrers = ["https://l.facebook.com", "https://l.instagram.com/"]
-general_referrers = [
-    "https://www.google.com/",
-    "https://t.co/",
-    "https://www.linkedin.com/",
-    "https://www.reddit.com/",
-]
+referrers = load_json_file("./docs/referrers.json")
 
 
 def get_country():
@@ -194,24 +187,32 @@ def get_browser(browser):
     return (browser, browser_version)
 
 
-def generate_referrals():
-    # Referrals
-    origins_referrals = []
-    no_of_referrers = random.randint(
-        1, round((len(desktop_referrers) + len(general_referrers)) / 2)
-    )
-    for j in range(no_of_referrers):
-        referrer_index = random.randint(
-            0, len(desktop_referrers) + len(general_referrers) - 1
-        )
-        if referrer_index <= 1:
-            referrer = desktop_referrers[referrer_index]
-        else:
-            referrer = general_referrers[referrer_index - 2]
-        if referrer in origins_referrals:
-            continue
-        origins_referrals.append(referrer)
-    return origins_referrals
+def generate_referrers(device_type, referrer_count_range=(1, 1), unique=True):
+    """
+    Generates a list of referrer URLs based on the device type and a specified range of counts.
+
+    Args:
+        device_type (str): The type of device, e.g., 'smartphone' or 'computer'.
+        referrer_count_range (tuple): A tuple specifying the min and max number of referrers to generate.
+
+    Returns:
+        list: A list of referrer URLs based on the specified device type and count range.
+    """
+    if device_type not in referrers:
+        raise ValueError(f"Device type '{device_type}' is not recognized.")
+
+    # Extract URLs and their probabilities for the specified device type
+    urls = list(referrers[device_type].keys())
+    probabilities = list(referrers[device_type].values())
+
+    # Determine the number of referrers to select within the given range
+    min_count, max_count = referrer_count_range
+    referrer_count = random.randint(min_count, max_count)
+
+    # Select referrers based on probabilities
+    selected_referrers = random.choices(urls, probabilities, k=referrer_count)
+    selected_referrers = list(set(selected_referrers)) if unique else selected_referrers
+    return selected_referrers
 
 
 def generate_persona(
@@ -413,7 +414,7 @@ def generate_persona(
         pc_persona["MOUSE_DELTA_Y"] = mouse_delta_y
         pc_persona["HAS_TOUCH"] = False
         pc_persona["LANGUAGE"] = generate_persona_language(country)
-        pc_persona["REFERRALS"] = generate_referrals()
+        pc_persona["REFERRALS"] = generate_referrers(pc_persona["DEVICE_TYPE"])
 
         pc_persona["CREATED_AT"] = datetime.now()
         persona_callback(pc_persona)
@@ -518,7 +519,7 @@ def generate_persona(
 
         sp_persona["HAS_TOUCH"] = True
         sp_persona["LANGUAGE"] = generate_persona_language(country)
-        sp_persona["REFERRALS"] = generate_referrals()
+        sp_persona["REFERRALS"] = generate_referrers(sp_persona["DEVICE_TYPE"])
 
         sp_persona["PROXY_TYPE"] = proxy_type
         sp_persona["PROXY_CLIENT"] = proxy_client
