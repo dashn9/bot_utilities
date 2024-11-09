@@ -1,18 +1,8 @@
 {
     "smartphone": {
-        "https://l.facebook.com": 1,
-        "https://l.instagram.com/": 1,
-        "https://www.google.com/": 1,
-        "https://t.co/": 1,
-        "https://www.linkedin.com/": 1,
-        "https://www.reddit.com/": 1
+        "https://l.facebook.com": 1
     },
     "computer": {
-        "https://l.facebook.com": 1,
-        "https://l.instagram.com/": 1,
-        "https://www.google.com/": 1,
-        "https://t.co/": 1,
-        "https://www.linkedin.com/": 1,
-        "https://www.reddit.com/": 1
+        "https://l.facebook.com": 1
     }
 }
