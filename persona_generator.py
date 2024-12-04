@@ -216,7 +216,7 @@ def generate_referrers(device_type, referrer_count_range=(1, 1), unique=True):
 
 
 def generate_persona(
-    no_of_persona_to_generate=100,
+    no_of_persona_to_generate=55000,
     percentage_of_smartphone=57.34,
     percentage_of_pc=42.66,
     percentage_of_windows=[57, {"chrome": 79.895, "safari": 0, "edge": 20.105}],
@@ -508,6 +508,7 @@ def generate_persona(
 
         proxy_type = "residential"
         country = get_country()
+        # TODO: Seperate to config
         if random.random() < 0.6:
             proxy_type = "mobile"
             city = random.choice(mobile_proxy_cities[country])
