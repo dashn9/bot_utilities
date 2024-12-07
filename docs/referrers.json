@@ -1,8 +1,11 @@
 {
     "smartphone": {
-        "https://l.facebook.com/": 1
+        "https://www.google.com/": 0.87,
+        "https://www.bing.com/": 0.13
     },
     "computer": {
-        "https://l.facebook.com/": 1
+        "https://www.google.com/": 0.78,
+        "https://www.bing.com/": 0.16,
+        "https://duckduckgo.com/": 0.06
     }
 }
